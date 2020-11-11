@@ -8,8 +8,14 @@
     "start": "next start"
   },
   "dependencies": {
+    "date-fns": "^2.16.1",
+    "meta-marked": "^0.4.2",
     "next": "10.0.1",
     "react": "17.0.1",
-    "react-dom": "17.0.1"
+    "react-dom": "17.0.1",
+    "styled-components": "^5.2.1"
+  },
+  "devDependencies": {
+    "babel-plugin-styled-components": "^1.11.1"
   }
 }
