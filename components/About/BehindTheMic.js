@@ -28,9 +28,9 @@ function BehindTheMic(){
 
                         </div>
                         <div className='socials'>
-                            <img src='/static/assets/linkedin.png' alt='LinkedIn icon'></img>
-                            <img src='/static/assets/twitter.png' alt='Twitter icon'></img>
-                            <img src='/static/assets/gmail.png' alt='Gmail icon'></img>
+                            <a href='https://linkedin.com/'><img src='/static/assets/linkedin.png' alt='LinkedIn icon'></img></a>
+                            <a href='https://twitter.com/jeafreezy'><img src='/static/assets/twitter.png' alt='Twitter icon'></img></a>
+                            <a href='mailto:jolaiyaemmanuel@gmail.com'><img src='/static/assets/gmail.png' alt='Gmail icon'></img></a>
                         </div>
                     </div>
 
@@ -49,9 +49,9 @@ function BehindTheMic(){
 
                         </div>
                         <div className='socials'>
-                            <img src='/static/assets/linkedin.png' alt='Linkein icon'></img>
-                            <img src='/static/assets/twitter.png' alt='Twitter icon'></img>
-                            <img src='/static/assets/gmail.png' alt='Gmail icon'></img>
+                            <a href='https://www.linkedin.com/in/omowonuolaakintola/'><img src='/static/assets/linkedin.png' alt='LinkedIn icon'></img></a>
+                            <a href='https://twitter.com/Svelte_mo'> <img src='/static/assets/twitter.png' alt='Twitter icon'></img></a>
+                            <a href='mailto:omowonuola52@gmail.com'><img src='/static/assets/gmail.png' alt='Gmail icon'></img></a>
                         </div>
                         
                     </div>

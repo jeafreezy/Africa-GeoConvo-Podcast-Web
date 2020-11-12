@@ -112,7 +112,7 @@ export const BehindTheMicStyle=styled.div`
         
             .head img{
 
-                width:120px;
+                width:95px;
                 height:80px;
                 border-radius:10px;
             }
@@ -303,11 +303,20 @@ export const WhoWeAreStyle= styled.div`
         }
         .about-image img{
         
-            width: 80%;
-            height:400px;
+            width: 64%;
+            height:100%;
 
         }
 
+        @media(min-width:640px) and (max-width:1024px){
+
+            .about-image img{
+        
+                width: 45%;
+                height:40%;
+
+            }
+        }
         @media(max-width:640px){
 
             .container{
@@ -336,8 +345,8 @@ export const WhoWeAreStyle= styled.div`
                 
             }
             .about-image img{
-                width: 70%;
-                height:70%;
+                width: 50%;
+                height:90%;
 
         }
 

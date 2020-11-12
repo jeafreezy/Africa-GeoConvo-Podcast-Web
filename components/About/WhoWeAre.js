@@ -24,7 +24,7 @@ function WhoWeAre(){
 
                         <div className='about-image'>
 
-                            <img src='/static/assets/logo-blue.png' alt='Africa GeoConvo small logo' title= 'Africa GeoConvo Logo'></img>
+                            <img src='/static/assets/logo-blue.png' alt='Africa GeoConvo small logo' title= 'Africa GeoConvo'></img>
 
                         </div>
 

@@ -29,7 +29,7 @@ function SupportTheShow(){
 
                 </div>
                 <div className='support-image'>
-                    <img src='/static/assets/support.jpg' alt='LinkedIn Icon'></img>
+                    <img src='/static/assets/support.jpg' alt='LinkedIn Icon' title='Support the show'></img>
                 </div>
             </div>
            
