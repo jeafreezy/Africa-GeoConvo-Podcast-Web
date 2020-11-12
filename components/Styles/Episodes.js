@@ -10,7 +10,7 @@ export const CardStyle=styled.div`
             margin-right:5%;
             width:90%;                                                      
             display:flex;
-            margin-bottom:3px;
+            margin-bottom:10px;
             background-color:#fff;
             box-shadow: 0 5px 5px 0 rgba(0,0,0,0.24), 0 10px 10px 0 rgba(0,0,0,0.19);
         }

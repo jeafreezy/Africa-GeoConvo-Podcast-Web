@@ -32,7 +32,7 @@ function Footer(props){
                                     
                                 
                             </div>
-                            <p style={{marginBottom:'20px'}}>Copyrights 2020. Developed by AfricaGeoConvo Team</p>
+                            <p style={{marginBottom:'20px'}}>Copyrights 2020. Developed by <a href='https://github.com/jeafreezy'>Emmanuel Jolaiya</a></p>
                     
                     </div>
 

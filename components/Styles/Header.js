@@ -184,8 +184,8 @@ export const StyledNav =styled.nav`
         height:80px;  
         text-transform:uppercase; 
         display:flex;
-        justify-content:space-between;
-        align-items:center;
+        justify-content:space-around;
+        ${'' /* align-items:center; */}
         box-shadow: 0 4px 8px 0 rgba(120, 255, 255, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         overflow:hidden;
         position:fixed;
@@ -197,6 +197,8 @@ export const StyledNav =styled.nav`
 
         }
         @media(max-width:490px){
+            display:flex;
+            justify-content:space-between;
             .logo img{
                 
                 width:150px;
@@ -219,6 +221,7 @@ export  const RightNavStyle=styled.ul`
         font-size: 19px;
         display:flex;
         flex-flow:row nowrap;
+        
 
     li{
         padding-left:5px;

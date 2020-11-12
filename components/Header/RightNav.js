@@ -13,7 +13,7 @@ const RightNav=({open})=>{
                     <li><Link href='/' >Home</Link></li>
                     <li><Link href='/shows/all'>Episodes</Link></li>
                     <li><Link href='/about'>About</Link></li>
-                    <li><Link href='/subscribe'>Subscribe</Link></li>
+                    {/* <li><Link href='/subscribe'>Subscribe</Link></li> */}
                 </RightNavStyle>
     )
 }

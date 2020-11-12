@@ -60,9 +60,15 @@ li {
     list-style-type:none;
     color:white;
     padding:10px;
+    width:10%;
 }
 
 li:hover{
+    color:grey;
+}
+
+a:hover{
+    
     color:grey;
 }
 @media(max-width:640px){

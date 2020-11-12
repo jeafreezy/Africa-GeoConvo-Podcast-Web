@@ -17,7 +17,7 @@ function Navigation(){
                         width="200"
                         height="60"
                         alt='Africa GeoConvo logo'
-                        title='Africa GeoConvo logo'
+                        title='Africa GeoConvo'
                     />
                 </Link>
             </div>
