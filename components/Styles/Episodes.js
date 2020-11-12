@@ -274,3 +274,24 @@ export const SearchBoxStyle=styled.div`
 }
 
 `
+
+export const StyledEpisode = styled.div`
+
+    width:90%;
+    margin-left:5%;
+    margin-right:90%;
+    .podcast-player{
+
+        width:90%;
+        margin-top:10px;
+        margin-bottom:10px;
+    }
+    .episode-info p{
+
+            padding:5px;
+        
+    }
+    .show-text{
+        text-align:justify;
+    }
+`

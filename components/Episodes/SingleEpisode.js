@@ -1,26 +1,8 @@
 import React from 'react';
 import {TitleStyles,Button} from '../utilsStyles';
 import Link from 'next/link';
-import styled from 'styled-components';
+import {StyledEpisode } from '../Styles/Episodes';
 
-const StyledEpisode = styled.div`
-
-    width:90%;
-    margin-left:5%;
-    margin-right:90%;
-    .podcast-player{
-
-        width:90%;
-        margin-top:10px;
-        margin-bottom:10px;
-    }
-    .episode-info p{
-
-            padding:5px;
-        
-    }
-
-`
 
 function Episode(props){
 
@@ -49,7 +31,7 @@ function Episode(props){
                         </a>
                         <hr></hr>
                         <h2>Show Notes</h2>
-                        <div dangerouslySetInnerHTML={{ __html: props.episodeInfo.html }} />
+                        <div className='show-text' dangerouslySetInnerHTML={{ __html: props.episodeInfo.html }} />
                     </StyledEpisode>
                     <Button>
                         <div id='btn-wrapper'>  <button><Link href='/shows/all'>See More Episodes</Link></button> </div>
