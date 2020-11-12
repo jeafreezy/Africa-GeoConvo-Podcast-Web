@@ -4,6 +4,7 @@ import BehindTheMic from '../components/About/BehindTheMic';
 import SupportTheShow from '../components/About/SupportTheShow';
 import Footer from '../components/Footer/Footer';
 import Head from 'next/head';
+import Subscribe from '../../components/Subscribe/Subscribe';
 
 function About(){
 
@@ -21,6 +22,7 @@ function About(){
                 <BehindTheMic />
                 <SupportTheShow />
             </div>
+            <Subscribe />
             <Footer />
         </>
     )
