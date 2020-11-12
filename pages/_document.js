@@ -36,14 +36,14 @@ export default class MyDocument extends Document {
           <meta property="og:url" content="https://africageoconvo.com" />
           <meta property="og:title" content="Africa GeoConvo— A podcast about everything geospatial in Africa." />
           <meta property="og:description" content="Welcome to Africa GeoConvo, this is a podcast about everything geospatial in Africa and the people doing great things with this technology. Listen to our episodes on your favourite podcast application." />
-          <meta property="og:image" content="https://https://africageoconvo.com/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png" />
+          <meta property="og:image" content="https://https://africageoconvo.com/static/assets/logo-blue.png" />
 
             {/* Twitter */}
           <meta property="twitter:card" content="summary_large_image" />
           <meta property="twitter:url" content="https://africageoconvo.com" />
           <meta property="twitter:title" content="Africa GeoConvo— A podcast about everything geospatial in Africa." />
           <meta property="twitter:description" content="Welcome to Africa GeoConvo, this is a podcast about everything geospatial in Africa and the people doing great things with this technology. Listen to our episodes on your favourite podcast application." />
-          <meta property="twitter:image" content="https://https://africageoconvo.com/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png" />
+          <meta property="twitter:image" content="https://https://africageoconvo.com/static/assets/logo-blue.png" />
     
             {/* Step 5: Output the styles in the head  */}
           {this.props.styleTags}

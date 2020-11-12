@@ -185,7 +185,7 @@ export const StyledNav =styled.nav`
         text-transform:uppercase; 
         display:flex;
         justify-content:space-around;
-        ${'' /* align-items:center; */}
+        align-items:center;
         box-shadow: 0 4px 8px 0 rgba(120, 255, 255, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         overflow:hidden;
         position:fixed;
@@ -197,8 +197,11 @@ export const StyledNav =styled.nav`
 
         }
         @media(max-width:490px){
-            display:flex;
-            justify-content:space-between;
+
+            ${'' /* display:flex;
+            justify-content:space-around;
+            align-items:center; */}
+
             .logo img{
                 
                 width:150px;
@@ -208,7 +211,7 @@ export const StyledNav =styled.nav`
             .logo{
                 
                 padding-left: 2px;
-                padding-top:2px;
+                padding-top:4px;
 
             }
 }
@@ -261,7 +264,7 @@ li a:hover::after {
     transform: ${({open})=> open ? 'translateX(0)' : 'translateX(100%)'};
     top:0;
     right:0;
-    height:100vh;
+    height:50vh;
     width:150px;
     padding-top:4rem;
     transition: transform 1s ease-in-out;

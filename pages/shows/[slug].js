@@ -84,7 +84,7 @@ export default function Shows({shows,showNumber}){
                 <TitleStyles>All Episodes</TitleStyles>
                 <Episodes episodeInfo={shows}/>
                 <Subscribe />
-                <Footer props={shows}/>  
+                <Footer/>  
             </>
         )
     }else{

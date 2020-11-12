@@ -11,7 +11,7 @@ import {TitleStyles} from '../components/utilsStyles';
 
 export async function getStaticProps() {
 
-  const shows = await getSomeShows(5);
+  const shows = await getSomeShows(4);
 
   return {
     revalidate: 1,
