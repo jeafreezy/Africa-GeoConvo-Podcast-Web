@@ -27,7 +27,7 @@ function Card({podcastTitle,episodeNumber,host,date,guest,playerUrl,episodeShort
                 </div>
 
                 <div id='episode-info' >
-                    <p> host: {host} | {date} | Guest: {guest} </p>   
+                    <p> Host: {host} | {date} | Guest: {guest} </p>   
                 </div>
 
                 <div id='episode-desc'>
