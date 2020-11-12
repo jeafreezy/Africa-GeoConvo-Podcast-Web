@@ -195,40 +195,41 @@ export const CardStyle=styled.div`
 
             .container{
 
-                height: 210px;                                                    
+                height: 220px;                                                    
 
             }
             #thumbnail{
-
+                display:none;
                 width:30%;
 
             }
 
             #thumbnail img{
-
-                border-radius:2px;
+                display:none;
+                ${'' /* border-radius:2px;
                 width:100%;
-                height:60%;
+                height:60%; */}
             }
 
             .episode{
 
-                width:70% ;
-                padding:4px;
+                width:100%;
+                margin-left:2%;
+                padding:5px;
 
             }
 
             #episode-title{
 
-                font-size: 12px;
+                font-size: 18px;
             }
             #episode-info{
 
-                font-size: 12px;        
+                font-size: 13px;        
 
             }
             #episode-desc{
-                font-size: 12px;
+                font-size: 13px;
                 margin-top:5px;
                 margin-bottom:5px;
                 color: grey;
