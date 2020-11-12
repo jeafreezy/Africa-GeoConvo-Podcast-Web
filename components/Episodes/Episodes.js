@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import Search from './Search';
 import EpisodeList from './EpisodeList';
-import {TitleStyles,Button} from '../utilsStyles';
 
 class Episodes extends Component{
 
@@ -47,13 +46,8 @@ class Episodes extends Component{
 
         return(
                 <div id='episodes'>
-                    <TitleStyles>Latest Episodes</TitleStyles>
                         <Search searchChange={this.onSearchChange}/>
                         <EpisodeList episodes={filteredEpisodes}/>
-                        <Button>
-                            <div id='btn-wrapper'> <button>Load More Episodes</button> </div>
-                        </Button>
-                    
                 </div>
 
         )

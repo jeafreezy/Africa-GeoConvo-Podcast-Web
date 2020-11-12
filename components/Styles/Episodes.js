@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 
 export const CardStyle=styled.div`
-        
+        box-sizing:border-box;
         .container{
 
             height: 260px;
@@ -10,7 +10,7 @@ export const CardStyle=styled.div`
             margin-right:5%;
             width:90%;                                                      
             display:flex;
-            margin-bottom:10px;
+            margin-bottom:3px;
             background-color:#fff;
             box-shadow: 0 5px 5px 0 rgba(0,0,0,0.24), 0 10px 10px 0 rgba(0,0,0,0.19);
         }
@@ -20,21 +20,20 @@ export const CardStyle=styled.div`
             display:flex;
             align-items:center;
             justify-content:center;
-            padding:10px;
+            padding:5px;
             width:30%;
 
         }
 
         #thumbnail img{
-            border-radius:10px;
+            border-radius:5px;
             width:90%;
             height:90%;
         }
 
         .episode{
-
+            display:flex;
             flex-flow:column nowrap;
-            justify-content:space-between;
             width:70% ;
             padding:10px;
 
@@ -47,33 +46,33 @@ export const CardStyle=styled.div`
             font-family: Roboto;
             font-style: normal;
             font-weight: bold;
-            font-size: 25px;
+            font-size: 22px;
+            margin-bottom:10px;
         }
+
         #episode-info{
             display:flex;
             width:100%;
             color: rgba(9, 18, 109, 0.54);
             font-style: normal;
             font-weight: normal;
-            font-size: 20px;        
+            font-size: 18px;        
 
         }
         #episode-desc{
             display:flex;
             width:100%;
-            font-style: normal;
-            font-weight:normal;
             font-size: 18px;
             margin-top:5px;
             color: grey;
+            margin-bottom:10px;
 
         }
 
         .podcast-player audio{
 
-            height:100px;
             width:80%;
-            z-index:-1;
+            z-index:1;
         }
 
         @media(min-width:530px) and (max-width: 751px){

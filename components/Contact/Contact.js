@@ -15,7 +15,7 @@ function Contact(){
                             <p>We would love to discuss your ideas on our show.</p>
 
                             <div>
-                                <form>
+                                <form action='https://google.com' method='POST'>
                                     <input type='text' placeholder='Your name'></input>
                                     <input type='email'placeholder='Your email'></input>
                                     <input type='text' placeholder='Your Subject'></input>
@@ -35,10 +35,6 @@ function Contact(){
                         <div className='top-image'>
                             <img src='/static/assets/email.png' alt='Email icon'></img>
                             <p>africageoconvo@gmail.com</p>
-                        </div>
-                        <div className='top-image'>
-                            <img src='/static/assets/call.png' alt='Phone icon'></img>
-                            <p>08143243024</p>
                         </div>
                         <div className='contact-image'>
                             <img src='/static/assets/google-maps.png' alt='location icon'></img>

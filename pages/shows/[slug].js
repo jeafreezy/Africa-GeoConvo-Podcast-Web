@@ -2,11 +2,12 @@ import Navigation from '../../components/Header/Navigation';
 import { useRouter } from 'next/router'
 import Footer from '../../components/Footer/Footer';
 import Head from 'next/head';
-import {withRouter} from 'next/router';
 import {getShows} from '../../utils/ReadShowFiles';
 import React from 'react';
 import Episodes from '../../components/Episodes/Episodes';
+import Episode from '../../components/Episodes/SingleEpisode';
 import ErrorPage from 'next/error';
+import { TitleStyles } from '../../components/utilsStyles';
 
 export async function getStaticPaths() {
 
@@ -68,16 +69,39 @@ export default function Shows({shows,showNumber}){
 
     );
 
-    return(
-        <>
-            <Head>
-                <title>Shows</title>
-            </Head>
-            <Navigation />
-            <Episodes episodeInfo={query==='all'? shows : show}/>
-            <Footer />
-        </>
-    )
+    if(query === 'all'){ 
+
+        return(
+            
+            <>
+                <Head>
+                    <link rel="icon" href= "/static/assets/favicon.ico" />
+                    <title>Shows</title>
+                </Head>
+                <Navigation />
+                <div style={{height:'80px'}}></div>
+                <TitleStyles>All Episodes</TitleStyles>
+                <Episodes episodeInfo={shows}/>
+                <Footer props={shows}/>  
+            </>
+        )
+    }else{
+
+        return(
+            
+            <>
+                <Head>
+                    <link rel="icon" href= "/static/assets/favicon.ico" />
+                    <title>Episode {show.number} -- {show.title}</title>
+                </Head>
+                <Navigation />
+                <Episode episodeInfo={show}/>
+                <Footer />  
+            </>
+        )
+
+    }
+
     
         
 }

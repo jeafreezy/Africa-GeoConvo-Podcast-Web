@@ -12,8 +12,10 @@ function About(){
         <>
             <Head>
                 <title>About Us</title>
+                <link rel="icon" href= "/static/assets/favicon.ico" />
             </Head>
             <Navigation />
+            <div style={{height:'80px'}}></div>
             <div id='about'>
                 <WhoWeAre />
                 <BehindTheMic />

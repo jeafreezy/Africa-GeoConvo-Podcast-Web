@@ -4,10 +4,10 @@ import Head from'next/head';
 import Footer from '../components/Footer/Footer';
 import Episodes from '../components/Episodes/Episodes';
 import Subscribe from '../components/Subscribe/Subscribe';
-import About from '../components/About/About';
+import EpisodeButton from '../components/Episodes/Button';
 import Contact from '../components/Contact/Contact';
 import { getSomeShows } from '../utils/ReadShowFiles';
-
+import {TitleStyles} from '../components/utilsStyles';
 
 export async function getStaticProps() {
 
@@ -30,11 +30,12 @@ class App extends React.Component {
                 <title>Africa GeoConvo— A podcast about everything geospatial in Africa.</title>
               </Head>
               <Header />
+              <TitleStyles>Latest Episodes</TitleStyles>
               <Episodes episodeInfo={shows}/>
-              {/* <About /> */}
+              <EpisodeButton />
               <Subscribe />
               <Contact />
-              <Footer />
+              <Footer/>
       </>
     )
   }

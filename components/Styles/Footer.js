@@ -2,18 +2,17 @@ import styled from 'styled-components';
 
 export const FooterStyle=styled.div`
 
-background-color:rgba(9, 18, 109, 0.54);
+background-color:#1d1d1d;
 
 .container{
 
     font-family:Roboto;
     display: grid;
-    grid-template-columns:1.5fr 1fr 0.5fr;
+    grid-template-columns:1fr 1fr;
     grid-template-rows: 1fr;
-    gap: 0px 0px;
-    width:90%;
-    margin-left:5%;
-    margin-right:5%;
+    width:100%;
+    padding-left:10%;
+    margin-top:15px;
 
 } 
 
@@ -23,12 +22,11 @@ background-color:rgba(9, 18, 109, 0.54);
 
     text-align:justify;
     font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
     font-size: 17px;
     line-height: 20px;
     width:100%;
     color: white;
+    f
 }
 
 .info p{
@@ -50,23 +48,10 @@ background-color:rgba(9, 18, 109, 0.54);
     margin:10px;
 }
 
-.episodes{
-    display:flex;
-    flex-direction:column;
-    justify-content:space-around;
-    cursor:pointer;
-    width:80%;
-}
-
-
-.episodes div{
-    padding:10px;
-}
-
 .pagemap{
     display:flex;
     flex-direction:column;
-    padding:20px;
+    padding:10px;
     cursor:pointer;
 }
 
@@ -74,15 +59,11 @@ li {
 
     list-style-type:none;
     color:white;
-    padding:15px;
+    padding:10px;
 }
-.footer-links{
 
-    color:white;
-    text-decoration:none;
-}
-.footer-links:hover{
-    color:rgba(9, 18, 109, 0.54);
+li:hover{
+    color:grey;
 }
 @media(max-width:640px){
 

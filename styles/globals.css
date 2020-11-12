@@ -14,3 +14,10 @@ a {
 * {
   box-sizing: border-box;
 }
+
+h3, h5 , p {
+
+    margin: 0;
+    padding: 0;
+    
+}

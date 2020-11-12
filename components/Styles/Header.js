@@ -1,19 +1,16 @@
 import styled from 'styled-components';
 
-
 export const StyledBanner=styled.header`
 
 box-sizing:border-box;
 
 
 .jumbotron{
-    top:0;
     background: linear-gradient(rgba(150,150, 150,.7), rgba(15,15,15,.7)), url("/static/assets/background-image.jpg");
     background-repeat: no-repeat;
     background-position: 50% center ;
     background-size: cover;
     width:100%;
-    padding-top:1em;
     height:110vh;
    
 }
@@ -75,7 +72,6 @@ box-sizing:border-box;
 .cta-buttons > button:nth-child(1){
 
     background-color: #09126D;
-   
     text-decoration:none;
 
 }
@@ -88,15 +84,12 @@ box-sizing:border-box;
 .cta-buttons > button:nth-child(1):hover {
 
    transition:0.3s;
-    color:#09126D;
    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
    
 }
 .cta-buttons > button:nth-child(2):hover{
     transition:0.3s;
-    background-color:white;
-    color:white;
-   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 @media(max-width:490px){
@@ -184,7 +177,6 @@ export const StyledBurger=styled.div`
 
 export const StyledNav =styled.nav`
         top:0;
-        box-sizing:border-box;
         z-index:1000;
         width:100vw;
         font-family: Acme;
@@ -196,11 +188,12 @@ export const StyledNav =styled.nav`
         align-items:center;
         box-shadow: 0 4px 8px 0 rgba(120, 255, 255, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         overflow:hidden;
-
+        position:fixed;
         .logo{
             
             padding-left: 5px;
             padding-top:5px;
+            cursor:pointer;
 
         }
         @media(max-width:490px){

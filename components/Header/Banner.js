@@ -14,8 +14,8 @@ const Banner=()=>{
                             <p>The podcast about geospatial innovations and people doing great things with geospatial technology in Africa.</p>
                         </div>
                         <div className='cta-buttons'>
-                            <button><Link href='/subscribe' className='cta-link' style={{color:'white'}}>SUBSCRIBE</Link></button>
-                            <button><Link href='/episodes' className='cta-link' style={{color:'#09126D'}}>EPISODES</Link></button>
+                        <Link href='/subscribe'><button className='cta-link' style={{color:'white'}}>SUBSCRIBE</button></Link>
+                        <Link href='/shows/all'><button className='cta-link' style={{color:'#09126D'}}>EPISODES</button></Link>
                         </div>
                 </div>
             </div>

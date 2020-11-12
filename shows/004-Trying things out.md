@@ -2,7 +2,7 @@
 number: 4
 title: Almost done
 date: 1499256000000
-url: https://traffic.libsyn.com/syntax/syntax001_4.mp3
+url: https://www.podbean.com/media/player/pw6dz-6a10a2?from=yiiadmin
 host: 'Omowonuola AKintola'
 Guest: 'Okeke Joshua'
 shortInfo: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
