@@ -7,9 +7,7 @@ background-color:#1d1d1d;
 .container{
 
     font-family:Roboto;
-    display: grid;
-    grid-template-columns:1fr 1fr;
-    grid-template-rows: 1fr;
+    display: flex;
     width:100%;
     padding-left:10%;
     margin-top:15px;
@@ -26,7 +24,7 @@ background-color:#1d1d1d;
     line-height: 20px;
     width:100%;
     color: white;
-    f
+
 }
 
 .info p{
@@ -58,18 +56,19 @@ background-color:#1d1d1d;
 li {
 
     list-style-type:none;
-    color:white;
+    color:grey;
     padding:10px;
     width:10%;
 }
 
 li:hover{
-    color:grey;
+    color:white;
+    
 }
 
 a:hover{
     
-    color:grey;
+    color:white;
 }
 @media(max-width:640px){
 
@@ -80,15 +79,16 @@ a:hover{
     .container{
 
         display: flex;
+        flex-direction:column-reverse;
+        justify-content:flex-start;
         width:90%;
-        margin-left:5%;
-        margin-right:5%;
+        margin-right:2%;
 
     }
     .container p{
         text-align:justify;
-        font-size: 12px;
-        line-height: 12px;
+        font-size: 15px;
+        line-height: 15px;
         width:100%;
         color: white;
     }
@@ -124,12 +124,19 @@ a:hover{
     .pagemap{
         display:flex;
         flex-direction:column;
-        padding:10px;
+        padding:5px;
+        margin-left:-40px;
         cursor:pointer;
     }
 
     li{
         padding:5px;
+    }
+
+    #copyright{
+
+            margin-right:24px;
+        
     }
 }
 `
