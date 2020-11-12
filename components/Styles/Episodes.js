@@ -71,9 +71,9 @@ export const CardStyle=styled.div`
 
         }
 
-        .podcast-player audio{
+        .podcast-player{
 
-            width:80%;
+            width:100%;
             z-index:1;
         }
 
@@ -161,8 +161,8 @@ export const CardStyle=styled.div`
 
             .episode{
 
-                width:80% ;
-                padding:10px;
+                width:70% ;
+                padding:5px;
 
             }
 
@@ -183,7 +183,11 @@ export const CardStyle=styled.div`
                 color: grey;
 
             }
+            .podcast-player{
 
+                width:100%;
+                z-index:1;
+            }
         }
 
 
