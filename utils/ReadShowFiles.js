@@ -18,7 +18,7 @@ let shows;
 const loadShows = async()=>{
 
 
-   const showsDirectory = path.join(path.dirname(process.cwd()),'agc-frontend/shows');
+   const showsDirectory = path.join(path.dirname(process.cwd()),'shows');
 
    const files = (await readAFolder(showsDirectory)).filter(file => file.endsWith('.md'))
 
