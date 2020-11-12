@@ -6,10 +6,10 @@ import Link from 'next/link';
 function Card({podcastTitle,episodeNumber,host,date,guest,playerUrl,episodeShortNote}){
 
     function Iframe(props) {
+
         return (<div dangerouslySetInnerHTML={ {__html:  props.iframe?props.iframe:""}} />);
     }
-
-    const iframe= `<iframe src= ${playerUrl} url= "https%3A%2F%2Fwww.podbean.com%2Few%2Fpb-pw6dz-6a10a2" width="80%"frameborder="0" scrolling="no" data-name="pd-iframe-player"></iframe>`
+    const iframe= `<iframe src= ${playerUrl} url= "https%3A%2F%2Fwww.podbean.com%2Few%2Fpb-pw6dz-6a10a2" width='90%' height='100' frameborder="0" scrolling="no" data-name="pd-iframe-player"></iframe>`
     
     
     return(
@@ -35,7 +35,7 @@ function Card({podcastTitle,episodeNumber,host,date,guest,playerUrl,episodeShort
                 </div>
 
                 <div className='podcast-player'>
-                    <Iframe iframe={iframe} />
+                    <Iframe iframe={iframe}/>
                 </div>
         </div>
     </div>

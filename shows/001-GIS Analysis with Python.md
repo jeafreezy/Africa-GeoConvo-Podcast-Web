@@ -2,7 +2,7 @@
 number: 1
 title: React Tools
 date: '12/23/2020'
-url: https://www.podbean.com/media/player/pw6dz-6a10a2?from=yiiadmin
+url: https://www.podbean.com/media/player/audio/postId/6951074
 host: 'Emmanuel Jolaiya'
 Guest: 'Okeke Joshua'
 shortInfo: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'

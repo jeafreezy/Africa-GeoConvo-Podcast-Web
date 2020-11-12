@@ -2,10 +2,12 @@ import styled from 'styled-components';
 
 
 export const CardStyle=styled.div`
+
         box-sizing:border-box;
+
         .container{
 
-            height: 260px;
+            height: 240px;
             margin-left:5%;
             margin-right:5%;
             width:90%;                                                      
@@ -75,15 +77,16 @@ export const CardStyle=styled.div`
             z-index:1;
         }
 
-        @media(min-width:530px) and (max-width: 751px){
+        @media(min-width:733px) and (max-width: 831px){
 
             .container{
                 
-                height: 120px;
+                height: 200px;
             }
+
             #thumbnail{
 
-                width:20%;
+                width:30%;
 
             }
 
@@ -98,7 +101,7 @@ export const CardStyle=styled.div`
 
                 flex-flow:column nowrap;
                 justify-content:space-between;
-                width:80% ;
+                width:70% ;
                 padding:5px;
 
             }
@@ -110,7 +113,7 @@ export const CardStyle=styled.div`
                 font-family: Roboto;
                 font-style: normal;
                 font-weight: bold;
-                font-size: 15px;
+                font-size: 16px;
             }
             #episode-info{
                 display:flex;
@@ -118,7 +121,7 @@ export const CardStyle=styled.div`
                 color: rgba(9, 18, 109, 0.54);
                 font-style: normal;
                 font-weight: normal;
-                font-size: 14px;        
+                font-size: 15px;        
 
             }
             #episode-desc{
@@ -126,7 +129,7 @@ export const CardStyle=styled.div`
                 width:100%;
                 font-style: normal;
                 font-weight:normal;
-                font-size: 12px;
+                font-size: 13px;
                 margin-top:5px;
                 color: grey;
 
@@ -134,16 +137,18 @@ export const CardStyle=styled.div`
 
 
         }
-        @media(max-width:529px){
+
+        @media(min-width:530px) and (max-width:732px){
 
             .container{
 
-                height: 130px;                                                    
+                height: 220px;                                                    
 
             }
+
             #thumbnail{
 
-                width:20%;
+                width:30%;
 
             }
 
@@ -151,12 +156,60 @@ export const CardStyle=styled.div`
 
                 border-radius:2px;
                 width:100%;
-                height:50px;
+                height:100%;
             }
 
             .episode{
 
                 width:80% ;
+                padding:10px;
+
+            }
+
+            #episode-title{
+
+                font-size: 16px;
+            }
+            #episode-info{
+
+                font-size: 14px;        
+
+            }
+            #episode-desc{
+
+                font-size: 14px;
+                margin-top:5px;
+                margin-bottom:5px;
+                color: grey;
+
+            }
+
+        }
+
+
+        @media(max-width:529px){
+
+            .container{
+
+                height: 210px;                                                    
+
+            }
+            #thumbnail{
+
+                width:30%;
+
+            }
+
+            #thumbnail img{
+
+                border-radius:2px;
+                width:100%;
+                height:60%;
+            }
+
+            .episode{
+
+                width:70% ;
                 padding:4px;
 
             }
