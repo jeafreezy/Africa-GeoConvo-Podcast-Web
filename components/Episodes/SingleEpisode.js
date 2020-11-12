@@ -23,9 +23,11 @@ function Episode(props){
                         <span className='episode-info'> <p>Date released: {props.episodeInfo.readableDate}</p></span>
                         <span className='episode-info'><p>Host: {props.episodeInfo.host}</p></span>
                         <span className='episode-info'><p>Guest: {props.episodeInfo.Guest}</p></span>
+                        <hr></hr>
                         <div className='podcast-player'>
                             <Iframe iframe={iframe}/>
-                        </div> <br></br>
+                        </div>
+                        <hr></hr>
                         <a className="button" download href={props.episodeInfo.url}>
                             <span className="icon">👇</span> Download Show
                         </a>
@@ -34,7 +36,7 @@ function Episode(props){
                         <div className='show-text' dangerouslySetInnerHTML={{ __html: props.episodeInfo.html }} />
                     </StyledEpisode>
                     <Button>
-                        <div id='btn-wrapper'>  <button><Link href='/shows/all'>See More Episodes</Link></button> </div>
+                        <div id='btn-wrapper'>  <button><Link href='/shows/all'>See Other Episodes</Link></button> </div>
                     </Button>
                     
                 </div>

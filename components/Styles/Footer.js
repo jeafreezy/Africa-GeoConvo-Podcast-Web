@@ -73,7 +73,7 @@ a:hover{
 @media(max-width:640px){
 
     img{
-        width:140px;
+        width:200px;
         height:60px
     }
     .container{
