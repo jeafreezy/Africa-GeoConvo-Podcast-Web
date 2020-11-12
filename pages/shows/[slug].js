@@ -5,6 +5,7 @@ import Head from 'next/head';
 import {getShows} from '../../utils/ReadShowFiles';
 import React from 'react';
 import Episodes from '../../components/Episodes/Episodes';
+import Subscribe from '../../components/Subscribe/Subscribe';
 import Episode from '../../components/Episodes/SingleEpisode';
 import ErrorPage from 'next/error';
 import { TitleStyles } from '../../components/utilsStyles';
@@ -82,6 +83,7 @@ export default function Shows({shows,showNumber}){
                 <div style={{height:'80px'}}></div>
                 <TitleStyles>All Episodes</TitleStyles>
                 <Episodes episodeInfo={shows}/>
+                <Subscribe />
                 <Footer props={shows}/>  
             </>
         )
@@ -96,6 +98,7 @@ export default function Shows({shows,showNumber}){
                 </Head>
                 <Navigation />
                 <Episode episodeInfo={show}/>
+                <Subscribe />
                 <Footer />  
             </>
         )
