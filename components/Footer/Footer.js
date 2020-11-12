@@ -13,7 +13,7 @@ function Footer(props){
                             <img
                                 src='/static/assets/white.png'
                                 width="200"
-                                height="100"
+                                height="80"
                                 alt='Africa GeoConvo logo'
                             />
                             <p>Africa GeoConvo is a podcast about geospatial innovations  and people doing great things with geospatial  technology in Africa.</p>
