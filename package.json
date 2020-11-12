@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "date-fns": "^2.16.1",
+    "emailjs-com": "^2.6.3",
     "meta-marked": "^0.4.2",
     "next": "10.0.1",
     "react": "17.0.1",

@@ -1,10 +1,68 @@
 import React from 'react';
 import {TitleStyles} from '../utilsStyles';
 import { ContactUsStyle } from '../Styles/Contact';
+import * as emailjs from 'emailjs-com';
 
-function Contact(){
+class Contact extends React.PureComponent{
 
-    return(
+    constructor(props) {
+
+        super(props);
+
+        this.state = {
+          name: '',
+          email: '',
+          subject: '',
+          message: '',
+          messageSent : 'Shoot'
+        };
+    
+        this.handleSubmit = this.handleSubmit.bind(this); 
+        this.handleChange = this.handleChange.bind(this);
+      }
+
+      handleSubmit(event) {
+        event.preventDefault();
+        const { name, email, subject, message } = this.state;
+
+        const templateParams = {
+          from_name: name,
+          from_email: email,
+          to_name: 'Africa GeoConvo',
+          subject,
+          message_html: message,
+        };
+
+        emailjs.send(
+          'service_99xv7qd',
+          'template_nsz6aqj',
+           templateParams,
+          'user_uaDKtXNr0iHOGc9Fa776j'
+
+        ).then((res)=>{
+
+            if(res.status == 200){
+                this.setState({
+                    name: '',
+                    email: '',
+                    subject: '',
+                    message: '',
+                    messageSent : 'Email sent! We\'ll reach out shortly'
+                })
+            }else{
+                this.setState({messageSent : 'An error just occred,please try again later'})
+            }
+        })
+      };
+
+
+    handleChange(event) {
+
+        this.setState({ [event.target.name]: event.target.value });
+    }
+    render(){
+        const { name, email, subject, message } = this.state;
+        return(
         <div id='contact'>
             <TitleStyles>Contact Us</TitleStyles>
             <ContactUsStyle>
@@ -15,13 +73,12 @@ function Contact(){
                             <p>We would love to discuss your ideas on our show.</p>
 
                             <div>
-                                <form action='https://google.com' method='POST'>
-                                    <input type='text' placeholder='Your name'></input>
-                                    <input type='email'placeholder='Your email'></input>
-                                    <input type='text' placeholder='Your Subject'></input>
-                                    <input type='tel' placeholder='Your Phone Number'></input>
-                                    <input type='textarea' placeholder='Your Message...'></input>
-                                    <button>Shoot!</button>
+                                <form onSubmit={this.handleSubmit}>
+                                    <input name="name" type='text' placeholder='Your name' value={name} onChange={this.handleChange}></input>
+                                    <input name="email" type='email'placeholder='email@mail.com' value={email} onChange={this.handleChange}></input>
+                                    <input type='text' name="subject" placeholder='What is the Subject?' value={subject} onChange={this.handleChange}></input>
+                                    <input name="message" type='textarea' placeholder='Tell us more...' value={message} onChange={this.handleChange}></input>
+                                    <button>{this.state.messageSent}!</button>
                                 </form>
 
                             </div>
@@ -34,7 +91,7 @@ function Contact(){
 
                         <div className='top-image'>
                             <img src='/static/assets/email.png' alt='Email icon'></img>
-                            <p>africageoconvo@gmail.com</p>
+                            <p><a href="mailto:africageoconvo@gmail.com">africageoconvo@gmail.com</a></p>
                         </div>
                         <div className='contact-image'>
                             <img src='/static/assets/google-maps.png' alt='location icon'></img>
@@ -46,7 +103,7 @@ function Contact(){
                 </div>
             </ContactUsStyle>
         </div>
-    )
+    )}
 }
 
 
