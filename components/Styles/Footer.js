@@ -8,11 +8,14 @@ background-color:#1d1d1d;
 
     font-family:Roboto;
     display: flex;
-    width:100%;
-    padding-left:10%;
+    flex-flow: row nowrap;
+    width:80%;
+    margin-left:10%;
+    margin-right:10%;
     margin-top:15px;
 
 } 
+
 
 
 
@@ -29,7 +32,7 @@ background-color:#1d1d1d;
 
 .info p{
         margin-top:10px;
-        width:80%;
+        width:40%;
 }
 .podcasts{
 
@@ -49,7 +52,7 @@ background-color:#1d1d1d;
 .pagemap{
     display:flex;
     flex-direction:column;
-    padding:10px;
+    margin-left:-60px;
     cursor:pointer;
 }
 

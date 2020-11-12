@@ -13,7 +13,7 @@ function Footer(props){
                             <img
                                 src='/static/assets/white.png'
                                 width="200"
-                                height="80"
+                                height="60"
                                 alt='Africa GeoConvo logo'
                             />
                             <p>Africa GeoConvo is a podcast about geospatial innovations  and people doing great things with geospatial  technology in Africa.</p>
@@ -32,7 +32,8 @@ function Footer(props){
                                     
                                 
                             </div>
-                            <p id = 'copyright' style={{marginBottom:'20px', color:'grey', float:'right',textAlign:'center'}}>Copyrights 2020. Developed by <a href='https://github.com/jeafreezy'>Emmanuel Jolaiya</a></p>
+                            
+                            <p id = 'copyright' style={{marginBottom:'20px',marginRight:'20%',fontSize:'12px',color:'grey', float:'right'}}>Copyrights 2020. Developed by <a href='https://github.com/jeafreezy'>Emmanuel Jolaiya</a></p>
                     
                     </div>
 

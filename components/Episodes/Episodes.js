@@ -26,22 +26,22 @@ class Episodes extends Component{
     render(){
         
        let filteredEpisodes;
-        
-        if(this.state.EpisodeInfo.length > 1){
+        const {searchField,EpisodeInfo}=this.state
+        if(EpisodeInfo.length > 1){
 
-            filteredEpisodes=this.state.EpisodeInfo.filter(episode=>{
-
+            filteredEpisodes=EpisodeInfo.filter(episode=>{
             return (
-                episode.title.toLowerCase().includes(this.state.searchField.toLowerCase())
-             || episode.host.toLowerCase().includes(this.state.searchField.toLowerCase())
-             || `${'episode' + episode.number}`.toLowerCase().includes(this.state.searchField.toLowerCase())
-             || episode.readableDate.toLowerCase().includes(this.state.searchField.toLowerCase())
+                episode.title.toLowerCase().includes(searchField.toLowerCase())
+             || episode.host.toLowerCase().includes(searchField.toLowerCase())
+             || episode.Guest.toLowerCase().includes(searchField.toLowerCase())
+             || `${'episode' + episode.number}`.toLowerCase().includes(searchField.toLowerCase())
+             || episode.readableDate.toLowerCase().includes(searchField.toLowerCase())
              )
             
          })
-        }else{
+        }else if(EpisodeInfo.length === 1 || EpisodeInfo.length < 1){
 
-            filteredEpisodes=this.state.EpisodeInfo
+            filteredEpisodes=EpisodeInfo
         }
 
         return(

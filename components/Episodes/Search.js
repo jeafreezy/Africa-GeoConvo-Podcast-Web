@@ -8,7 +8,7 @@ const Search = ({searchChange})=>{
             <SearchBoxStyle>
                 <div  className='searchbox'>
 
-                        <input type="search" placeholder="Search episodes by title, host, date or episode number..." title="Search Episodes" onChange={searchChange}></input>
+                        <input type="search" placeholder="Search episodes by title, host, guest, date or episode number..." title="Search Episodes" onChange={searchChange}></input>
                 </div>
             </SearchBoxStyle>
         )   
