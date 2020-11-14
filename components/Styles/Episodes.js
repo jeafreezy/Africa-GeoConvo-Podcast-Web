@@ -129,7 +129,7 @@ export const CardStyle=styled.div`
                 width:100%;
                 font-style: normal;
                 font-weight:normal;
-                font-size: 13px;
+                font-size: 15px;
                 margin-top:5px;
                 color: grey;
 
@@ -172,12 +172,12 @@ export const CardStyle=styled.div`
             }
             #episode-info{
 
-                font-size: 14px;        
+                font-size: 15px;        
 
             }
             #episode-desc{
 
-                font-size: 14px;
+                font-size: 15px;
                 margin-top:5px;
                 margin-bottom:5px;
                 color: grey;
@@ -206,9 +206,6 @@ export const CardStyle=styled.div`
 
             #thumbnail img{
                 display:none;
-                ${'' /* border-radius:2px;
-                width:100%;
-                height:60%; */}
             }
 
             .episode{
@@ -229,7 +226,7 @@ export const CardStyle=styled.div`
 
             }
             #episode-desc{
-                font-size: 13px;
+                font-size: 15px;
                 margin-top:5px;
                 margin-bottom:5px;
                 color: grey;

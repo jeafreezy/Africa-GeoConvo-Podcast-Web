@@ -116,15 +116,15 @@ export const SubscribeStyle=styled.div`
 
     .body p{
 
-        font-size: 12px;
-        line-height: 15px;
+        font-size: 15px;
+        line-height: 12px;
         
     }
 
     .newsletter p{
 
-        font-size: 12px;
-        line-height: 15px;
+        font-size: 15px;
+        line-height: 18px;
         width:80%;
     }
 

@@ -112,14 +112,14 @@ export const BehindTheMicStyle=styled.div`
         
             .head img{
 
-                width:95px;
+                width:90px;
                 height:80px;
                 border-radius:10px;
             }
 
             .head p{
 
-                font-size: 12px;
+                font-size: 15px;
                 line-height: 20px;
         
             }
@@ -128,8 +128,8 @@ export const BehindTheMicStyle=styled.div`
             figcaption{
 
                 text-align:center;
-                font-size: 12px;
-                line-height: 10px;
+                font-size: 13px;
+                
              }
 
             .body{
@@ -143,7 +143,7 @@ export const BehindTheMicStyle=styled.div`
             .body p{
 
                 width:100%;
-                font-size: 12px;
+                font-size: 15px;
                 line-height: 20px;
                 
             }
@@ -157,7 +157,7 @@ export const BehindTheMicStyle=styled.div`
             .host2{
 
                 width:100%;
-                margin-top:15px;
+                margin-top:10px;
             }
 
           
@@ -246,7 +246,7 @@ export const SupportTheShowStyle =styled.div`
        }
         .support-info p{
 
-            font-size: 12px;
+            font-size: 15px;
             line-height: 20px;
             
         }
@@ -340,7 +340,7 @@ export const WhoWeAreStyle= styled.div`
             }
 
             .about-info p{
-                font-size: 12px;
+                font-size: 15px;
                 line-height: 20px;
                 
             }

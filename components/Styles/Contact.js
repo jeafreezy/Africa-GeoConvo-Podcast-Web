@@ -79,7 +79,7 @@ export const ContactUsStyle=styled.div`
 
         }
         .container p{    
-            font-size: 17px;
+            font-size: 15px;
             line-height: 20px;
             width:100%;
             
