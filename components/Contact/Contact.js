@@ -97,7 +97,11 @@ class Contact extends React.PureComponent{
                             <img src='/static/assets/google-maps.png' alt='location icon'></img>
                             <p>Africa</p>
                         </div>
-
+                        <div className='contact-image'>
+                        
+                            <a href='https://twitter.com/Africageoconvo' target='_blank'><img src='/static/assets/twitter.png' width='30px' height='25px' title='Follow us on twitter'></img></a>
+                            <p>Twitter</p>
+                        </div>
                     </div>
 
                 </div>

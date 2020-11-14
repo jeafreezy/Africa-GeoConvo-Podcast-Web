@@ -14,8 +14,8 @@ function Navigation(){
                 <Link href='/'>
                     <img
                         src='/static/assets/logo.png'
-                        width="200"
-                        height="60"
+                        width="150"
+                        height="45"
                         alt='Africa GeoConvo logo'
                         title='Africa GeoConvo'
                     />

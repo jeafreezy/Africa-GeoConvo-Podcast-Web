@@ -92,7 +92,7 @@ box-sizing:border-box;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
-@media(max-width:490px){
+@media screen and (max-width:490px){
 
     .cta-buttons{
 
@@ -140,7 +140,7 @@ export const StyledBurger=styled.div`
         z-index:10000;
         display:none;
 
-        @media (max-width:897px){
+        @media screen and (max-width:897px){
 
         display:flex;
         justify-content:space-around;
@@ -189,25 +189,22 @@ export const StyledNav =styled.nav`
         box-shadow: 0 4px 8px 0 rgba(120, 255, 255, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         overflow:hidden;
         position:fixed;
+
         .logo{
             
-            padding-left: 5px;
-            padding-top:5px;
             cursor:pointer;
 
         }
-        @media(max-width:490px){
 
-            ${'' /* display:flex;
-            justify-content:space-around;
-            align-items:center; */}
+        @media screen and (max-width:490px){
 
             .logo img{
                 
-                width:150px;
-                height:40px
+                width:155px;
+                height:50px
 
             } 
+
             .logo{
                 
                 padding-left: 2px;
@@ -221,14 +218,15 @@ export  const RightNavStyle=styled.ul`
     
         list-style:none;
         font-family: Acme;
-        font-size: 19px;
+        font-size: 16px;
         display:flex;
         flex-flow:row nowrap;
         
 
     li{
-        padding-left:5px;
+        padding-top:20px;
         padding-right:10px;
+       
         
     }
     li a{
@@ -243,16 +241,16 @@ export  const RightNavStyle=styled.ul`
 
     li a::after {
         content: '';
-        margin-top:10px;
+        margin-top:5px;
         display: block;
         width: 0;
-        height: 3px;
+        height: 2px;
         background: #09126D;
         transition: width .3s;
 }
 
 li a:hover::after {
-    margin-top:10px;
+    ${'' /* margin-top:10px; */}
     width: 100%;
 }
 

@@ -4,6 +4,7 @@ title: React Tools
 date: '12/23/2020'
 url: https://www.podbean.com/media/player/audio/postId/6951074
 host: 'Omowonuola Akintola'
+image: '/static/assets/coffee.jpg'
 Guest: 'Lanre Joshua'
 shortInfo: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
 ---
