@@ -36,7 +36,7 @@ export default class MyDocument extends Document {
           <meta property="og:url" content="https://africageoconvo.com" />
           <meta property="og:title" content="Africa GeoConvo— A podcast about everything geospatial in Africa." />
           <meta property="og:description" content="Welcome to Africa GeoConvo, this is a podcast about everything geospatial in Africa and the people doing great things with this technology. Listen to our episodes on your favourite podcast application." />
-          <meta property="og:image" content="https://static/assets/logo-blue.png" />
+          <meta property="og:image" content="https://africageoconvo.com/static/assets/logo-blue.png" />
 
             {/* Twitter */}
           <meta property="twitter:card" content="summary_large_image" />
