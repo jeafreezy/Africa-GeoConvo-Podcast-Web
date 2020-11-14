@@ -19,7 +19,7 @@ function Subscribe(){
                     
                             <div className='podcasts'>
                                 <div>
-                                    <img src='/static/assets/podcast.png' alt='Apple podcast icon'></img>
+                                    <img src='/static/assets/apple-podcast.png' alt='Apple podcast icon'></img>
                                     <p>Apple podcast</p>
                                 </div>
                                 <div>

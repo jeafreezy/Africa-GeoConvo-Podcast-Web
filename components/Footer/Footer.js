@@ -19,7 +19,7 @@ function Footer(props){
                             <p>Africa GeoConvo is a podcast about geospatial innovations  and people doing great things with geospatial  technology in Africa.</p>
                             <div className='podcasts'>
                            
-                                    <img src='/static/assets/podcast.png' alt='Apple podcast icon' title='Apple Podcast'></img>
+                                    <img src='/static/assets/apple-podcast.png' alt='Apple podcast icon' title='Apple Podcast'></img>
                                    
                                     <img src='/static/assets/spotify.png' alt='Spotify podcast icon' title='Spotify'></img>
                                    
