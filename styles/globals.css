@@ -88,8 +88,8 @@ input[type='checkbox'].dmcheck:focus-visible {
 
 input[type='checkbox'].dmcheck + label {
   display: inline-block;
-  width: 20px;
-  height: 20px;
+  width: 25px;
+  height: 25px;
   border-radius: 50%;
   transition: all 0.3s ease;
   cursor: pointer;
@@ -160,41 +160,45 @@ body.dark-mode #contact p {
 
 @media only screen and (max-width:897px){
 
-  body.dark-mode #__next > nav > ul > li > a {
+  body.dark-mode .styledburger {
+
+  background-color: white;
+    
+  }
+  body.dark-mode .navlinks a{
     color:black;
+  }
+  body.dark-mode .navlinks a:hover{
+    color:white;
+  }
+  body.dark-mode #rightnav{
+
+    background-color:rgb(194, 199, 247);
+  
   }
   
 }
 
-body.dark-mode #about > div.About__WhoWeAreStyle-sc-1sd95qb-2.hwjvSB > div > div.about-info > p{
-    color:white;
-} 
 
-body.dark-mode #about > div.About__BehindTheMicStyle-sc-1sd95qb-0.ghbKEv > div > div.host1 > div.body > p{
+
+body.dark-mode .about-info p{
   color:white;
 }
 
-body.dark-mode #about > div.About__BehindTheMicStyle-sc-1sd95qb-0.ghbKEv > div > div.host2 > div.body > p{
-  color:white;
-}
-
-body.dark-mode #about > div.About__BehindTheMicStyle-sc-1sd95qb-0.ghbKEv > div > div.host2 > div.head > figure > figcaption {
-  color:white;  
-}
-
-body.dark-mode #about > div.About__BehindTheMicStyle-sc-1sd95qb-0.ghbKEv > div > div.host1 > div.head > figure > figcaption{
+body.dark-mode .host1 figcaption, .host2 figcaption{
 
   color:white;
+
 }
 
-body.dark-mode #about > div.About__BehindTheMicStyle-sc-1sd95qb-0.ghbKEv > div > div.host2 > div.head > figure > p{
+body.dark-mode .host1 p {
   color:grey;
 }
 
-body.dark-mode #about > div.About__BehindTheMicStyle-sc-1sd95qb-0.ghbKEv > div > div.host1 > div.head > figure > p{
+body.dark-mode .host2 p{
   color:grey;
 }
 
-body.dark-mode #about > div:nth-child(5) > div > div > div.support-info > div > p {
+body.dark-mode .support-info > .body > p {
   color:white;
 }

@@ -8,11 +8,11 @@ const RightNav=({open})=>{
     
 
     return( 
-                <RightNavStyle open={open}>
+                <RightNavStyle open={open} id='rightnav'>
 
-                    <li><Link href='/' >Home</Link></li>
-                    <li><Link href='/shows/all'>Episodes</Link></li>
-                    <li><Link href='/about'>About</Link></li>
+                    <li className='navlinks'><Link href='/' >Home</Link></li>
+                    <li className='navlinks'><Link href='/shows/all'>Episodes</Link></li>
+                    <li className='navlinks'><Link href='/about'>About</Link></li>
                     <li><a href='https://twitter.com/Africageoconvo' target='_blank'><img src='/static/assets/twitter.png' width='25px' height='25px' title='Follow us on twitter'></img></a></li>
                     <li><a href='https://twitter.com/Africageoconvo' target='_blank'><img src='/static/assets/rss.png' width='25px' height='25px' title=''></img></a></li>
                     <li><a href='https://twitter.com/Africageoconvo' target='_blank'><img src='/static/assets/spotify.png' width='27px' height='25px' title=''></img></a></li>

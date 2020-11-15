@@ -6,11 +6,11 @@ const Burger=()=>{
     const [open,setOpen]=useState(false)
     return(
         <>
-            <StyledBurger open={ open } onClick={()=>{setOpen(!open) }}>
+            <StyledBurger open={ open } onClick={()=>{setOpen(!open) }} >
             
-                <div />
-                <div />
-                <div />
+                <div className='styledburger'/>
+                <div  className='styledburger'/>
+                <div  className='styledburger'/>
                 
             </StyledBurger>
             <RightNav open={open}/>
