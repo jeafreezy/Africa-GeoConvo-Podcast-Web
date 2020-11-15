@@ -1,7 +1,7 @@
 import React from 'react';
 import { CardStyle } from '../Styles/Episodes';
 import Link from 'next/link';
-
+import { Offline, Online } from "react-detect-offline"
 
 function Card({podcastTitle,episodeNumber,host,date,guest,playerUrl,episodeShortNote}){
 
@@ -9,8 +9,8 @@ function Card({podcastTitle,episodeNumber,host,date,guest,playerUrl,episodeShort
 
         return (<div dangerouslySetInnerHTML={ {__html:  props.iframe?props.iframe:""}} />);
     }
+
     const iframe= `<iframe src= ${playerUrl} url= "https%3A%2F%2Fwww.podbean.com%2Few%2Fpb-pw6dz-6a10a2" width='90%' height='100' frameborder="0" scrolling="no" data-name="pd-iframe-player"></iframe>`
-    
     
     return(
 
@@ -35,7 +35,10 @@ function Card({podcastTitle,episodeNumber,host,date,guest,playerUrl,episodeShort
                 </div>
 
                 <div className='podcast-player'>
-                    <Iframe iframe={iframe}/>
+
+                    <Online> <Iframe iframe= {iframe} /> </Online>
+
+                    <Offline>Sorry😔, we can't load the show audio right now.Please check your network connection 😟</Offline>
                 </div>
         </div>
     </div>

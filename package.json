@@ -18,6 +18,7 @@
     "meta-marked": "^0.4.2",
     "next": "10.0.1",
     "react": "17.0.1",
+    "react-detect-offline": "^2.4.0",
     "react-dom": "17.0.1",
     "styled-components": "^5.2.1",
     "use-dark-mode": "^2.3.1"
