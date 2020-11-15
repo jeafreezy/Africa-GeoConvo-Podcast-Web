@@ -64,10 +64,6 @@ li {
     width:10%;
 }
 
-li:hover{
-    color:white;
-    
-}
 
 a:hover{
     
