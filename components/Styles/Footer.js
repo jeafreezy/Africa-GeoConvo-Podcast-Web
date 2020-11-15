@@ -73,6 +73,12 @@ a:hover{
     
     color:white;
 }
+
+#copyright a{
+
+        text-decoration:underline;
+       
+    }
 @media(max-width:640px){
 
     img{
@@ -141,5 +147,7 @@ a:hover{
             margin-right:24px;
         
     }
+
+   
 }
 `

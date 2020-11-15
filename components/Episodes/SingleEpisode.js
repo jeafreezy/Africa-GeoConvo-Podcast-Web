@@ -29,7 +29,7 @@ function Episode(props){
                         <span className='episode-info'><p>Host: {props.episodeInfo.host}</p></span>
                         <span className='episode-info'><p>Guest: {props.episodeInfo.Guest}</p></span>
                         <hr></hr>
-                        <span className="icon">🎵Listen to the full show now.</span> 
+                        <span className="icon">🎵Listen to the full show now.👇</span> 
 
                         <hr></hr>
                         <div className='podcast-player'>
@@ -37,7 +37,7 @@ function Episode(props){
                         </div>
                         <hr></hr>
                         <a className="button" download href={props.episodeInfo.url}>
-                            <span className="icon">👇</span> Click to download show.
+                            <span className="icon">⏬</span> Click to download show.⏬
                         </a>
                         <hr></hr>
                         <h2>Show Notes</h2>

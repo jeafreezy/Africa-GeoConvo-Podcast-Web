@@ -24,7 +24,9 @@ function BehindTheMic(){
                         </div>
                         <div className='body'>
 
-                            <p>Sit amet, consectetur adipiscing elit. Quisque imperdiet eros leo, eget consequat orci viverra nec. Suspendisse pellentesque sem metus, et mollis purus auctor in. Suspendisse congue quam eros, vel cursus ante semper id. Lorem ipsum dolor sit amet, consectetur adipiscing elit    </p>
+                            <p>A GIS/Python Developer with a solid background in Remote Sensing and GIS. He loves to volunteer, drive communities and do cool stuffs with technology. He also flourish in a multidisciplinary team. His favourite hobbies are cycling🚴🏾‍♂️,dancing 🕺🏾,tennis 🏓 and hitting the gym 🏋🏾‍♂️. Fun fact: He developed this website 🙂.
+                            
+                            </p>
 
                         </div>
                         <div className='socials'>
