@@ -92,7 +92,7 @@ box-sizing:border-box;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
-@media screen and (max-width:490px){
+@media only screen and (max-width:490px){
 
     .cta-buttons{
 
@@ -140,7 +140,7 @@ export const StyledBurger=styled.div`
         z-index:10000;
         display:none;
 
-        @media screen and (max-width:897px){
+        @media only screen and (max-width:897px){
 
         display:flex;
         justify-content:space-around;
@@ -193,16 +193,22 @@ export const StyledNav =styled.nav`
         .logo{
             
             cursor:pointer;
-
+           
+            
         }
 
-        @media screen and (max-width:490px){
+        @media only screen and (max-width:490px){
+        
+            
+            .logo{
 
-            .logo img{
+                margin-right:15%;
+            }
+            .logo picture{
                 
                 width:155px;
                 height:50px
-
+                
             } 
 
             .logo{
@@ -255,7 +261,7 @@ li a:hover::after {
 }
 
 
-@media (max-width: 897px){  
+@media  only screen and (max-width: 897px){  
     flex-flow: column nowrap;
     background-color:white;
     position:fixed;

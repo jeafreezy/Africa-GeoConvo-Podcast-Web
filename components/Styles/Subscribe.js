@@ -79,19 +79,19 @@ export const SubscribeStyle=styled.div`
     cursor:pointer;
 
 }
-.podcasts{
+.podcast-channels{
     display:flex;
     flex-flow:wrap;
     width:80%;
     margin-top:5%;
     
 }
-.podcasts div{
+.podcast-channels div{
     
     text-align:center;
     padding:10px;
 }
-.podcasts img{
+.podcast-channels img{
 
     height:60px;
     width:62px;
@@ -100,7 +100,7 @@ export const SubscribeStyle=styled.div`
     
 }
 
-@media(max-width:661px){
+@media only screen and (max-width:661px){
 
     .container{
 
@@ -146,7 +146,7 @@ export const SubscribeStyle=styled.div`
         border: 1px solid #09126D;
         
     }
-    .podcasts{
+    .podcast-channels{
 
         display:flex;
         width:100%;
@@ -154,7 +154,7 @@ export const SubscribeStyle=styled.div`
         flex-flow:wrap;
             
     }
-    .podcasts img{
+    .podcast-channels img{
     
         height:30px;
         width:32px;

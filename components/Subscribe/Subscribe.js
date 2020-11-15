@@ -17,7 +17,7 @@ function Subscribe(){
 
                             <p>Join thousands of listeners worldwide.</p>
                     
-                            <div className='podcasts'>
+                            <div className='podcast-channels'>
                                 <div>
                                     <img src='/static/assets/apple-podcast.png' alt='Apple podcast icon'></img>
                                     <p>Apple podcast</p>

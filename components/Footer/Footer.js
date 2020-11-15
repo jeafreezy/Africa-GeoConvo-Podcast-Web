@@ -17,7 +17,8 @@ function Footer(props){
                                 alt='Africa GeoConvo logo'
                             />
                             <p>Africa GeoConvo is a podcast about geospatial innovations  and people doing great things with geospatial  technology in Africa.</p>
-                            <div className='podcasts'>
+                            
+                            <div className='podcast-channels'>
                            
                                     <img src='/static/assets/apple-podcast.png' alt='Apple podcast icon' title='Apple Podcast'></img>
                                    
@@ -27,7 +28,6 @@ function Footer(props){
                                  
                                     <img src='/static/assets/rss.png' alt='Rssfeeds podcast icon' title='RSS Feeds'></img>
                                    
-                                
                                     <img src='/static/assets/google-podcasts.png' alt='Google podcast icon' title='Google Podcast'></img>
                                     
                                 

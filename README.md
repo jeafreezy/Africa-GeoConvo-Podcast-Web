@@ -1,4 +1,22 @@
+# Africa GeoConvo Podcast
+
+![Africa GeoConvo logo](./public/static/assets/logo-blue.png)
+
+
+## A Podcast about geospatial conversation and people doing great things with geospatial technology in Africa.
+
+
+## Developers
+
+- ### UI Designed with [Figma](figma.com) by [Emmanuel Jolaiya](https://twitter.com/jeafreezy) and [Omowonuola Akintola](https://twitter.com/Svelte_mo) 
+
+- ### Website Developed by [Emmanuel Jolaiya](https://twitter.com/jeafreezy)  
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+## License
+
+This project is licensed under the Apache 2.0 License - see the [LICENSE.md](./LICENSE.MD) file for details
 
 ## Getting Started
 

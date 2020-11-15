@@ -67,7 +67,7 @@ export const ContactUsStyle=styled.div`
             cursor:pointer;
             
         }
-        @media(max-width:600px){
+        @media only screen and (max-width:600px){
 
         .container{
 

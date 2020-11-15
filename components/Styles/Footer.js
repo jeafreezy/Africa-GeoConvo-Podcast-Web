@@ -34,14 +34,14 @@ background-color:#1d1d1d;
         margin-top:10px;
         width:40%;
 }
-.podcasts{
+.podcast-channels{
 
     display:flex;
     flex-direction:row;
     flex-flow:wrap;
     width:50%;
 }
-.podcasts img{
+.podcast-channels img{
 
     height:30px;
     width:32px;
@@ -79,7 +79,7 @@ a:hover{
         text-decoration:underline;
        
     }
-@media(max-width:640px){
+@media only screen and (max-width:640px){
 
     img{
         width:200px;
@@ -106,14 +106,14 @@ a:hover{
         margin-top:10px;
         width:80%;
     }
-    .podcasts{
+    .podcast-channels{
 
         display:flex;
         flex-direction:row;
         flex-flow:wrap;
         width:80%;
     }
-    .podcasts img{
+    .podcast-channels img{
 
         height:20px;
         width:22px;

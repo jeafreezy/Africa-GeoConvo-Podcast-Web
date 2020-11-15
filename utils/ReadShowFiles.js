@@ -31,7 +31,7 @@ const loadShows = async()=>{
      return {
 
          ...show.meta,
-         readableDate:format(parseFloat(show.meta.date), 'MMM do, yyyy'),
+         readableDate:format(parseFloat(show.meta.date), 'MMM do, yyyy'), //parse date to readable format
          html:show.html
      }
      

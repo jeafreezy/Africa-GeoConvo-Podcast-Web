@@ -92,7 +92,7 @@ export const BehindTheMicStyle=styled.div`
         .host2:hover{
             box-shadow: 0 0px 0px 0 rgba(0,0,0,0.24), 0 5px 5px 0 rgba(0,0,0,0.19);
         }
-        @media(max-width:640px){
+        @media only screen and (max-width:640px){
 
             .container{
 
@@ -231,7 +231,7 @@ export const SupportTheShowStyle =styled.div`
 
         background-color: rgba(9, 18, 109, 0.54);
     }
-    @media(max-width:640px){
+    @media only screen and (max-width:640px){
 
         .container{
 
@@ -308,7 +308,7 @@ export const WhoWeAreStyle= styled.div`
 
         }
 
-        @media(min-width:640px) and (max-width:1024px){
+        @media only screen and (min-width:640px) and (max-width:1024px){
 
             .about-image img{
         
@@ -317,7 +317,7 @@ export const WhoWeAreStyle= styled.div`
 
             }
         }
-        @media(max-width:640px){
+        @media only screen and (max-width:640px){
 
             .container{
 

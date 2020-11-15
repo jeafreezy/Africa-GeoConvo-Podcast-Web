@@ -39,9 +39,9 @@ class Contact extends React.PureComponent{
            templateParams,
           'user_uaDKtXNr0iHOGc9Fa776j'
 
-        ).then((res)=>{
+        ).then((response)=>{
 
-            if(res.status == 200){
+            if(response.status == 200){
                 this.setState({
                     name: '',
                     email: '',
@@ -50,7 +50,7 @@ class Contact extends React.PureComponent{
                     messageSent : 'Email sent! We\'ll reach out shortly'
                 })
             }else{
-                this.setState({messageSent : 'An error just occred,please try again later'})
+                this.setState({messageSent : 'An error just occured,please try again later'})
             }
         })
       };

@@ -6,6 +6,7 @@ import {StyledEpisode } from '../Styles/Episodes';
 
 function Episode(props){
 
+    // For the audio player
 
     function Iframe(props) {
 
@@ -16,33 +17,44 @@ function Episode(props){
 
     return(
                 <div id='episodes'>
+
                     <div style={{height:'80px'}}></div>
+
                     <TitleStyles> Episode {props.episodeInfo.number} : {props.episodeInfo.title} </TitleStyles>
                     
                     <StyledEpisode>
+
                         <img src= {`${props.episodeInfo.image}`} alt={props.episodeInfo.title}
                         width='80%'
                         height='auto'
                         ></img>
+
                         <hr></hr>
+
                         <span className='episode-info'><p>Date released: {props.episodeInfo.readableDate}</p></span>
                         <span className='episode-info'><p>Host: {props.episodeInfo.host}</p></span>
                         <span className='episode-info'><p>Guest: {props.episodeInfo.Guest}</p></span>
                         <hr></hr>
+
                         <span className="icon">🎵Listen to the full show now.👇</span> 
 
                         <hr></hr>
+
                         <div className='podcast-player'>
                             <Iframe iframe={iframe}/>
                         </div>
                         <hr></hr>
+
                         <a className="button" download href={props.episodeInfo.url}>
                             <span className="icon">⏬</span> Click to download show.⏬
                         </a>
                         <hr></hr>
+
                         <h2>Show Notes</h2>
+
                         <div className='show-text' dangerouslySetInnerHTML={{ __html: props.episodeInfo.html }} />
                     </StyledEpisode>
+                    
                     <Button>
                         <div id='btn-wrapper'>  <button><Link href='/shows/all'>See Other Episodes</Link></button> </div>
                     </Button>

@@ -24,7 +24,7 @@ export const TitleStyles=styled.h3`
             display:block;
             background: #09126D;
         }
-        @media(max-width:600px){
+        @media only screen and (max-width:600px){
             display:flex;
             justify-content:flex-start;
             flex-flow:column wrap;
@@ -72,7 +72,7 @@ export const Button=styled.h3`
         background-color: rgba(9, 18, 109, 0.54);
     }
 
-    @media(max-width:600px){
+    @media only screen and (max-width:600px){
 
         button{
             margin-top:10px;

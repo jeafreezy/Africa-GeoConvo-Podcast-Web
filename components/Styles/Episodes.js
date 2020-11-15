@@ -77,7 +77,7 @@ export const CardStyle=styled.div`
             z-index:1;
         }
 
-        @media(min-width:733px) and (max-width: 831px){
+        @media only screen and (min-width:733px) and (max-width: 831px){
 
             .container{
                 
@@ -138,7 +138,7 @@ export const CardStyle=styled.div`
 
         }
 
-        @media(min-width:530px) and (max-width:732px){
+        @media only screen and (min-width:530px) and (max-width:732px){
 
             .container{
 
@@ -191,7 +191,7 @@ export const CardStyle=styled.div`
         }
 
 
-        @media(max-width:529px){
+        @media only screen and (max-width:529px){
 
             .container{
 
@@ -263,7 +263,7 @@ export const SearchBoxStyle=styled.div`
 
     box-shadow: 1px 1px 8px 1px #dcdcdc;
 }
-@media(max-width:600px){
+@media only screen and (max-width:600px){
 .searchbox input{
     width:90%;
     padding:15px;

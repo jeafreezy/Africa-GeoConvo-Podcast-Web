@@ -13,19 +13,21 @@ const EpisodeList=({episodes})=>{
                 {   
                 
                 episodes.map((items,i)=>{
-                        
+
+                        const {number,title,host,readableDate,Guest,url,shortInfo} = items
+
                         return(
                             
 
                             <Card key={i}
                                     
-                                    episodeNumber={items.number}
-                                    podcastTitle={items.title}
-                                    host={items.host}
-                                    date={items.readableDate}
-                                    playerUrl={items.url}
-                                    guest={items.Guest}
-                                    episodeShortNote={items.shortInfo}
+                                    episodeNumber={number}
+                                    podcastTitle={title}
+                                    host={host}
+                                    date={readableDate}
+                                    playerUrl={url}
+                                    guest={Guest}
+                                    episodeShortNote={shortInfo}
 
                             />
                                     
@@ -41,19 +43,19 @@ const EpisodeList=({episodes})=>{
             </>
         )
     }else{
-
+        const {number,title,host,readableDate,Guest,url,shortInfo} = episodes
         return(
                             
             <>
                 <Card
                         
-                        episodeNumber={episodes.number}
-                        podcastTitle={episodes.title}
-                        host={episodes.host}
-                        date={episodes.readableDate}
-                        playerUrl={episodes.url}
-                        guest={episodes.Guest}
-                        episodeShortNote={episodes.shortInfo}
+                        episodeNumber={number}
+                        podcastTitle={title}
+                        host={host}
+                        date={readableDate}
+                        playerUrl={url}
+                        guest={Guest}
+                        episodeShortNote={shortInfo}
 
                 />
                 
