@@ -8,7 +8,6 @@ import DarkModeStatus from './DarkModeStatus';
 function Navigation(){
 
     const status = DarkModeStatus()
-    if(status === 'Light Mode'){
 
         return(
             <>
@@ -18,51 +17,42 @@ function Navigation(){
                     <DarkModeToggle />
                 </div>
                
-                    <div className='logo'>
-                        <Link href='/'>
-                                <img src="/static/assets/logo.png"
-                                    width="150"
-                                    height="45"
-                                    alt='Africa GeoConvo logo'
-                                    title='Africa GeoConvo'
-                                    loading="lazy"/>
-                        </Link>
-                    </div>
-                    <div>
-                        <Burger />
-                    </div>
-                   
-                </StyledNav>
-            </>   
-        )
-    }else{
+                   {status==='Light Mode' && 
+                    (<div className='logo'>
+                            <Link href='/'>
+                                    <img src="/static/assets/logo.png"
+                                        width="150"
+                                        height="45"
+                                        alt='Africa GeoConvo logo'
+                                        title='Africa GeoConvo'
+                                        loading="lazy"/>
+                            </Link>
+                        </div>
+                        )
+                   }
 
-        return(
-            <>
-              
-                <StyledNav>
-                <div>
-                    <DarkModeToggle />
-                </div>
-               
-                    <div className='logo'>
-                        <Link href='/'>
-                                <img src="/static/assets/white.png"
-                                    width="150"
-                                    height="45"
-                                    alt='Africa GeoConvo logo'
-                                    title='Africa GeoConvo'
-                                    loading="lazy"/>
-                        </Link>
-                    </div>
+                   {status==='Dark Mode' && 
+
+                    (<div className='logo'>
+                            <Link href='/'>
+                                    <img src="/static/assets/white.png"
+                                        width="150"
+                                        height="45"
+                                        alt='Africa GeoConvo logo'
+                                        title='Africa GeoConvo'
+                                        loading="lazy"/>
+                            </Link>
+                        </div>
+                        )
+                   }
                     <div>
-                        <Burger />
+                        <Burger/>
                     </div>
                    
                 </StyledNav>
             </>   
         )
-    }
+  
     
 }
 
