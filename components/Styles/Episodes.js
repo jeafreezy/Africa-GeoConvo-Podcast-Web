@@ -285,10 +285,19 @@ export const StyledEpisode = styled.div`
     }
     .episode-info p{
 
-            padding:5px;
+        padding:5px;
         
     }
     .show-text{
+
         text-align:justify;
+        font-size:18px;
+    }
+
+    @media only screen and (max-width:600px){
+        
+        .show-text{
+            font-size:15px;
+        }
     }
 `

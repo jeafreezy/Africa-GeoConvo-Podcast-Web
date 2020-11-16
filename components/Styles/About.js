@@ -42,7 +42,15 @@ export const BehindTheMicStyle=styled.div`
             line-height: 20px;
             color: #09126D;
         }
-
+        .host2 figcaption{
+            font-style: normal;
+            font-weight: bold;
+            text-align:center;
+            font-size: 17px;
+            line-height: 20px;
+            color: #09126D;
+        }
+        
         .body{
             display:flex;
             justify-content:center;
