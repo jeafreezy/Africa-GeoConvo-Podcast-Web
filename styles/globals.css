@@ -202,3 +202,7 @@ body.dark-mode .host2 p{
 body.dark-mode .support-info > .body > p {
   color:white;
 }
+
+body.dark-mode .host2 figcaption{
+  color:white;
+}
