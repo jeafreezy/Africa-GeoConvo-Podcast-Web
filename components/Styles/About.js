@@ -158,6 +158,16 @@ export const BehindTheMicStyle=styled.div`
 
                 width:100%;
                 margin-top:10px;
+                
+            }
+            .host1 figure img{
+
+                margin-left:8px;
+            }
+
+            .host2 figure img{
+
+                margin-left:20px;
             }
 
           

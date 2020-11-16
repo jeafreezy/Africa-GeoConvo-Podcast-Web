@@ -17,12 +17,10 @@ function WhoWeAre(){
                         <div className='container'>
     
                             <div className='about-info'>
-                                <p>
-                                        I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a account of the system.
-    
-                                        Nunc sit amet neque imperdiet, maximus massa id, vulputate magna. Vestibulum eget mi blandit, volutpat diam ut, ullamcorper eros In sed dolor eu velit pretium lacinia. Nullam interdum tristique lorem sit amet facilisis. lobortis scelerisque. Suspendisse a quam sed libero cursus. molestie nec vitae metus.
-    
-                                        Sit amet, consectetur adipiscing elit. Quisque imperdiet eros leo, eget consequat orci viverra nec. Suspendisse pellentesque sem metus, et mollis purus auctor in. Suspendisse congue quam eros, vel cursus ante semper id. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                <p> 
+
+                                Africa Geoconvo is a podcast that invites you to experience the geospatial industry from the African perspective. We invite the voices of people that have always been there in the unexplored corners of history through interviews, to share insights about their careers, their greatest achievements, and their motivations. We also bring you conversations with geospatial startups in Africa and career specialists, in an attempt to introduce you to ideas and innovations in the geospatial industry and help you find your way through the seemingly-endless career options. We hope to keep this podcast both educational and professional and our aim is to help you become a better informed professional.
+                                        
                                 </p>
                             </div>
     

@@ -27,11 +27,11 @@ function Subscribe(){
                                     <p>Spotify</p>
                                 </div>
                                 <div>
-                                    <img src='/static/assets/soundcloud-logo.png' alt='Soundcloud Podcast icon'></img>
+                                   <img src='/static/assets/soundcloud-logo.png' alt='Soundcloud Podcast icon'></img>
                                     <p>Sound Cloud</p>
                                 </div>
                                 <div>
-                                    <img src='/static/assets/rss.png' alt='Rssfeeds podcast icon'></img>
+                                <a href='https://rss.com/podcasts/africageoconvo/' target='_blank' rel="noopener noreferer"> <img src='/static/assets/rss.png' alt='Rssfeeds podcast icon'></img></a>
                                     <p>RSS feeds</p>
                                 </div>
                                 <div>

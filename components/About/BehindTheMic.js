@@ -39,7 +39,7 @@ function BehindTheMic(){
                     <div className='host2'>
                         <div className='head'>
                             <figure>
-                                <img src='/static/assets/omowonuola.jpeg' alt='Omowonuola Akintola' loading='lazy'></img>
+                                <img src='/static/assets/omowonuola.jpg' alt='Omowonuola Akintola' loading='lazy'></img>
                                 <figcaption>Omowonuola Akintola</figcaption>
                                 <p>Host</p>
                             </figure>

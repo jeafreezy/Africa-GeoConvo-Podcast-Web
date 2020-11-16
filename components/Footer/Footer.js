@@ -26,7 +26,7 @@ function Footer(props){
                                    
                                     <img src='/static/assets/soundcloud-logo.png' alt='Soundcloud Podcast icon' title='Soundcloud'></img>
                                  
-                                    <img src='/static/assets/rss.png' alt='Rssfeeds podcast icon' title='RSS Feeds'></img>
+                                    <a href='https://rss.com/podcasts/africageoconvo/' target='_blank' rel="noopener noreferer"><img src='/static/assets/rss.png' alt='Rssfeeds podcast icon' title='RSS Feeds'></img></a>
                                    
                                     <img src='/static/assets/google-podcasts.png' alt='Google podcast icon' title='Google Podcast'></img>
                                     
