@@ -53,7 +53,7 @@ background-color:#1d1d1d;
     display:flex;
     flex-direction:column;
     margin-left:-60px;
-    cursor:pointer;
+    
 }
 
 li {
@@ -64,6 +64,11 @@ li {
     width:10%;
 }
 
+.pagemap ul li {
+    
+        text-decoration:underline;
+        cursor:pointer;
+}
 
 a:hover{
     
@@ -131,9 +136,12 @@ a:hover{
         flex-direction:column;
         padding:5px;
         margin-left:-40px;
+        
+    }
+    .pagemap ul li {
+        text-decoration:underline;
         cursor:pointer;
     }
-
     li{
         padding:5px;
     }

@@ -24,6 +24,9 @@ export default class MyDocument extends Document {
     return (
       <Html lang='en'>
         <Head>
+          {/* <!-- Global site tag (gtag.js) - Google Analytics --> */}
+          <script async src="https://www.googletagmanager.com/gtag/js?id=G-6403YWW3D1"></script>
+          <script src='gtag.js'></script>
           <meta charSet="utf-8" />
           <meta name="theme-color" content="#000000" />
 

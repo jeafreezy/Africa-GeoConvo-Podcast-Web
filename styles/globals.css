@@ -1,3 +1,5 @@
+/* Global Styles  */
+
 html,
 body {
   padding: 0;
@@ -23,8 +25,10 @@ h3, h5 , p {
 }
 
 
- 
+ /* Dark Mode Styles Begins */
 
+
+ /* The toggle button style begins */
 .dark-mode-toggle > button {
 
   color: #999;
@@ -100,7 +104,13 @@ input[type='checkbox'].dmcheck + label {
   background-color: grey;
 }
 
+body.dark-mode .dark-mode-toggle > button {
+  color: #999;
+}
 
+/* Toggle button styles end */
+
+/* Background style in dark and light mode begins */
 body.dark-mode {
   background-color: #1a1919;
   color: #999;
@@ -108,17 +118,19 @@ body.dark-mode {
 body.light-mode{
   transition: background-color 0.3s ease;
 }
-body.dark-mode .dark-mode-toggle > button {
-  color: #999;
-}
+
+/* Background styles end */
+
+/* Nav bar styling begins */
 
 body.dark-mode nav{
-
   background-color:#1b2938;
-  
-
 }
 
+
+/* Navbar style ends */
+
+/* Global color scheme for some elements in dark mode */
 body.dark-mode  a{
 
   color: white;
@@ -134,6 +146,10 @@ body.dark-mode h3::after{
  
   background-color: white;
 }
+
+/* Global color scheme ends  */
+
+/* EPisode cards style begins  */
 body.dark-mode #episodes > div > div > div.episode{
 
   background-color:#1b2938;
@@ -143,6 +159,10 @@ body.dark-mode #episodes > div > div > div.episode{
 body.dark-mode #episodes > div > div > div.episode p {
   color:white;
 }
+
+/* Episode styles end  */
+
+/* Newsletter,contact and subscribe component styles begins  */
 
 body.dark-mode #subscribe > div > div > div.newsletter > p {
   color:white;
@@ -157,6 +177,9 @@ body.dark-mode #contact p {
   color:white;
 }
 
+/* Newsletter,contact styles ends */
+
+/* Styles for nav bar in mobile screens  */
 
 @media only screen and (max-width:897px){
 
@@ -166,20 +189,24 @@ body.dark-mode #contact p {
     
   }
   body.dark-mode .navlinks a{
-    color:black;
+    color:white;;
   }
   body.dark-mode .navlinks a:hover{
     color:white;
   }
+  
   body.dark-mode #rightnav{
 
-    background-color:rgb(194, 199, 247);
+    background-color:black;
   
   }
   
 }
 
+/* Mobile screen styles end  */
 
+
+/* About us page dark mode styles begins  */
 
 body.dark-mode .about-info p{
   color:white;
@@ -206,3 +233,5 @@ body.dark-mode .support-info > .body > p {
 body.dark-mode .host2 figcaption{
   color:white;
 }
+
+/* about us pae dark mode style ends */

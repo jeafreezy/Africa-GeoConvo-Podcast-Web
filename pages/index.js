@@ -26,6 +26,9 @@ class App extends React.Component {
     return (
       <>      
               <Head>
+                {/* <!-- Global site tag (gtag.js) - Google Analytics --> */}
+                <script async src="https://www.googletagmanager.com/gtag/js?id=G-6403YWW3D1"></script>
+                <script src='gtag.js'></script>
                 <link rel="icon" href= "/static/assets/favicon.ico" />
                 <title>Africa GeoConvo— A podcast about everything geospatial in Africa.</title>
               </Head>

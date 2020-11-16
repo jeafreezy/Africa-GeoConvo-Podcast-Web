@@ -263,19 +263,22 @@ li a:hover::after {
 
 @media  only screen and (max-width: 897px){  
     flex-flow: column nowrap;
-    background-color:white;
+    background-color:#ddd;
     position:fixed;
     transform: ${({open})=> open ? 'translateX(0)' : 'translateX(100%)'};
     top:0;
     right:0;
-    height:95vh;
-    width:150px;
+    height:100vh;
+    width:100%;
     padding-top:4rem;
     transition: transform 1s ease-in-out;
+    display:flex;
+    align-items:center;
 
     li a{
 
         color:black;
+        padding:2px;
     
     }
 

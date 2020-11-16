@@ -12,6 +12,17 @@
 
 - ### Website Developed by [Emmanuel Jolaiya](https://twitter.com/jeafreezy)  
 
+
+### Libraries used
+
+- [date-fns](https://www.npmjs.com/package/date-fns) => To parse the dates
+- [emailjs-com](https://www.emailjs.com/) => For contact us form support
+- [meta-marked](https://www.npmjs.com/package/meta-marked) => To parse the shownotes in markdown
+- [styled-components](https://styled-components.com/) => TO style the components
+- [use-dark-mode](https://github.com/donavon/use-dark-mode) => For dark mode support
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## License
