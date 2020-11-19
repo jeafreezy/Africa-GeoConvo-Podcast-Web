@@ -65,6 +65,7 @@ async function getSomeShows(number){
 
 }
 
+console.log(process.env.REACT_APP_MAILCHIMP_URL)
 
 module.exports={
    getShows,

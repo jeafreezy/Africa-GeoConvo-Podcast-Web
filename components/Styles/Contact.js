@@ -58,6 +58,7 @@ export const ContactUsStyle=styled.div`
             justify-content:center;
             align-items:center;
             text-align:center;
+            padding:10px;
             
         }
         .contacts img{
