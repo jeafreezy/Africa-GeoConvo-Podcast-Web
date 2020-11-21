@@ -26,9 +26,9 @@ function SupportTheShow(){
                         </div>
 
                     </div>
-                    <div className='support-image'>
+                    {/* <div className='support-image'>
                         <img src='/static/assets/support.jpg' alt='Support the show icon' title='Support the show'></img>
-                    </div>
+                    </div> */}
                 </div>
            
             </SupportTheShowStyle>

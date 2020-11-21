@@ -271,9 +271,10 @@ li a:hover::after {
     height:100vh;
     width:100%;
     padding-top:4rem;
-    transition: transform 1s ease-in-out;
+    transition: transform 0.2s ease-in-out;
     display:flex;
     align-items:center;
+
 
     li a{
 
@@ -283,7 +284,7 @@ li a:hover::after {
     }
 
     li a:hover{
-        background-color:darkblue;
+        background-color:#09126D;
         color:white;
         transition: 0.5s;
         

@@ -23,7 +23,6 @@ function About(){
             <div id='about'>
                 <WhoWeAre />
                 <BehindTheMic />
-                <SupportTheShow />
             </div>
             <Subscribe />
             <Footer />

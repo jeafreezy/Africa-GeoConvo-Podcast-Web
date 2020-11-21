@@ -186,26 +186,18 @@ export const SupportTheShowStyle =styled.div`
             width:90%;
             margin-left:5%;
             margin-right:5%;
-            margin-bottom:5px;
+            
         } 
 
         .support-info{
             display:flex;
             width:100%;
         }
-        .support-image{
-           
-           display:flex;
-           justify-content:center;
-           align-items:center;
-           width:100%
-       }
+        
        
        .support-info button{
-            display:flex;
-            justify-content:center;
-            align-items:center;
-            width:80%;
+    
+            width:40%;
        }
         .support-info p{
 
@@ -217,12 +209,6 @@ export const SupportTheShowStyle =styled.div`
             font-size: 17px;
             line-height: 20px;
             color: rgba(9, 18, 109, 0.54);
-        }
-        .support-image img{
-        
-            width: 90%;
-            margin-left:10%;
-            height:400px;
         }
 
         .support-button{
@@ -261,15 +247,8 @@ export const SupportTheShowStyle =styled.div`
         .support-info p{
 
             font-size: 15px;
-            line-height: 20px;
+            line-height: 15px;
             
-        }
-        .support-image img{
-
-            width: 100%;
-            height:90%;
-            margin-left:0px;
-            margin-top:20px;
         }
 
         .support-button{

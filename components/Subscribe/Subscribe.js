@@ -1,7 +1,7 @@
 import React from 'react';
 import {TitleStyles} from '../utilsStyles';
 import {SubscribeStyle} from '../Styles/Subscribe';
-import MailchimpSubscribe from "react-mailchimp-subscribe";
+import SupportTheShow from '../About/SupportTheShow';
   
 function Subscribe(){
 
@@ -45,19 +45,21 @@ function Subscribe(){
 
                     </div>
                     
+                    <div className='support'>
+                        <SupportTheShow />
+                    </div>  
 
-
-                    <div className='newsletter'>
+                    {/* <div className='newsletter'>
 
                         <TitleStyles>Subscribe To Our Newsletter</TitleStyles>
                         <p>To receive ongoing updates and notifications on new episodes, please sign up to our Newsletter and we’ll make sure to keep you in the loop!</p>
                         <div className='newsletter-email'>
                         
-                            {/* <input type='email' id='email' placeholder='Enter your email address...' aria-autocomplete='none'></input> 
-                             <button>Subscribe</button> */}
-                            {/* <MailchimpSubscribe url={process.env.REACT_APP_MAILCHIMP_URL} /> */}
+                            <input type='email' id='email' placeholder='Enter your email address...' aria-autocomplete='none'></input> 
+                             <button>Subscribe</button>
+                            <MailchimpSubscribe url={process.env.REACT_APP_MAILCHIMP_URL} />
                         </div>
-                    </div>
+                    </div> */}
 
                 </div>
             </SubscribeStyle>

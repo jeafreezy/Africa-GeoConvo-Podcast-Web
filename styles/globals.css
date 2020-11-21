@@ -83,7 +83,7 @@ input[type='checkbox'].dmcheck {
 }
 
 input[type='checkbox'].dmcheck:checked + label {
-    left: 30px;
+    left: 25px;
 }
 
 input[type='checkbox'].dmcheck:focus-visible {

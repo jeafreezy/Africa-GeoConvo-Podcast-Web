@@ -30,55 +30,13 @@ export const SubscribeStyle=styled.div`
     color: rgba(9, 18, 109, 0.54);
 }
 
-.newsletter{
+.support{
     
     width:100%;
 
 }
-.newsletter p{
 
-    text-align:justify;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 17px;
-    line-height: 20px;
-    width:80%;
-    margin-bottom:15px;
-    margin-left:5%;
-    color: rgba(9, 18, 109, 0.54);
-}
 
-.newsletter-email input{
-    margin-left:5%;
-    width:70%;
-    padding:20px;
-    border-radius:30px;
-    outline: none;
-    border: 1px dashed #09126D;
-}
-
-.newsletter input:focus-within{
-    
-    outline: none;
-
-}
-.newsletter input:hover{
-
-    box-shadow: 1px 1px 8px 1px #09126D;
-}
-
-.newsletter-email button{
-    width:30%; 
-    margin-left:-20%;
-    padding:20px;
-    border-radius:30px;
-    background-color:#09126D;
-    color:white;
-    border: 1px solid #09126D;
-    cursor:pointer;
-
-}
 .podcast-channels{
     display:flex;
     flex-flow:wrap;
@@ -121,31 +79,7 @@ export const SubscribeStyle=styled.div`
         
     }
 
-    .newsletter p{
-
-        font-size: 15px;
-        line-height: 18px;
-        width:80%;
-    }
-
-
-    .newsletter-email input{
-            width:70%;
-            padding:13px;
-            border-radius:35px;
-            border:1px dashed #09126D;
-    }
-
-
-    .newsletter-email button{
-        width:30%;
-        margin-left:-50px;
-        padding:16px;
-        border-radius:35px;
-        font-size:10px;
-        border: 1px solid #09126D;
-        
-    }
+    
     .podcast-channels{
 
         display:flex;
