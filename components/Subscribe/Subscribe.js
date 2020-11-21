@@ -1,19 +1,18 @@
 import React from 'react';
 import {TitleStyles} from '../utilsStyles';
 import {SubscribeStyle} from '../Styles/Subscribe';
-import SupportTheShow from '../About/SupportTheShow';
   
 function Subscribe(){
 
 
     return(
-        <div id='subscribe'>
-           
+        <>
+            <TitleStyles>Subscribe To Our Podcast</TitleStyles>
             <SubscribeStyle>
                 <div className='container'>
-
+                    
                     <div className='subscribe'>
-                        <TitleStyles>Subscribe To Our Podcast</TitleStyles>
+                        
                         <div className='body'>
 
                             <p>Join thousands of listeners worldwide.</p>
@@ -44,10 +43,7 @@ function Subscribe(){
                         </div>
 
                     </div>
-                    
-                    <div className='support'>
-                        <SupportTheShow />
-                    </div>  
+                      
 
                     {/* <div className='newsletter'>
 
@@ -63,7 +59,7 @@ function Subscribe(){
 
                 </div>
             </SubscribeStyle>
-        </div>
+        </>
     )
 }
 

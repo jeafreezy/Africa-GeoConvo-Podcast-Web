@@ -9,6 +9,7 @@ import Subscribe from '../../components/Subscribe/Subscribe';
 import Episode from '../../components/Episodes/SingleEpisode';
 import ErrorPage from 'next/error';
 import { TitleStyles } from '../../components/utilsStyles';
+import SupportSubscribe from '../../components/Subscribe/SupportSubscribe';
 
 export async function getStaticPaths() {
 
@@ -83,7 +84,7 @@ export default function Shows({shows,showNumber}){
                 <div style={{height:'80px'}}></div>
                 <TitleStyles>All Episodes</TitleStyles>
                 <Episodes episodeInfo={shows}/>
-                <Subscribe />
+                <SupportSubscribe />
                 <Footer/>  
             </>
         )
@@ -98,7 +99,7 @@ export default function Shows({shows,showNumber}){
                 </Head>
                 <Navigation />
                 <Episode episodeInfo={show}/>
-                <Subscribe />
+                <supportSubscribe />
                 <Footer />  
             </>
         )

@@ -8,6 +8,7 @@ import EpisodeButton from '../components/Episodes/Button';
 import Contact from '../components/Contact/Contact';
 import { getSomeShows } from '../utils/ReadShowFiles';
 import {TitleStyles} from '../components/utilsStyles';
+import supportSubscribe from '../components/Subscribe/SupportSubscribe';
 
 export async function getStaticProps() {
 
@@ -36,7 +37,7 @@ class App extends React.Component {
               <TitleStyles>Latest Episodes</TitleStyles>
               <Episodes episodeInfo={shows}/>
               <EpisodeButton />
-              <Subscribe />
+              <SupportSubscribe />
               <Contact />
               <Footer/>
       </>

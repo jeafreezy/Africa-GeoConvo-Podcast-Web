@@ -77,9 +77,18 @@ export const Button=styled.h3`
         button{
             margin-top:10px;
             width:100%;
-            padding:5px;
+            padding:10px;
             box-shadow: none;
 
+        }
+        #btn-wrapper{
+
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            width:80%;
+            margin-left:10%;
+            margin-right:10%;
         }
     }
 

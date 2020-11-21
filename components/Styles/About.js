@@ -205,7 +205,7 @@ export const SupportTheShowStyle =styled.div`
             font-family: Roboto;
             font-style: normal;
             font-weight: normal;
-            width:100%;
+            width:70%;
             font-size: 17px;
             line-height: 20px;
             color: rgba(9, 18, 109, 0.54);
@@ -215,7 +215,7 @@ export const SupportTheShowStyle =styled.div`
            
             margin-top:50px;
             width:50%;
-            padding:15px;
+            padding:10px;
             color:white;
             cursor:pointer;
             text-align:center;
@@ -248,6 +248,7 @@ export const SupportTheShowStyle =styled.div`
 
             font-size: 15px;
             line-height: 15px;
+            width:100%;
             
         }
 

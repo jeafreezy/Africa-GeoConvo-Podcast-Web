@@ -7,9 +7,9 @@ import { SupportTheShowStyle } from '../Styles/About';
 function SupportTheShow(){
 
     return(
+        <>
+        <TitleStyles>Support The Show</TitleStyles>
         <div>
-            <TitleStyles>Support The Show</TitleStyles>
-
             <SupportTheShowStyle>
 
 
@@ -35,6 +35,7 @@ function SupportTheShow(){
             
 
         </div>
+    </>
     )
 }
 

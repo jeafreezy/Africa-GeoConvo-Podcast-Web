@@ -7,17 +7,17 @@ export const SubscribeStyle=styled.div`
 
     font-family:Roboto;
     display: flex;
-    width:95%;
-    margin-left:2.5%;
-    margin-right:2.5%;
-    padding:0px;
+    width:90%;
+    margin-left:5%;
+    margin-right:5%;
+
 } 
 .subscribe{
     width:100%;
 }
 .subscribe p{
     width:100%;
-    margin-left:5%;
+    ${'' /* margin-left:5%; */}
 }
 .body p{
 
@@ -29,13 +29,6 @@ export const SubscribeStyle=styled.div`
     line-height: 20px;
     color: rgba(9, 18, 109, 0.54);
 }
-
-.support{
-    
-    width:100%;
-
-}
-
 
 .podcast-channels{
     display:flex;
@@ -62,10 +55,8 @@ export const SubscribeStyle=styled.div`
 
     .container{
 
-        display:grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 2fr;
-        gap: 0px 0px;
+        display:flex;
+        flex-flow:wrap;
         width:90%;
         margin-left:5%;
         margin-right:5%;
