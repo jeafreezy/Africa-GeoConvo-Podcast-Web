@@ -24,7 +24,7 @@ function BehindTheMic(){
                         </div>
                         <div className='body'>
 
-                            <p>A GIS/Python Developer with a solid background in Remote Sensing and GIS. He loves to volunteer, drive communities and do cool stuffs with technology. He also flourish in a multidisciplinary team. His favourite hobbies are cycling🚴🏾‍♂️,dancing 🕺🏾,tennis 🏓 and hitting the gym 🏋🏾‍♂️. Fun fact: He developed this website 🙂.
+                            <p>A GIS/Python Developer with a solid background in Remote Sensing and GIS. He loves to volunteer, drive communities, and do cool stuff with technology. He also flourishes in a multi-disciplinary team. His favourite hobbies are cycling🚴🏾‍♂️,dancing 🕺🏾,tennis 🏓 and hitting the gym 🏋🏾‍♂️. Fun fact: He developed this website 🙂.
                             
                             </p>
 
@@ -47,7 +47,7 @@ function BehindTheMic(){
                         </div>
                         <div className='body'>
 
-                            <p>Sit amet, consectetur adipiscing elit. Quisque imperdiet eros leo, eget consequat orci viverra nec. Suspendisse pellentesque sem metus, et mollis purus auctor in. Suspendisse congue quam eros, vel cursus ante semper id. Lorem ipsum dolor sit amet, consectetur adipiscing elit    </p>
+                            <p> Omowonuola is  passionate about business, technology and mapping and their power to transform lives across the world. She has a knack for community development and enjoys volunteering. When she is not working, she loves to watch reality shows and read.</p>
 
                         </div>
                         <div className='socials'>

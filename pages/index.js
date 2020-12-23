@@ -8,11 +8,11 @@ import EpisodeButton from '../components/Episodes/Button';
 import Contact from '../components/Contact/Contact';
 import { getSomeShows } from '../utils/ReadShowFiles';
 import {TitleStyles} from '../components/utilsStyles';
-import supportSubscribe from '../components/Subscribe/SupportSubscribe';
+import SupportSubscribe from '../components/Subscribe/SupportSubscribe';
 
 export async function getStaticProps() {
 
-  const shows = await getSomeShows(4);
+  const shows = await getSomeShows(2);
 
   return {
     revalidate: 1,

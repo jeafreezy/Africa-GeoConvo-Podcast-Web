@@ -22,13 +22,11 @@ function Footer(props){
                            
                                     <img src='/static/assets/apple-podcast.png' alt='Apple podcast icon' title='Apple Podcast'></img>
                                    
-                                    <img src='/static/assets/spotify.png' alt='Spotify podcast icon' title='Spotify'></img>
-                                   
-                                    <img src='/static/assets/soundcloud-logo.png' alt='Soundcloud Podcast icon' title='Soundcloud'></img>
-                                 
-                                    <a href='https://rss.com/podcasts/africageoconvo/' target='_blank' rel="noopener noreferer"><img src='/static/assets/rss.png' alt='Rssfeeds podcast icon' title='RSS Feeds'></img></a>
+                                    <a href='https://rss.com/podcasts/Africageoconvo/' target='_blank' rel="noopener noreferer"><img src='/static/assets/rss.png' alt='Rssfeeds podcast icon' title='RSS Feeds'></img></a>
                                    
                                     <img src='/static/assets/google-podcasts.png' alt='Google podcast icon' title='Google Podcast'></img>
+                                    <a href='https://twitter.com/africageoconvo/' target='_blank' rel="noopener noreferer"><img src='/static/assets/twitter.png' alt='Twitter podcast icon' title='Follow us'></img></a>
+
                                     
                                 
                             </div>

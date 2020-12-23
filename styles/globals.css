@@ -164,16 +164,14 @@ body.dark-mode #episodes > div > div > div.episode p {
 
 /* Newsletter,contact and subscribe component styles begins  */
 
-body.dark-mode #subscribe > div > div > div.newsletter > p {
+
+
+body.dark-mode #subscribe p{
   color:white;
+ 
 }
 
-
-body.dark-mode #subscribe > div > div > div.subscribe p{
-  color:white;
-}
-
-body.dark-mode #contact p {
+body.dark-mode #contact p,h3 {
   color:white;
 }
 
