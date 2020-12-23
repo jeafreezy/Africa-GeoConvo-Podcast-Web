@@ -1,6 +1,6 @@
 # Africa GeoConvo Podcast
 
-![Africa GeoConvo logo](./public/static/assets/logo-blue.png)
+![Africa GeoConvo logo](./public/static/assets/logo.png)
 
 
 ## A Podcast about geospatial conversation and people doing great things with geospatial technology in Africa.
