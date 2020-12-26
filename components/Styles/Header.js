@@ -144,15 +144,19 @@ box-sizing:border-box;
         align-items:center;
         padding-top:20px;
 
+
     }
     
-    .cta-buttons button{
+    .cta-buttons + button{
    
-        width:30%;
-       
+        width:100%;
+        
    
     }
 
+    .cta-link{
+        margin-top:15px;
+    }
     .jumbotron-info h2{
         margin-bottom:10px;
         font-size: 25px;
@@ -164,20 +168,18 @@ box-sizing:border-box;
         
     }
     /* The container <div> - needed to position the dropdown content */
-        .dropdown {
-    
-           
-            left:-100px;
-            color:red;
-           
-            
-        }
-        .dropdown button{
 
-            left:-100px;
-            color:red;
-           
-        }
+    .drop-btn{
+       
+        width:200%;
+        font-size:7px;
+    }
+    .dropdown button{
+
+        color:red;
+        width:100%;
+        
+    }
 
   
 }

@@ -38,7 +38,7 @@ function Footer(props){
                     <div className='pagemap'>
                   
                         <ul>
-                            <p>Page Map</p>
+                            <p>Site Map</p>
                             <li><Link href='/' className='footer-links' >Home</Link></li>
                             <li><Link href='/shows/all' className='footer-links'>Episodes</Link></li>
                             <li><Link href='/about' className='footer-links'>About</Link></li>
