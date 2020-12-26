@@ -14,9 +14,9 @@ const Banner=()=>{
                             <p>The podcast about geospatial innovations and people doing great things with geospatial technology in Africa.</p>
                         </div>
                         <div className='cta-buttons'>
-                            <div class="dropdown">
+                            <div className="dropdown">
                                 <button className='drop-btn' style={{color:'white'}}>SUBSCRIBE</button>
-                                <div class="dropdown-content">
+                                <div className="dropdown-content">
                                     <a href="https://rss.com/podcasts/africageoconvo/" target='_blank' rel='noopener noreferer'>RSS</a>
                                     <a href="#" target='_blank' rel='noopener noreferer'>Google Podcast</a>
                                     <a href="#" target='_blank' rel='noopener noreferer'>Apple Podcast</a>

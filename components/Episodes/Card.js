@@ -6,6 +6,7 @@ import { Offline, Online } from "react-detect-offline"
 
 function Card({podcastTitle,episodeNumber,host,date,guest,playerUrl,episodeShortNote}){
 
+   
     function Iframe(props) {
 
         return (<div dangerouslySetInnerHTML={ {__html:  props.iframe?props.iframe:""}} />);

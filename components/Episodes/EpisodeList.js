@@ -5,6 +5,7 @@ import Card from './Card';
 
 const EpisodeList=({episodes})=>{
 
+   
     if(episodes.length > 1){
         
         return(
@@ -43,7 +44,8 @@ const EpisodeList=({episodes})=>{
             </>
         )
     }else{
-        const {number,title,host,readableDate,Guest,url,shortInfo} = episodes
+        const {number,title,host,readableDate,Guest,url,shortInfo} = episodes[0];
+       
         return(
                             
             <>

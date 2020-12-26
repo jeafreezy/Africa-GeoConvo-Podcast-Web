@@ -2,8 +2,6 @@ var path = require('path');
 
 const { promisify } = require('util');
 
-const format = require('date-fns/format');
-
 const {readFile,readdir} = require('fs');
 
 const readAFolder = promisify(readdir); 
@@ -31,7 +29,7 @@ const loadShows = async()=>{
      return {
 
          ...show.meta,
-         readableDate:format(parseFloat(show.meta.date), 'MMM do, yyyy'), //parse date to readable format
+         readableDate:show.meta.date,
          html:show.html
      }
      

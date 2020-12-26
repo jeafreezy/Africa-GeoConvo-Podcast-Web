@@ -87,8 +87,9 @@ box-sizing:border-box;
   background-color: #09126D;
   color: white;
   border: none;
-  
+
 }
+
 
 /* The container <div> - needed to position the dropdown content */
 .dropdown {
@@ -99,10 +100,9 @@ box-sizing:border-box;
   cursor:pointer;
 }
 .dropdown button{
-
-    text-align: center;
     border:none;
     outline:none;
+    width:100%;
 }
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
@@ -148,7 +148,8 @@ box-sizing:border-box;
     
     .cta-buttons button{
    
-        width:100%;
+        width:30%;
+       
    
     }
 
@@ -162,9 +163,35 @@ box-sizing:border-box;
         font-size:15px;
         
     }
+    /* The container <div> - needed to position the dropdown content */
+        .dropdown {
+    
+           
+            left:-100px;
+            color:red;
+           
+            
+        }
+        .dropdown button{
+
+            left:-100px;
+            color:red;
+           
+        }
 
   
 }
+
+}
+
+@media only screen and (min-width:491px) and (max-width:543px){
+
+            /* The container <div> - needed to position the dropdown content */
+        .dropdown {
+       
+            width:35%;
+            
+        }
 
 }
 `;
