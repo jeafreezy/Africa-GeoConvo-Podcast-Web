@@ -16,12 +16,10 @@ class Contact extends React.PureComponent{
           message: '',
           messageSent : 'Shoot'
         };
-    
-        this.handleSubmit = this.handleSubmit.bind(this); 
-        this.handleChange = this.handleChange.bind(this);
+
       }
 
-      handleSubmit(event) {
+     handleSubmit = event=> {
         event.preventDefault();
         const { name, email, subject, message } = this.state;
 
@@ -34,10 +32,10 @@ class Contact extends React.PureComponent{
         };
 
         emailjs.send(
-          'service_99xv7qd',
-          'template_nsz6aqj',
-           templateParams,
-          'user_uaDKtXNr0iHOGc9Fa776j'
+            process.env.NEXT_PUBLIC_SERVICE,
+            process.env.NEXT_PUBLIC_TEMPLATE,
+            templateParams,
+           'user_uaDKtXNr0iHOGc9Fa776j'
 
         ).then((response)=>{
 
@@ -56,7 +54,7 @@ class Contact extends React.PureComponent{
       };
 
 
-    handleChange(event) {
+    handleChange = event => {
 
         this.setState({ [event.target.name]: event.target.value });
     }
