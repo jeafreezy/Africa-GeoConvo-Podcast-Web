@@ -248,7 +248,7 @@ export const SupportTheShowStyle =styled.div`
         .support-info p{
 
             font-size: 15px;
-            line-height: 15px;
+            line-height: 14px;
             width:100%;
             
         }

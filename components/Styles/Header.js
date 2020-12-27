@@ -331,7 +331,7 @@ li a:hover::after {
 
 @media  only screen and (max-width: 897px){  
     flex-flow: column nowrap;
-    background-color:#ddd;
+    background-color:white;
     position:fixed;
     transform: ${({open})=> open ? 'translateX(0)' : 'translateX(100%)'};
     top:0;
