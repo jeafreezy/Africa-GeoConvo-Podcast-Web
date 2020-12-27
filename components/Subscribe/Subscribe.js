@@ -21,14 +21,14 @@ function Subscribe(){
                                 {/* <div>
                                     <img src='/static/assets/apple-podcast.png' alt='Apple podcast icon'></img>
                                     <p>Apple podcast</p>
-                                </div>
+                                </div> */}
 
                                 <div>
-                                   <img src='/static/assets/soundcloud-logo.png' alt='Soundcloud Podcast icon'></img>
-                                    <p>Sound Cloud</p>
-                                </div> */}
+                                    <a href='https://africageoconvo.podbean.com/' target='_blank' rel="noopener noreferer"><img src='/static/assets/podbean.png' alt='Podbean icon' title='Podbean'></img></a>
+                                    <p>Podbean</p>
+                                </div>
                                 <div>
-                                <a href='https://rss.com/podcasts/africageoconvo/' target='_blank' rel="noopener noreferer"> <img src='/static/assets/rss.png' alt='Rssfeeds podcast icon'></img></a>
+                                    <a href='https://rss.com/podcasts/africageoconvo/' target='_blank' rel="noopener noreferer"> <img src='/static/assets/rss.png' alt='Rssfeeds podcast icon'></img></a>
                                     <p>RSS feeds</p>
                                 </div>
                                 {/* <div>

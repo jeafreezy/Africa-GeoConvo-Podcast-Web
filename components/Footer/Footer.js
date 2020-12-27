@@ -20,7 +20,7 @@ function Footer(props){
                             
                             <div className='podcast-channels'>
                            
-                                    {/* <img src='/static/assets/apple-podcast.png' alt='Apple podcast icon' title='Apple Podcast'></img> */}
+                                    <a href='https://africageoconvo.podbean.com/' target='_blank' rel="noopener noreferer"><img src='/static/assets/podbean.png' alt='Podbean icon' title='Podbean'></img></a>
                                    
                                     <a href='https://rss.com/podcasts/Africageoconvo/' target='_blank' rel="noopener noreferer"><img src='/static/assets/rss.png' alt='Rssfeeds podcast icon' title='RSS Feeds'></img></a>
                                    
