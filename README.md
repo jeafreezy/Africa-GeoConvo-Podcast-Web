@@ -8,17 +8,16 @@
 
 ## Developers
 
-- ### UI Designed with [Figma](figma.com) by [Emmanuel Jolaiya](https://twitter.com/jeafreezy) and [Omowonuola Akintola](https://twitter.com/Svelte_mo) 
+- ### UI Designed with [Figma](https://figma.com) by [Emmanuel Jolaiya](https://twitter.com/jeafreezy) and [Omowonuola Akintola](https://twitter.com/Svelte_mo) 
 
 - ### Website Developed by [Emmanuel Jolaiya](https://twitter.com/jeafreezy)  
 
 
 ### Libraries used
 
-- [date-fns](https://www.npmjs.com/package/date-fns) => To parse the dates
 - [emailjs-com](https://www.emailjs.com/) => For contact us form support
 - [meta-marked](https://www.npmjs.com/package/meta-marked) => To parse the shownotes in markdown
-- [styled-components](https://styled-components.com/) => TO style the components
+- [styled-components](https://styled-components.com/) => To style the components
 - [use-dark-mode](https://github.com/donavon/use-dark-mode) => For dark mode support
 
 
