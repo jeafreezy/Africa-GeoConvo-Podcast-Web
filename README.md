@@ -19,6 +19,7 @@
 - [meta-marked](https://www.npmjs.com/package/meta-marked) => To parse the shownotes in markdown
 - [styled-components](https://styled-components.com/) => To style the components
 - [use-dark-mode](https://github.com/donavon/use-dark-mode) => For dark mode support
+- [React Detect Offline](https://www.npmjs.com/package/react-detect-offline) => To detect network connectivity
 
 
 
