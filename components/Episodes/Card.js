@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { Offline, Online } from "react-detect-offline"
 
 
-function Card({podcastTitle,episodeNumber,host,date,guest,playerUrl,episodeShortNote}){
+function Card({podcastTitle,episodeNumber,image,host,date,guest,playerUrl,episodeShortNote}){
 
    
     function Iframe(props) {
@@ -30,7 +30,7 @@ function Card({podcastTitle,episodeNumber,host,date,guest,playerUrl,episodeShort
         <div className='container'>
 
             <div id='thumbnail'>
-                <img alt='podcast thumbnail' src='/static/assets/coffee.jpg'></img>
+                <img alt='podcast thumbnail' src={image}></img>
             </div>
             <div className='episode'>
                 <div id='episode-title'>

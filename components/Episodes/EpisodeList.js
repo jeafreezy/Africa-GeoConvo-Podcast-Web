@@ -15,7 +15,7 @@ const EpisodeList=({episodes})=>{
                 
                 episodes.map((items,i)=>{
 
-                        const {number,title,host,readableDate,Guest,url,shortInfo} = items
+                        const {number,title,host,readableDate,Guest,url,image,shortInfo} = items
 
                         return(
                             
@@ -29,6 +29,7 @@ const EpisodeList=({episodes})=>{
                                     playerUrl={url}
                                     guest={Guest}
                                     episodeShortNote={shortInfo}
+                                    image={image}
 
                             />
                                     
@@ -44,7 +45,7 @@ const EpisodeList=({episodes})=>{
             </>
         )
     }else{
-        const {number,title,host,readableDate,Guest,url,shortInfo} = episodes[0];
+        const {number,title,host,readableDate,Guest,url,shortInfo,image} = episodes[0];
        
         return(
                             
@@ -58,6 +59,7 @@ const EpisodeList=({episodes})=>{
                         playerUrl={url}
                         guest={Guest}
                         episodeShortNote={shortInfo}
+                        image={image}
 
                 />
                 

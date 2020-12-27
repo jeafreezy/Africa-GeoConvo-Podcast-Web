@@ -14,26 +14,26 @@ function Episode(props){
     }
     const iframe= `<iframe src= ${props.episodeInfo.url} url= "https%3A%2F%2Fwww.podbean.com%2Few%2Fpb-pw6dz-6a10a2" width='90%' height='100' frameborder="0" scrolling="no" data-name="pd-iframe-player"></iframe>`
     
-
+    const {number,title,image,host,Guest,readableDate,html,downloadUrl} = props.episodeInfo;
     return(
                 <div id='episodes'>
 
                     <div style={{height:'80px'}}></div>
 
-                    <TitleStyles> Episode {props.episodeInfo.number} : {props.episodeInfo.title} </TitleStyles>
+                    <TitleStyles> Episode {number} : {title} </TitleStyles>
                     
                     <StyledEpisode>
 
-                        <img src= {`${props.episodeInfo.image}`} alt={props.episodeInfo.title}
+                        <img src= {`${image}`} alt={title}
                         width='80%'
                         height='auto'
                         ></img>
 
                         <hr></hr>
 
-                        <span className='episode-info'><p>Date released: {props.episodeInfo.readableDate}</p></span>
-                        <span className='episode-info'><p>Host: {props.episodeInfo.host}</p></span>
-                        <span className='episode-info'><p>Guest: {props.episodeInfo.Guest}</p></span>
+                        <span className='episode-info'><p>Date released: {readableDate}</p></span>
+                        <span className='episode-info'><p>Host: {host}</p></span>
+                        <span className='episode-info'><p>Guest: {Guest}</p></span>
                         <hr></hr>
 
                         <span className="icon">🎵Listen to the full show now.👇</span> 
@@ -45,14 +45,14 @@ function Episode(props){
                         </div>
                         <hr></hr>
 
-                        <a className="button" download href={props.episodeInfo.url}>
+                        <a className="button" download href={downloadUrl} target="_blank" rel="noopener noreferer">
                             <span className="icon">⏬</span> Click to download show.⏬
                         </a>
                         <hr></hr>
 
                         <h2>Show Notes</h2>
 
-                        <div className='show-text' dangerouslySetInnerHTML={{ __html: props.episodeInfo.html }} />
+                        <div className='show-text' dangerouslySetInnerHTML={{ __html: html }} />
                     </StyledEpisode>
                     
                     <Button>

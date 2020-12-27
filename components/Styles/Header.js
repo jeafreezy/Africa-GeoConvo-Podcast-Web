@@ -150,11 +150,11 @@ box-sizing:border-box;
     .cta-buttons + button{
    
         width:100%;
-        
-   
+
     }
 
     .cta-link{
+
         margin-top:15px;
     }
     .jumbotron-info h2{
