@@ -32,10 +32,10 @@ class Contact extends React.PureComponent{
         };
 
         emailjs.send(
-            process.env.NEXT_PUBLIC_SERVICE,
-            process.env.NEXT_PUBLIC_TEMPLATE,
+            process.env.NEXT_PUBLIC_SERVICE_CODE,
+            process.env.NEXT_PUBLIC_TEMPLATE_CODE,
             templateParams,
-           'user_uaDKtXNr0iHOGc9Fa776j'
+           process.env.NEXT_PUBLIC_API_CODE
 
         ).then((response)=>{
 
