@@ -74,11 +74,11 @@ class Contact extends React.PureComponent{
 
                             <div>
                                 <form onSubmit={this.handleSubmit}>
-                                    <input name="name" type='text' placeholder='Your name' value={name} onChange={this.handleChange}></input>
-                                    <input name="email" type='email'placeholder='email@mail.com' value={email} onChange={this.handleChange}></input>
-                                    <input type='text' name="subject" placeholder='What is the Subject?' value={subject} onChange={this.handleChange}></input>
-                                    <input name="message" type='textarea' placeholder='Tell us more...' value={message} onChange={this.handleChange}></input>
-                                    <button>{this.state.messageSent}!</button>
+                                    <input name="name" type='text' placeholder='Your name' value={name} onChange={this.handleChange} required></input>
+                                    <input name="email" type='email'placeholder='email@mail.com' value={email} onChange={this.handleChange} required></input>
+                                    <input type='text' name="subject" placeholder='What is the Subject?' value={subject} onChange={this.handleChange} required></input>
+                                    <input name="message" type='textarea' placeholder='Tell us more...' value={message} onChange={this.handleChange} required></input>
+                                    <button type='submit'>{this.state.messageSent}!</button>
                                 </form>
 
                             </div>
