@@ -84,24 +84,6 @@ class Contact extends React.PureComponent{
                     </div>
                     
 
-
-                    <div className='contacts'>
-
-                        <div className='top-image'>
-                            <img src='/static/assets/email.png' alt='Email icon'></img>
-                            <p><a href="mailto:africageoconvo@gmail.com">africageoconvo@gmail.com</a></p>
-                        </div>
-                        <div className='contact-image'>
-                            <img src='/static/assets/google-maps.png' alt='location icon'></img>
-                            <p>Africa</p>
-                        </div>
-                        <div className='contact-image'>
-                        
-                            <a href='https://twitter.com/Africageoconvo' target='_blank'><img src='/static/assets/twitter.png' width='30px' height='25px' title='Follow us on twitter'></img></a>
-                            <p>Twitter</p>
-                        </div>
-                    </div>
-
                 </div>
             </ContactUsStyle>
         </div>

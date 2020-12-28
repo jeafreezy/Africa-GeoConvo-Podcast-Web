@@ -6,7 +6,7 @@ export const ContactUsStyle=styled.div`
 
             font-family:Roboto;
             display: grid;
-            grid-template-columns: 1.5fr 0.5fr;
+            grid-template-columns: 1fr;
             grid-template-rows: 1fr;
             gap: 0px 0px;
             width:90%;
@@ -61,13 +61,7 @@ export const ContactUsStyle=styled.div`
             padding:10px;
             
         }
-        .contacts img{
-
-            height:30px;
-            width:32px;
-            cursor:pointer;
-            
-        }
+        
         @media only screen and (max-width:600px){
 
         .container{
@@ -95,13 +89,7 @@ export const ContactUsStyle=styled.div`
             align-items:center;
 
         }
-        .contacts img{
-
-            height:25px;
-            width:27px;
-            cursor:pointer;
-
-        }
+        
 
         .contacts p{
             padding:5px;

@@ -26,7 +26,10 @@ function Footer(props){
                                    
                                     {/* <img src='/static/assets/google-podcasts.png' alt='Google podcast icon' title='Google Podcast'></img> */}
                                     <a href='https://twitter.com/africageoconvo/' target='_blank' rel="noopener noreferer"><img src='/static/assets/twitter.png' alt='Twitter podcast icon' title='Follow us'></img></a>
-
+                                   
+                            
+                                    <a href="mailto:africageoconvo@gmail.com"><img src='/static/assets/email.png' alt='Email icon'></img></a>
+                        
                                     
                                 
                             </div>

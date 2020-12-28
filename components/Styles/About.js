@@ -197,7 +197,7 @@ export const SupportTheShowStyle =styled.div`
        
        .support-info button{
     
-            width:40%;
+            width:100%;
        }
         .support-info p{
 
@@ -205,7 +205,7 @@ export const SupportTheShowStyle =styled.div`
             font-family: Roboto;
             font-style: normal;
             font-weight: normal;
-            width:70%;
+            width:100%;
             font-size: 17px;
             line-height: 20px;
             color: rgba(9, 18, 109, 0.54);

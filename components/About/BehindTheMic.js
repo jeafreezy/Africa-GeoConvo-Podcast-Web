@@ -30,7 +30,7 @@ function BehindTheMic(){
 
                         </div>
                         <div className='socials'>
-                            <a href='https://linkedin.com/' target='_blank' rel='noopener noreferer'><img src='/static/assets/linkedin.png' alt='LinkedIn icon'></img></a>
+                            <a href='https://www.linkedin.com/in/emmanuel-jolaiya-493b72145/' target='_blank' rel='noopener noreferer'><img src='/static/assets/linkedin.png' alt='LinkedIn icon'></img></a>
                             <a href='https://twitter.com/jeafreezy' target='_blank' rel='noopener noreferer'><img src='/static/assets/twitter.png' alt='Twitter icon'></img></a>
                             <a href='mailto:jolaiyaemmanuel@gmail.com' target='_blank' rel='noopener noreferer'><img src='/static/assets/gmail.png' alt='Gmail icon'></img></a>
                         </div>
