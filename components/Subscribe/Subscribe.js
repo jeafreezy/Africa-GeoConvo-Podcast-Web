@@ -28,8 +28,8 @@ function Subscribe(){
                                     <p>Podbean</p>
                                 </div>
                                 <div>
-                                    <a href='https://rss.com/podcasts/africageoconvo/' target='_blank' rel="noopener noreferer"> <img src='/static/assets/rss.png' alt='Rssfeeds podcast icon'></img></a>
-                                    <p>RSS feeds</p>
+                                    <a href='https://feed.podbean.com/africageoconvo/feed.xml' target='_blank' rel="noopener noreferer"> <img src='/static/assets/rss.png' alt='Rssfeeds podcast icon'></img></a>
+                                    <p>RSS Feed</p>
                                 </div>
                                 {/* <div>
                                     <img src='/static/assets/google-podcasts.png' alt='Google podcast icon'></img>

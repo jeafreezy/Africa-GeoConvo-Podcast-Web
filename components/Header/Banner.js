@@ -17,7 +17,7 @@ const Banner=()=>{
                             <div className="dropdown">
                                 <button className='drop-btn' style={{color:'white'}}>SUBSCRIBE</button>
                                 <div className="dropdown-content">
-                                    <a href="https://rss.com/podcasts/africageoconvo/" target='_blank' rel='noopener noreferer'>RSS</a>
+                                    <a href="https://feed.podbean.com/africageoconvo/feed.xml" target='_blank' rel='noopener noreferer'>RSS</a>
                                     <a href="https://africageoconvo.podbean.com/" target='_blank' rel='noopener noreferer'>Podbean</a>
                                     {/* <a href="#" target='_blank' rel='noopener noreferer'>Apple Podcast</a> */}
                                 </div>
