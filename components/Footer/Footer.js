@@ -17,9 +17,9 @@ function Footer(props){
                                 alt='Africa GeoConvo logo'
                             />
                             <p>Africa GeoConvo is a podcast about geospatial innovations  and people doing great things with geospatial  technology in Africa.</p>
-                            
+                            <p>Follow us,we are social!</p>
                             <div className='podcast-channels'>
-                           
+                                   
                                     <a href='https://africageoconvo.podbean.com/' target='_blank' rel="noopener noreferer"><img src='/static/assets/podbean.png' alt='Podbean icon' title='Podbean'></img></a>
                                    
                                     <a href='https://rss.com/podcasts/Africageoconvo/' target='_blank' rel="noopener noreferer"><img src='/static/assets/rss.png' alt='Rssfeeds podcast icon' title='RSS Feeds'></img></a>

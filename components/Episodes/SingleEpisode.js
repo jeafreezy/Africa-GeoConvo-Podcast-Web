@@ -2,6 +2,7 @@ import React from 'react';
 import {TitleStyles,Button} from '../utilsStyles';
 import Link from 'next/link';
 import {StyledEpisode } from '../Styles/Episodes';
+import SocialShare from './SocialShare';
 
 
 function Episode(props){
@@ -53,8 +54,11 @@ function Episode(props){
                         <h2>Show Notes</h2>
 
                         <div className='show-text' dangerouslySetInnerHTML={{ __html: html }} />
+                    <h2>Share This Episode</h2>
+                    <SocialShare title={title} number={number}/>
                     </StyledEpisode>
                     
+                   
                     <Button>
                         <div id='btn-wrapper'>  <button><Link href='/shows/all'>See Other Episodes</Link></button> </div>
                     </Button>
