@@ -22,7 +22,7 @@ function Footer(props){
                                    
                                     <a href='https://africageoconvo.podbean.com/' target='_blank' rel="noopener noreferer"><img src='/static/assets/podbean.png' alt='Podbean icon' title='Podbean'></img></a>
                                    
-                                    <a href='https://feed.podbean.com/africageoconvo/feed.xml' target='_blank' rel="noopener noreferer"><img src='/static/assets/rss.png' alt='Rssfeeds podcast icon' title='RSS Feeds'></img></a>
+                                    <a href='https://www.google.com/podcasts?feed=aHR0cHM6Ly9mZWVkLnBvZGJlYW4uY29tL2FmcmljYWdlb2NvbnZvL2ZlZWQueG1s' target='_blank' rel="noopener noreferer"><img src='/static/assets/google-podcasts.png' alt='Google Podcast' title='Google Podcast'></img></a>
                                    
                                     {/* <img src='/static/assets/google-podcasts.png' alt='Google podcast icon' title='Google Podcast'></img> */}
                                     <a href='https://twitter.com/africageoconvo/' target='_blank' rel="noopener noreferer"><img src='/static/assets/twitter.png' alt='Twitter podcast icon' title='Follow us'></img></a>
@@ -34,7 +34,7 @@ function Footer(props){
                                 
                             </div>
                             
-                            <p id = 'copyright' style={{marginBottom:'20px',marginRight:'20%',fontSize:'12px',color:'grey', float:'right'}}>Copyrights 2020. Developed by <a href='https://twitter.com/jeafreezy'>Emmanuel Jolaiya</a>|Website code is <a href='https://github.com/jeafreezy/Africa-GeoConvo-Podcast-Web' target='_blank'>Open sourced</a></p>
+                            <p id = 'copyright' style={{marginBottom:'20px',marginRight:'20%',fontSize:'12px',color:'grey', float:'right'}}>| Copyrights 2020. Developed by <a href='https://twitter.com/jeafreezy'>Emmanuel Jolaiya |</a> <br></br>| Website code is open-sourced  on<a href='https://github.com/jeafreezy/Africa-GeoConvo-Podcast-Web' target='_blank'> Github |</a></p>
                     
                     </div>
 

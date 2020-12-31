@@ -18,10 +18,10 @@ function Subscribe(){
                             <p>Join thousands of listeners worldwide.</p>
                     
                             <div className='podcast-channels'>
-                                {/* <div>
-                                    <img src='/static/assets/apple-podcast.png' alt='Apple podcast icon'></img>
-                                    <p>Apple podcast</p>
-                                </div> */}
+                                <div>
+                                    <a href='https://open.spotify.com/show/0LGHyoUC6EIj1T8djbDBne' target='_blank' rel="noopener noreferer"><img src='/static/assets/spotify.png' alt='Spotify icon'></img></a>
+                                    <p>Spotify</p>
+                                </div>
 
                                 <div>
                                     <a href='https://africageoconvo.podbean.com/' target='_blank' rel="noopener noreferer"><img src='/static/assets/podbean.png' alt='Podbean icon' title='Podbean'></img></a>
