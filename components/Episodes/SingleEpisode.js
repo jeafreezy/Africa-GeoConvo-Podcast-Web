@@ -3,6 +3,7 @@ import {TitleStyles,Button} from '../utilsStyles';
 import Link from 'next/link';
 import {StyledEpisode } from '../Styles/Episodes';
 import SocialShare from './SocialShare';
+import Subscribe from '../Subscribe/Subscribe';
 
 
 function Episode(props){
@@ -38,7 +39,7 @@ function Episode(props){
                         <hr></hr>
 
                         <span className="icon">🎵Listen to the full show now.👇</span> 
-
+                    
                         <hr></hr>
 
                         <div className='podcast-player'>
@@ -50,7 +51,7 @@ function Episode(props){
                             <span className="icon">⏬</span> Click to download show.⏬
                         </a>
                         <hr></hr>
-
+                        
                         <h2>Show Notes</h2>
 
                         <div className='show-text' dangerouslySetInnerHTML={{ __html: html }} />
@@ -58,11 +59,11 @@ function Episode(props){
                     <SocialShare title={title} number={number}/>
                     </StyledEpisode>
                     
-                   
+                    <Subscribe/>
                     <Button>
                         <div id='btn-wrapper'>  <button><Link href='/shows/all'>See Other Episodes</Link></button> </div>
                     </Button>
-                    
+                   
                 </div>
 
         )

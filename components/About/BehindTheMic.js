@@ -24,7 +24,7 @@ function BehindTheMic(){
                         </div>
                         <div className='body'>
 
-                            <p>A GIS/Python Developer with a solid background in Remote Sensing and GIS. He loves to volunteer, drive communities, and do cool stuff with technology. He also flourishes in a multi-disciplinary team. His favourite hobbies are cycling🚴🏾‍♂️,dancing 🕺🏾,tennis 🏓 and hitting the gym 🏋🏾‍♂️. Fun fact: He developed this website 🙂.
+                            <p>A GIS/Python Developer with a solid background in Remote Sensing and GIS. He loves to volunteer, drive communities, and do cool stuff with technology. He also flourishes in a multi-disciplinary team. His favourite hobbies are cycling🚴🏾‍♂️,dancing 🕺🏾,tennis 🏓 and hitting the gym 🏋🏾‍♂️.
                             
                             </p>
 

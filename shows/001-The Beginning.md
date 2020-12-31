@@ -16,9 +16,3 @@ Not all problems require a mobile application or a website. Some can be solved w
     Share this podcast with a friend!
 
     Happy to connect with you!
-
-    Email: africageoconvo@gmail.com
-
-    Website: africageoconvo.com
-
-    Twitter: @africageoconvo
