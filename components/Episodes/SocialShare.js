@@ -14,7 +14,9 @@ import {
     RedditIcon,
     TelegramIcon,
     TwitterIcon,
-    WhatsappIcon,EmailIcon
+    WhatsappIcon,EmailIcon,
+    PinterestIcon,
+    PinterestShareButton
   } from "react-share";
 
 
@@ -80,6 +82,14 @@ const SocialShare = ({title,number})=>{
                     >
                         <EmailIcon size={32} round />
                     </EmailShareButton>
+
+                    <PinterestShareButton
+                        url={shareUrl}
+                        media={`https://africageoconvo.com/static/assets/episode${number}.png`}
+                        description={title}
+                    >
+                        <PinterestIcon size={32} round />
+                    </PinterestShareButton>
             </div>
     )
 }
