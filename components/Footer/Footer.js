@@ -17,30 +17,32 @@ function Footer(props){
                                 alt='Africa GeoConvo logo'
                             />
                             <p>Africa GeoConvo is a podcast about geospatial innovations  and people doing great things with geospatial  technology in Africa.</p>
-                            
+                            <p>Follow us,we are social!</p>
                             <div className='podcast-channels'>
-                           
-                                    <img src='/static/assets/apple-podcast.png' alt='Apple podcast icon' title='Apple Podcast'></img>
                                    
-                                    <img src='/static/assets/spotify.png' alt='Spotify podcast icon' title='Spotify'></img>
+                                    <a href='https://africageoconvo.podbean.com/' target='_blank' rel="noopener noreferer"><img src='/static/assets/podbean.png' alt='Podbean icon' title='Podbean'></img></a>
                                    
-                                    <img src='/static/assets/soundcloud-logo.png' alt='Soundcloud Podcast icon' title='Soundcloud'></img>
-                                 
-                                    <a href='https://rss.com/podcasts/africageoconvo/' target='_blank' rel="noopener noreferer"><img src='/static/assets/rss.png' alt='Rssfeeds podcast icon' title='RSS Feeds'></img></a>
+                                    <a href='https://www.google.com/podcasts?feed=aHR0cHM6Ly9mZWVkLnBvZGJlYW4uY29tL2FmcmljYWdlb2NvbnZvL2ZlZWQueG1s' target='_blank' rel="noopener noreferer"><img src='/static/assets/google-podcasts.png' alt='Google Podcast' title='Google Podcast'></img></a>
+                                    <a href='https://podcasts.apple.com/ng/podcast/africa-geoconvo-podcast/id1549049632' target='_blank' rel="noopener noreferer"><img src='/static/assets/apple-podcast.png' alt='Apple Podcast' title='Apple Podcast'></img></a>
                                    
-                                    <img src='/static/assets/google-podcasts.png' alt='Google podcast icon' title='Google Podcast'></img>
+                                    {/* <img src='/static/assets/google-podcasts.png' alt='Google podcast icon' title='Google Podcast'></img> */}
+                                    <a href='https://twitter.com/africageoconvo/' target='_blank' rel="noopener noreferer"><img src='/static/assets/twitter.png' alt='Twitter podcast icon' title='Follow us'></img></a>
+                                   
+                            
+                                    <a href="mailto:africageoconvo@gmail.com"><img src='/static/assets/email.png' alt='Email icon'></img></a>
+                        
                                     
                                 
                             </div>
                             
-                            <p id = 'copyright' style={{marginBottom:'20px',marginRight:'20%',fontSize:'12px',color:'grey', float:'right'}}>Copyrights 2020. Developed by <a href='https://github.com/jeafreezy'>Emmanuel Jolaiya</a></p>
+                            <p id = 'copyright' style={{marginBottom:'20px',marginRight:'20%',fontSize:'12px',color:'grey', float:'right'}}>| Copyrights 2020. Developed by <a href='https://twitter.com/jeafreezy'>Emmanuel Jolaiya |</a> <br></br>| Website code is open-sourced  on<a href='https://github.com/jeafreezy/Africa-GeoConvo-Podcast-Web' target='_blank'> Github |</a></p>
                     
                     </div>
 
                     <div className='pagemap'>
                   
                         <ul>
-                            <p>Page Map</p>
+                            <p>Site Map</p>
                             <li><Link href='/' className='footer-links' >Home</Link></li>
                             <li><Link href='/shows/all' className='footer-links'>Episodes</Link></li>
                             <li><Link href='/about' className='footer-links'>About</Link></li>

@@ -197,7 +197,7 @@ export const SupportTheShowStyle =styled.div`
        
        .support-info button{
     
-            width:40%;
+            width:100%;
        }
         .support-info p{
 
@@ -205,7 +205,7 @@ export const SupportTheShowStyle =styled.div`
             font-family: Roboto;
             font-style: normal;
             font-weight: normal;
-            width:70%;
+            width:100%;
             font-size: 17px;
             line-height: 20px;
             color: rgba(9, 18, 109, 0.54);
@@ -225,6 +225,7 @@ export const SupportTheShowStyle =styled.div`
             font-weight:bold;
             background-color: #09126D;
             box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+            outline:none;
         }
 
     button:hover{
@@ -247,7 +248,7 @@ export const SupportTheShowStyle =styled.div`
         .support-info p{
 
             font-size: 15px;
-            line-height: 15px;
+            line-height: 14px;
             width:100%;
             
         }

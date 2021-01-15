@@ -3,7 +3,7 @@ import Search from './Search';
 import EpisodeList from './EpisodeList';
 
 class Episodes extends Component{
-
+    
     constructor({episodeInfo}){
 
         super()
@@ -14,6 +14,7 @@ class Episodes extends Component{
             searchField:''
 
         }
+      
     }
 
     onSearchChange=(event)=>{

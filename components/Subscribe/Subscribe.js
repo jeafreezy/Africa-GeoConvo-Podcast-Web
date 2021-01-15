@@ -9,7 +9,7 @@ function Subscribe(){
         <>
             <TitleStyles>Subscribe To Our Podcast</TitleStyles>
             <SubscribeStyle>
-                <div className='container'>
+                <div className='container' id='subscribe'>
                     
                     <div className='subscribe'>
                         
@@ -19,43 +19,33 @@ function Subscribe(){
                     
                             <div className='podcast-channels'>
                                 <div>
-                                    <img src='/static/assets/apple-podcast.png' alt='Apple podcast icon'></img>
-                                    <p>Apple podcast</p>
-                                </div>
-                                <div>
-                                    <img src='/static/assets/spotify.png' alt='Spotify podcast icon'></img>
+                                    <a href='https://open.spotify.com/show/0LGHyoUC6EIj1T8djbDBne' target='_blank' rel="noopener noreferer"><img src='/static/assets/spotify.png' alt='Spotify icon'></img></a>
                                     <p>Spotify</p>
                                 </div>
+
                                 <div>
-                                   <img src='/static/assets/soundcloud-logo.png' alt='Soundcloud Podcast icon'></img>
-                                    <p>Sound Cloud</p>
+                                    <a href='https://africageoconvo.podbean.com/' target='_blank' rel="noopener noreferer"><img src='/static/assets/podbean.png' alt='Podbean icon' title='Podbean'></img></a>
+                                    <p>Podbean</p>
                                 </div>
                                 <div>
-                                <a href='https://rss.com/podcasts/africageoconvo/' target='_blank' rel="noopener noreferer"> <img src='/static/assets/rss.png' alt='Rssfeeds podcast icon'></img></a>
-                                    <p>RSS feeds</p>
+                                    <a href='https://www.google.com/podcasts?feed=aHR0cHM6Ly9mZWVkLnBvZGJlYW4uY29tL2FmcmljYWdlb2NvbnZvL2ZlZWQueG1s' target='_blank' rel='noopener noreferer'><img src='/static/assets/google-podcasts.png' alt='Google podcast icon'></img></a>
+                                    <p>Google podcasts</p>
                                 </div>
                                 <div>
-                                    <img src='/static/assets/google-podcasts.png' alt='Google podcast icon'></img>
-                                    <p>Google podcast</p>
+                                    <a href='https://podcasts.apple.com/ng/podcast/africa-geoconvo-podcast/id1549049632' target='_blank' rel='noopener noreferer'><img src='/static/assets/apple-podcast.png' alt='Apple podcast icon'></img></a>
+                                    <p>Apple podcasts</p>
                                 </div>
+                                <div>
+                                    <a href='https://feed.podbean.com/africageoconvo/feed.xml' target='_blank' rel="noopener noreferer"> <img src='/static/assets/rss.png' alt='Rssfeeds podcast icon'></img></a>
+                                    <p>RSS Feed</p>
+                                </div>
+                                
                             </div>
 
                         </div>
 
                     </div>
-                      
-
-                    {/* <div className='newsletter'>
-
-                        <TitleStyles>Subscribe To Our Newsletter</TitleStyles>
-                        <p>To receive ongoing updates and notifications on new episodes, please sign up to our Newsletter and we’ll make sure to keep you in the loop!</p>
-                        <div className='newsletter-email'>
-                        
-                            <input type='email' id='email' placeholder='Enter your email address...' aria-autocomplete='none'></input> 
-                             <button>Subscribe</button>
-                            <MailchimpSubscribe url={process.env.REACT_APP_MAILCHIMP_URL} />
-                        </div>
-                    </div> */}
+                    
 
                 </div>
             </SubscribeStyle>

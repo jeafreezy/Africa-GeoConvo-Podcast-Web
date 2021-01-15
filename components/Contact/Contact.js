@@ -16,12 +16,10 @@ class Contact extends React.PureComponent{
           message: '',
           messageSent : 'Shoot'
         };
-    
-        this.handleSubmit = this.handleSubmit.bind(this); 
-        this.handleChange = this.handleChange.bind(this);
+
       }
 
-      handleSubmit(event) {
+     handleSubmit = event=> {
         event.preventDefault();
         const { name, email, subject, message } = this.state;
 
@@ -34,9 +32,9 @@ class Contact extends React.PureComponent{
         };
 
         emailjs.send(
-          'service_99xv7qd',
-          'template_nsz6aqj',
-           templateParams,
+            'service_99xv7qd',
+            'template_nsz6aqj',
+            templateParams,
           'user_uaDKtXNr0iHOGc9Fa776j'
 
         ).then((response)=>{
@@ -56,7 +54,7 @@ class Contact extends React.PureComponent{
       };
 
 
-    handleChange(event) {
+    handleChange = event => {
 
         this.setState({ [event.target.name]: event.target.value });
     }
@@ -74,35 +72,17 @@ class Contact extends React.PureComponent{
 
                             <div>
                                 <form onSubmit={this.handleSubmit}>
-                                    <input name="name" type='text' placeholder='Your name' value={name} onChange={this.handleChange}></input>
-                                    <input name="email" type='email'placeholder='email@mail.com' value={email} onChange={this.handleChange}></input>
-                                    <input type='text' name="subject" placeholder='What is the Subject?' value={subject} onChange={this.handleChange}></input>
-                                    <input name="message" type='textarea' placeholder='Tell us more...' value={message} onChange={this.handleChange}></input>
-                                    <button>{this.state.messageSent}!</button>
+                                    <input name="name" type='text' placeholder='Your name' value={name} onChange={this.handleChange} required></input>
+                                    <input name="email" type='email'placeholder='email@mail.com' value={email} onChange={this.handleChange} required></input>
+                                    <input type='text' name="subject" placeholder='What is the Subject?' value={subject} onChange={this.handleChange} required></input>
+                                    <input name="message" type='textarea' placeholder='Tell us more...' value={message} onChange={this.handleChange} required></input>
+                                    <button type='submit'>{this.state.messageSent}!</button>
                                 </form>
 
                             </div>
 
                     </div>
                     
-
-
-                    <div className='contacts'>
-
-                        <div className='top-image'>
-                            <img src='/static/assets/email.png' alt='Email icon'></img>
-                            <p><a href="mailto:africageoconvo@gmail.com">africageoconvo@gmail.com</a></p>
-                        </div>
-                        <div className='contact-image'>
-                            <img src='/static/assets/google-maps.png' alt='location icon'></img>
-                            <p>Africa</p>
-                        </div>
-                        <div className='contact-image'>
-                        
-                            <a href='https://twitter.com/Africageoconvo' target='_blank'><img src='/static/assets/twitter.png' width='30px' height='25px' title='Follow us on twitter'></img></a>
-                            <p>Twitter</p>
-                        </div>
-                    </div>
 
                 </div>
             </ContactUsStyle>

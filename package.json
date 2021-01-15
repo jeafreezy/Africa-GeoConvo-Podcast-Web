@@ -12,20 +12,20 @@
     "start": "next start"
   },
   "dependencies": {
-    "date-fns": "^2.16.1",
     "dotenv": "^8.2.0",
-    "emailjs-com": "^2.6.3",
-    "framer-motion": "^2.9.4",
-    "meta-marked": "^0.4.2",
-    "next": "^10.0.2",
+    "emailjs-com": "^2.6.4",
+    "framer-motion": "^2.9.5",
+    "meta-marked": "^0.4.4",
+    "next": "^10.0.4",
     "react": "^17.0.1",
     "react-detect-offline": "^2.4.0",
     "react-dom": "^17.0.1",
     "react-mailchimp-subscribe": "^2.1.0",
+    "react-share": "^4.3.1",
     "styled-components": "^5.2.1",
     "use-dark-mode": "^2.3.1"
   },
   "devDependencies": {
-    "babel-plugin-styled-components": "^1.11.1"
+    "babel-plugin-styled-components": "^1.12.0"
   }
 }

@@ -65,32 +65,73 @@ box-sizing:border-box;
     text-decoration:none;
     border:none;
     font-weight:bold;
-  
+    outline:none;
     
 }
 
-.cta-buttons > button:nth-child(1){
 
-    background-color: #09126D;
-    text-decoration:none;
-
-}
 .cta-buttons > button:nth-child(2){
 
     background-color: white;
     color:#09126D;
 }
 
-.cta-buttons > button:nth-child(1):hover {
 
-   transition:0.3s;
-   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-   
-}
 .cta-buttons > button:nth-child(2):hover{
     transition:0.3s;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
+
+/* Dropdown Button */
+.drop-btn {
+  background-color: #09126D;
+  color: white;
+  border: none;
+
+}
+
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  background-color:#09126D;
+  width:30%;
+  cursor:pointer;
+}
+.dropdown button{
+    border:none;
+    outline:none;
+    width:100%;
+}
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  cursor:pointer;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color:#09126D;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color:whitesmoke;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);}
+
 
 @media only screen and (max-width:490px){
 
@@ -103,18 +144,19 @@ box-sizing:border-box;
         align-items:center;
         padding-top:20px;
 
-    }
-    .cta-buttons > button:nth-child(1){
-
-        margin-bottom:10px
 
     }
-    .cta-buttons button{
+    
+    .cta-buttons + button{
    
         width:100%;
-   
+
     }
 
+    .cta-link{
+
+        margin-top:15px;
+    }
     .jumbotron-info h2{
         margin-bottom:10px;
         font-size: 25px;
@@ -125,7 +167,33 @@ box-sizing:border-box;
         font-size:15px;
         
     }
+    /* The container <div> - needed to position the dropdown content */
+
+    .drop-btn{
+       
+        width:200%;
+        font-size:7px;
+    }
+    .dropdown button{
+
+        color:red;
+        width:100%;
+        
+    }
+
+  
 }
+
+}
+
+@media only screen and (min-width:491px) and (max-width:543px){
+
+            /* The container <div> - needed to position the dropdown content */
+        .dropdown {
+       
+            width:35%;
+            
+        }
 
 }
 `;
@@ -263,7 +331,7 @@ li a:hover::after {
 
 @media  only screen and (max-width: 897px){  
     flex-flow: column nowrap;
-    background-color:#ddd;
+    background-color:white;
     position:fixed;
     transform: ${({open})=> open ? 'translateX(0)' : 'translateX(100%)'};
     top:0;

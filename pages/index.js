@@ -8,7 +8,7 @@ import EpisodeButton from '../components/Episodes/Button';
 import Contact from '../components/Contact/Contact';
 import { getSomeShows } from '../utils/ReadShowFiles';
 import {TitleStyles} from '../components/utilsStyles';
-import supportSubscribe from '../components/Subscribe/SupportSubscribe';
+import SupportSubscribe from '../components/Subscribe/SupportSubscribe';
 
 export async function getStaticProps() {
 
