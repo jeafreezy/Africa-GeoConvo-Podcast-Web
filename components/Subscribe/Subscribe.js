@@ -27,6 +27,7 @@ function Subscribe(){
                                     <a href='https://africageoconvo.podbean.com/' target='_blank' rel="noopener noreferer"><img src='/static/assets/podbean.png' alt='Podbean icon' title='Podbean'></img></a>
                                     <p>Podbean</p>
                                 </div>
+
                                 <div>
                                     <a href='https://www.google.com/podcasts?feed=aHR0cHM6Ly9mZWVkLnBvZGJlYW4uY29tL2FmcmljYWdlb2NvbnZvL2ZlZWQueG1s' target='_blank' rel='noopener noreferer'><img src='/static/assets/google-podcasts.png' alt='Google podcast icon'></img></a>
                                     <p>Google podcasts</p>

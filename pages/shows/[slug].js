@@ -95,6 +95,7 @@ export default function Shows({shows,showNumber}){
             <>
                 <Head>
                     <link rel="icon" href= "/static/assets/favicon.ico" />
+                    
                     <title>Episode {show.number} -- {show.title}</title>
                 </Head>
                 <Navigation />

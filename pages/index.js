@@ -12,7 +12,7 @@ import SupportSubscribe from '../components/Subscribe/SupportSubscribe';
 
 export async function getStaticProps() {
 
-  const shows = await getSomeShows(4);
+  const shows = await getSomeShows(2);
 
   return {
     revalidate: 1,
@@ -30,7 +30,8 @@ class App extends React.Component {
                 {/* <!-- Global site tag (gtag.js) - Google Analytics --> */}
                 <script async src="https://www.googletagmanager.com/gtag/js?id=G-6403YWW3D1"></script>
                 <script src='gtag.js'></script>
-                <link rel="icon" href= "/static/assets/favicon.ico" />
+                <link rel='alternate' type='application/rss+xml' title='Africa GeoConvo Podcast' 
+                href='https://feed.podbean.com/africageoconvo/feed.xml'></link>
                 <title>Africa GeoConvo— A podcast about everything geospatial in Africa.</title>
               </Head>
               <Header />
