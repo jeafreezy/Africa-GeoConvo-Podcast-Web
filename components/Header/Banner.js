@@ -18,11 +18,10 @@ const Banner=()=>{
                                 <button className='drop-btn' style={{color:'white'}}>SUBSCRIBE</button>
                                 <div className="dropdown-content">
                                     <a href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9mZWVkLnBvZGJlYW4uY29tL2FmcmljYWdlb2NvbnZvL2ZlZWQueG1s" target='_blank' rel='noopener noreferer'>Google Podcast</a>
+                                    <a href="https://podcasts.apple.com/ng/podcast/africa-geoconvo-podcast/id1549049632" target='_blank' rel='noopener noreferer'>Apple Podcast</a>
                                     <a href="https://africageoconvo.podbean.com/" target='_blank' rel='noopener noreferer'>Podbean</a>
                                     <a href="https://open.spotify.com/show/0LGHyoUC6EIj1T8djbDBne" target='_blank' rel='noopener noreferer'>Spotify</a>
                                     <a href="https://feed.podbean.com/africageoconvo/feed.xml" target='_blank' rel='noopener noreferer'>RSS</a>
-                                   
-                                    {/* <a href="#" target='_blank' rel='noopener noreferer'>Apple Podcast</a> */}
                                 </div>
                             </div>
                        
