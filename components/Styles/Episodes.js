@@ -29,8 +29,9 @@ export const CardStyle=styled.div`
 
         #thumbnail img{
             border-radius:5px;
-            width:90%;
+            width:70%;
             height:90%;
+            border:1px solid black;
         }
 
         .episode{
