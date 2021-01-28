@@ -169,7 +169,7 @@ export const CardStyle=styled.div`
 
             #episode-title{
 
-                font-size: 16px;
+                font-size: 14px;
             }
             #episode-info{
 
@@ -219,7 +219,7 @@ export const CardStyle=styled.div`
 
             #episode-title{
 
-                font-size: 18px;
+                font-size: 14px;
             }
             #episode-info{
 
