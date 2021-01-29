@@ -7,10 +7,10 @@ export const CardStyle=styled.div`
 
         .container{
 
-            height: 240px;
-            margin-left:5%;
-            margin-right:5%;
-            width:90%;                                                      
+            height: 300px;
+            margin-left:2.5%;
+            margin-right:2.5%;
+            width:95%;                                                      
             display:flex;
             margin-bottom:10px;
             background-color:#fff;
@@ -38,6 +38,7 @@ export const CardStyle=styled.div`
             display:flex;
             flex-flow:column nowrap;
             width:70% ;
+            justify-content:center;
             padding:10px;
 
         }
@@ -65,7 +66,7 @@ export const CardStyle=styled.div`
         #episode-desc{
             display:flex;
             width:100%;
-            font-size: 18px;
+            font-size: 16px;
             margin-top:5px;
             color: grey;
             margin-bottom:10px;
@@ -77,12 +78,21 @@ export const CardStyle=styled.div`
             width:100%;
             z-index:1;
         }
+        
+        @media only screen and (min-width:832px) and (max-width: 1174px){
+            #thumbnail img{
+              
+                width:80%;
+                height:70%;
+               
+            }
+        }
 
         @media only screen and (min-width:733px) and (max-width: 831px){
 
             .container{
                 
-                height: 200px;
+                height: 220px;
             }
 
             #thumbnail{
@@ -157,7 +167,7 @@ export const CardStyle=styled.div`
 
                 border-radius:2px;
                 width:100%;
-                height:100%;
+                height:80%;
             }
 
             .episode{
@@ -219,7 +229,7 @@ export const CardStyle=styled.div`
 
             #episode-title{
 
-                font-size: 14px;
+                font-size: 13px;
             }
             #episode-info{
 
@@ -227,7 +237,7 @@ export const CardStyle=styled.div`
 
             }
             #episode-desc{
-                font-size: 15px;
+                font-size: 13px;
                 margin-top:5px;
                 margin-bottom:5px;
                 color: grey;
