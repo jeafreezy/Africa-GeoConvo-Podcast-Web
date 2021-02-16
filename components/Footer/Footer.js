@@ -35,7 +35,7 @@ function Footer(props){
                                 
                             </div>
                             
-                            <p id = 'copyright' style={{marginBottom:'20px',marginRight:'5%',fontSize:'12px',color:'grey', float:'right'}}>| © Copyrights 2021. Developed by <a href='https://twitter.com/jeafreezy'>Emmanuel Jolaiya |</a></p>
+                            <p id = 'copyright'>| © Copyrights 2021. Developed by <a href='https://twitter.com/jeafreezy'>Emmanuel Jolaiya |</a></p>
                     
                     </div>
 

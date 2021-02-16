@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const FooterStyle=styled.div`
+export const FooterStyle=styled.footer`
 
 background-color:#1d1d1d;
 
@@ -9,11 +9,12 @@ background-color:#1d1d1d;
     font-family:Roboto;
     display: flex;
     flex-flow: row nowrap;
+    justify-content:space-between;
     width:80%;
-    margin-left:10%;
-    margin-right:10%;
+    margin-left:5%;
+    margin-right:5%;
     margin-top:15px;
-
+ 
 } 
 
 
@@ -49,11 +50,10 @@ background-color:#1d1d1d;
     margin:10px;
 }
 
-.pagemap{
+.pagemap ul{
     display:flex;
     flex-direction:column;
-    margin-left:-60px;
-    
+        
 }
 
 li {
@@ -74,12 +74,23 @@ a:hover{
     
     color:white;
 }
+#copyright{
 
+        margin-bottom:20px;
+        color:grey;
+        width:100%;
+        margin-left:25%;
+        text-align:center;
+
+}
 #copyright a{
 
         text-decoration:underline;
+        
        
     }
+
+    
 @media only screen and (max-width:640px){
 
     img{
@@ -148,8 +159,13 @@ a:hover{
 
     #copyright{
 
-            margin-right:24px;
-        
+            margin-bottom:20px;
+            fontSize:12px;
+            color:grey;
+            width:100%;
+            margin-left:-5%;
+            text-align:center;
+
     }
 
    
