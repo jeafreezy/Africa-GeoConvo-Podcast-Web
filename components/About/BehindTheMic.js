@@ -57,6 +57,29 @@ function BehindTheMic(){
                         </div>
                         
                     </div>
+                    <div className='host1'>
+                        <div className='head'>
+                            <figure>
+                                <img src='/static/assets/faithkenny.jpg' alt='Kenny Faith' loading='lazy'></img>
+                                <figcaption>Faith Kenny</figcaption>
+                                <p>Podcast Editor</p>
+                            </figure>
+
+                        </div>
+                        <div className='body'>
+
+                            <p> Faith is a Creative swiss army knife with skills across UX/UI, Marketing, and Interaction design. A Udacity UX Nanodegree grad, he currently works as a Video Editor & Designer at ThatLifestyleNinja, producing Branded video, motion and design assets for the company's large Social Media accounts. He edits the podcasts for AfricaGeoConvo.
+                            
+                            </p>
+
+                        </div>
+                        <div className='socials'>
+                            <a href='https://www.linkedin.com/in/faithkenny' target='_blank' rel='noopener noreferer'><img src='/static/assets/linkedin.png' alt='LinkedIn icon'></img></a>
+                            <a href='https://twitter.com/iamfaithkenny' target='_blank' rel='noopener noreferer'><img src='/static/assets/twitter.png' alt='Twitter icon'></img></a>
+                            <a href='mailto:faithkenny100@gmail.com' target='_blank' rel='noopener noreferer'><img src='/static/assets/gmail.png' alt='Gmail icon'></img></a>
+                        </div>
+                    </div>
+
 
 
                 </div>              
