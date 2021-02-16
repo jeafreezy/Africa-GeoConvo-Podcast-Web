@@ -25,7 +25,7 @@ function Footer(props){
                                     <a href='https://www.google.com/podcasts?feed=aHR0cHM6Ly9mZWVkLnBvZGJlYW4uY29tL2FmcmljYWdlb2NvbnZvL2ZlZWQueG1s' target='_blank' rel="noopener noreferer"><img src='/static/assets/google-podcasts.png' alt='Google Podcast' title='Google Podcast'></img></a>
                                     <a href='https://podcasts.apple.com/ng/podcast/africa-geoconvo-podcast/id1549049632' target='_blank' rel="noopener noreferer"><img src='/static/assets/apple-podcast.png' alt='Apple Podcast' title='Apple Podcast'></img></a>
                                    
-                                    {/* <img src='/static/assets/google-podcasts.png' alt='Google podcast icon' title='Google Podcast'></img> */}
+                                    <a href='https://www.linkedin.com/company/71670027/' target='_blank' rel="noopener noreferer"><img src='/static/assets/linkedin.png' alt='LinkedIn'></img></a>
                                     <a href='https://twitter.com/africageoconvo/' target='_blank' rel="noopener noreferer"><img src='/static/assets/twitter.png' alt='Twitter podcast icon' title='Follow us'></img></a>
                                    
                             
@@ -35,7 +35,7 @@ function Footer(props){
                                 
                             </div>
                             
-                            <p id = 'copyright' style={{marginBottom:'20px',marginRight:'5%',fontSize:'12px',color:'grey', float:'right'}}>| Copyrights 2020. Developed by <a href='https://twitter.com/jeafreezy'>Emmanuel Jolaiya |</a></p>
+                            <p id = 'copyright' style={{marginBottom:'20px',marginRight:'5%',fontSize:'12px',color:'grey', float:'right'}}>| © Copyrights 2021. Developed by <a href='https://twitter.com/jeafreezy'>Emmanuel Jolaiya |</a></p>
                     
                     </div>
 

@@ -22,6 +22,7 @@ const Banner=()=>{
                                     <a href="https://africageoconvo.podbean.com/" target='_blank' rel='noopener noreferer'>Podbean</a>
                                     <a href="https://open.spotify.com/show/0LGHyoUC6EIj1T8djbDBne" target='_blank' rel='noopener noreferer'>Spotify</a>
                                     <a href="https://feed.podbean.com/africageoconvo/feed.xml" target='_blank' rel='noopener noreferer'>RSS</a>
+                                    
                                 </div>
                             </div>
                        
