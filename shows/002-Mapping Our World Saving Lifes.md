@@ -10,11 +10,17 @@ Guest: 'Geoffrey Kateregga'
 shortInfo: Volunteers don't get paid because they are invaluable...
 ---
 
+Subscribe to our Podcast here: <a target="_blank" href="https://podcasts.apple.com/ng/podcast/africa-geoconvo-podcast/id1549049632" style='color:blue;'>Apple</a>,<a target="_blank" href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9mZWVkLnBvZGJlYW4uY29tL2FmcmljYWdlb2NvbnZvL2ZlZWQueG1s" style='color:blue;'>Google</a>,<a target="_blank" href="https://africageoconvo.podbean.com/" style='color:blue;'>Spotify</a>,<a target="_blank" href="https://africageoconvo.podbean.com/" style='color:blue;'>Podbean</a>
+<hr>
+
 In this episode, Omowonuola explores the world of volunteering with Geoffrey Katerrega, who works with Humanitarian OSM as the Community Manager, East Africa Hub. He enjoys impacting the world through volunteering and mapping and encourages more local participation.
 
 Do you care about volunteering but do not know how to start?Join us as we share tips and tricks to get you started;
 
-What to listen for :
+<h2>Some Helpful Links</h2>
+
+<p>These are some of the links to learn more about some keywords he mentioned in the episode.</p>
+
 <ul>
 <li>Sign up on OSM <a href='https://www.openstreetmap.org/#map=6/9.117/8.674' target='_blank' style='color:blue;'>here</a></li>
 
