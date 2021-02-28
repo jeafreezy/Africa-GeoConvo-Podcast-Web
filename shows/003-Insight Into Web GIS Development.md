@@ -41,6 +41,7 @@ You can join a group with like minds. For example, there is a telegram group for
 <li>And <a href="https://www.youtube.com/channel/UCgPD1Xxjc5D_x6hpH6R2urA" target="_blank" style='color:blue;'>this</a></li>
 <li>This series also have some nice contents on <a href="https://jeafreezy.hashnode.dev" target="_blank" style='color:blue;'>WebGIS</a></li>
 <li>This GitHub <a href="https://github.com/petedannemann/gis-programming-roadmap" target="_blank" style='color:blue;'> repository</a> has a nice roadmap that can take you from point A to somewhere interesting.</li>
+<li>This is a <a href="https://www.lifeingis.com/geodjango-tutorial-guide/" target="_blank" style='color:blue;'>Geodjango guide</a> written by our guest,Wanjohi Kibui</li>
 
 </ul>
 
