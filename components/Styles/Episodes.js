@@ -206,7 +206,7 @@ export const CardStyle=styled.div`
 
             .container{
 
-                height: 220px;                                                    
+                height: 240px;                                                    
 
             }
             #thumbnail{
