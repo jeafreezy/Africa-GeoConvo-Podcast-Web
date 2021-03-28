@@ -153,7 +153,7 @@ export const CardStyle=styled.div`
 
             .container{
 
-                height: 280px;                                                    
+                height: 290px;                                                    
 
             }
 
@@ -206,7 +206,7 @@ export const CardStyle=styled.div`
 
             .container{
 
-                height: 270px;                                                    
+                height: 280px;                                                    
 
             }
             #thumbnail{

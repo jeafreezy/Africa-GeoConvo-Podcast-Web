@@ -16,8 +16,6 @@ Subscribe to our newsletter: <a target="_blank" href="https://mailchi.mp/431d1fc
 
 Lenah Kitenge started The Girls Who Map project to engage more women in mapping. In 2020, the project welcomed women participants from 13 countries spread across Africa. Amazing!!!
 
-
-
 <p>These are some of the links to learn more about some keywords he mentioned in the episode.</p>
 
 <ul>
