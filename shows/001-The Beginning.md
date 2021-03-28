@@ -2,7 +2,7 @@
 number: 1
 title: The Beginning
 date: 'Dec. 27, 2020'
-url: https://www.podbean.com/media/player/fgcch-f5fd8b
+url: https://www.podbean.com/player-v2/?i=fgcch-f5fd8b-pb
 downloadUrl: 'https://mcdn.podbean.com/mf/web/sdrcjn/0079c2da-bf38-4ef0-aac6-5a53c2327692.mp3'
 host: 'Omowonuola Akintola & Emmanuel Jolaiya'
 image: '/static/assets/episode1.png'

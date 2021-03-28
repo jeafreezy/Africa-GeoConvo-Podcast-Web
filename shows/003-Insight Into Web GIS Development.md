@@ -2,14 +2,15 @@
 number: 3
 title: An Insight Into Web GIS Development
 date: 'Feb. 28, 2021'
-url: https://www.podbean.com/media/player/nzkpz-fc1fce
+url: https://www.podbean.com/player-v2/?i=nzkpz-fc1fce-pb
 downloadUrl: 'https://mcdn.podbean.com/mf/web/mpaehw/Podcast_3_-_final_render_V2_8drn3.mp3'
 host: 'Emmanuel Jolaiya'
 image: '/static/assets/episode3.png'
 Guest: 'Wanjohi Kibui'
 shortInfo: There is no silver bullet to Web GIS Development. Just start somewhere and be consistent, it brings about improvement...
 ---
-Subscribe to our Podcast here: <a target="_blank" href="https://podcasts.apple.com/ng/podcast/africa-geoconvo-podcast/id1549049632" style='color:blue;'>Apple</a>,<a target="_blank" href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9mZWVkLnBvZGJlYW4uY29tL2FmcmljYWdlb2NvbnZvL2ZlZWQueG1s" style='color:blue;'>Google</a>,<a target="_blank" href="https://africageoconvo.podbean.com/" style='color:blue;'>Spotify</a>,<a target="_blank" href="https://africageoconvo.podbean.com/" style='color:blue;'>Podbean</a>
+Subscribe to our Podcast here: <a target="_blank" href="https://podcasts.apple.com/ng/podcast/africa-geoconvo-podcast/id1549049632" style='color:blue;'>Apple</a>,<a target="_blank" href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9mZWVkLnBvZGJlYW4uY29tL2FmcmljYWdlb2NvbnZvL2ZlZWQueG1s" style='color:blue;'>Google</a>,<a target="_blank" href="https://africageoconvo.podbean.com/" style='color:blue;'>Spotify</a>,<a target="_blank" href="https://africageoconvo.podbean.com/" style='color:blue;'>Podbean</a><br>
+Subscribe to our newsletter: <a target="_blank" href="https://mailchi.mp/431d1fc48f4b/africa-geo-convo-mailing-list" style='color:blue;'>Here</a>
 <hr>
 
 

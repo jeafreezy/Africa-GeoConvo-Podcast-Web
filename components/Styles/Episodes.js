@@ -79,7 +79,7 @@ export const CardStyle=styled.div`
             z-index:1;
         }
         
-        @media only screen and (min-width:832px) and (max-width: 1174px){
+        @media only screen and (min-width:831px) and (max-width: 1174px){
             #thumbnail img{
               
                 width:80%;
@@ -92,12 +92,12 @@ export const CardStyle=styled.div`
 
             .container{
                 
-                height: 220px;
+                height: 300px;
             }
 
             #thumbnail{
 
-                width:30%;
+                width:35%;
 
             }
 
@@ -153,7 +153,7 @@ export const CardStyle=styled.div`
 
             .container{
 
-                height: 220px;                                                    
+                height: 280px;                                                    
 
             }
 
@@ -206,7 +206,7 @@ export const CardStyle=styled.div`
 
             .container{
 
-                height: 240px;                                                    
+                height: 270px;                                                    
 
             }
             #thumbnail{
