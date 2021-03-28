@@ -14,7 +14,7 @@ function Episode(props){
 
         return (<div dangerouslySetInnerHTML={ {__html:  props.iframe?props.iframe:""}} />);
     }
-    const iframe= `<iframe src= ${props.episodeInfo.url} url= "https%3A%2F%2Fwww.podbean.com%2Few%2Fpb-pw6dz-6a10a2" width='90%' height='100' frameborder="0" scrolling="no" data-name="pd-iframe-player"></iframe>`
+    const iframe= `<iframe src="${props.episodeInfo.url}" allowtransparency='true' height='150' width='100%' style='border: none; min-width: min(100%, 430px);' data-name="pd-iframe-player"></iframe>`
     
     const {number,title,image,host,Guest,readableDate,html,downloadUrl} = props.episodeInfo;
     return(
