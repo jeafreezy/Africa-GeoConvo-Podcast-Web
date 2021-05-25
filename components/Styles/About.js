@@ -6,6 +6,7 @@ export const BehindTheMicStyle=styled.div`
         .container{
             font-family:Roboto;
             display:flex;
+            flex-wrap:wrap;
             width:90%;
             margin-left:5%;
             margin-right:5%;
@@ -80,13 +81,13 @@ export const BehindTheMicStyle=styled.div`
         }
         .host1 {
             width:50%;
-            box-shadow: 0 5px 5px 0 rgba(0,0,0,0.24), 0 5px 5px 0 rgba(0,0,0,0.19);
+            box-shadow: 0 2px 2px 0 rgba(0,0,0,0.24), 0 2px 2px 0 rgba(0,0,0,0.19);
 
         }
 
         .host2{
             width:50%;
-            box-shadow: 0 5px 5px 0 rgba(0,0,0,0.24), 0 5px 5px 0 rgba(0,0,0,0.19);
+            box-shadow: 0 2px 2px 0 rgba(0,0,0,0.24), 0 2px 2px 0 rgba(0,0,0,0.19);
 
         }
 

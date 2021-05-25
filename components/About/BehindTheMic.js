@@ -74,9 +74,32 @@ function BehindTheMic(){
 
                         </div>
                         <div className='socials'>
-                            <a href='https://www.linkedin.com/in/faithkenny' target='_blank' rel='noopener noreferer'><img src='/static/assets/linkedin.png' alt='LinkedIn icon'></img></a>
+                            <a href='https://www.linkedin.com/in/damilola-olufemi-424685187/' target='_blank' rel='noopener noreferer'><img src='/static/assets/linkedin.png' alt='LinkedIn icon'></img></a>
                             <a href='https://twitter.com/iamfaithkenny' target='_blank' rel='noopener noreferer'><img src='/static/assets/twitter.png' alt='Twitter icon'></img></a>
                             <a href='mailto:faithkenny100@gmail.com' target='_blank' rel='noopener noreferer'><img src='/static/assets/gmail.png' alt='Gmail icon'></img></a>
+                        </div>
+                    </div>
+
+                    <div className='host2'>
+                        <div className='head'>
+                            <figure>
+                                <img src='/static/assets/damilola.jpg' alt='Olufemi Damilola' loading='lazy'></img>
+                                <figcaption>Olufemi Damilola</figcaption>
+                                <p>Content Creator</p>
+                            </figure>
+
+                        </div>
+                        <div className='body'>
+
+                            <p> Damilola Olufemi is a Writer and a GIS Enthusiast. A volunteer with a couple of Organizations that promote gender equality and community development. She surfs the internet for leisure and enjoys learning new things. She's mesmerized by versatility, especially when it's being demonstrated by a lady.
+                            
+                            </p>
+
+                        </div>
+                        <div className='socials'>
+                            <a href='https://www.linkedin.com/in/faithkenny' target='_blank' rel='noopener noreferer'><img src='/static/assets/linkedin.png' alt='LinkedIn icon'></img></a>
+                            <a href='https://twitter.com/MIDEMARY1' target='_blank' rel='noopener noreferer'><img src='/static/assets/twitter.png' alt='Twitter icon'></img></a>
+                            <a href='mailto:Olufemidamilola263@gmail.com' target='_blank' rel='noopener noreferer'><img src='/static/assets/gmail.png' alt='Gmail icon'></img></a>
                         </div>
                     </div>
 

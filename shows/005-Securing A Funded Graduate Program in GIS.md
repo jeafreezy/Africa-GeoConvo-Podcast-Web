@@ -1,7 +1,7 @@
 ---
 number: 5
 title: Securing a Funded Graduate Program in GIS
-date: 'April. 29, 2021'
+date: 'April 29, 2021'
 url: https://www.podbean.com/player-v2/?i=fmpdd-1021397-pb&from=pb6admin
 downloadUrl: 'https://mcdn.podbean.com/mf/web/we23c9/Podcast_6_-_Joint_v2_-_final5zdd1.mp3'
 host: 'Emmanuel Jolaiya,Omowonuola Akintola'
