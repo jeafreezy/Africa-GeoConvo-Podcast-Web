@@ -1,7 +1,7 @@
 ---
 number: 6
 title: GeOSM,The First Open Location Intelligence Platform in Africa
-date: 'May 29, 2021'
+date: 'May 31, 2021'
 url: https://www.podbean.com/player-v2/?i=hdwye-104f99a-pb&from=pb6admin
 downloadUrl: 'https://mcdn.podbean.com/mf/web/6kqe5n/Episode6.mp3'
 host: 'Emmanuel Jolaiya'
