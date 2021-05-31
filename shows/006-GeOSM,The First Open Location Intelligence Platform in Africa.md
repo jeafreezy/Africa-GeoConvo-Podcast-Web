@@ -2,8 +2,8 @@
 number: 6
 title: GeOSM,The First Open Location Intelligence Platform in Africa
 date: 'May 29, 2021'
-url: https://www.podbean.com/player-v2/?i=fmpdd-1021397-pb&from=pb6admin
-downloadUrl: 'https://mcdn.podbean.com/mf/web/we23c9/Podcast_6_-_Joint_v2_-_final5zdd1.mp3'
+url: https://www.podbean.com/player-v2/?i=hdwye-104f99a-pb&from=pb6admin
+downloadUrl: 'https://mcdn.podbean.com/mf/web/fgdqs8/podcast_7_-_final9yqox.mp3'
 host: 'Emmanuel Jolaiya'
 image: '/static/assets/episode6.png'
 Guest: 'Willy Franck'
@@ -14,9 +14,11 @@ Subscribe to our Podcast here: <a target="_blank" href="https://podcasts.apple.c
 Subscribe to our newsletter: <a target="_blank" href="https://mailchi.mp/431d1fc48f4b/africa-geo-convo-mailing-list" style='color:blue;'>Here</a>
 <hr>
 
-In this episode,our guest <a href='https://www.linkedin.com/in/willy-franck-sob-b400bb85/' target='_blank' style='color:blue'>Willy Franck </a>shared with us the GeOSM platform,the first open location intelligence platform in Africa.He walked us through the inspiration behind the project,the technical backbone,why it is developed,for who it is developed,how you can use the platform and the plans for the future.
+In this episode,our guest <a href='https://www.linkedin.com/in/willy-franck-sob-b400bb85/' target='_blank' style='color:blue'>Willy Franck </a>shared with us the GeOSM platform,the first open location intelligence platform in Africa.He walked us through the inspiration behind the project,the technical backbone,why it is developed,for who it is developed,how you can use the platform and the plans for the future.<br><br>
 
-<br>
+This episode is sponsored by <a href='https://www.hotosm.org/' target='_blank' style='color:blue'>HOT.</a>
+<br><br>
+
 <p>These are some of the links mentioned in the episode:</p>
 
 <ul>
@@ -35,6 +37,6 @@ In this episode,our guest <a href='https://www.linkedin.com/in/willy-franck-sob-
 
 </ul>
 
-Remember to Subscribe :) and share this podcast with a friend!
+Remember to Subscribe :) and share this podcast with a friend! <br><br>
 
 Happy to connect with you!
