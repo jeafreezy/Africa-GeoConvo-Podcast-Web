@@ -12,7 +12,7 @@ import SupportSubscribe from '../components/Subscribe/SupportSubscribe';
 
 export async function getStaticProps() {
 
-  const shows = await getSomeShows(2);
+  const shows = await getSomeShows(4);
 
   return {
     revalidate: 1,
