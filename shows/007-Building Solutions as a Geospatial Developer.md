@@ -44,14 +44,14 @@ In this episode, our guest <a target="_blank" href="https://www.linkedin.com/in/
 </a>,<a href='https://www.coursera.org/' target='_blank' style='color:blue'>Coursera
 </a>,<a href='https://www.youtube.com/' target='_blank' style='color:blue'>Youtube
 </a></li>
-
-<br>
-<li>Subscribe to our <a href='https://mailchi.mp/431d1fc48f4b/africa-geo-convo-mailing-list' target='_blank' style='color:blue'> newsletter</a> to receive exciting updates on scholarships and other opportunities</li>
-
-<li><a href='https://www.twitter.com/jeafreezy' target='_blank' style='color:blue'> Emmanuel Jolaiya</a> and <a href='https://twitter.com/Svelte_mo' target='_blank' style='color:blue'> Omowonuola Akintola</a> are more than happy to hear from you.</li>
-
 </ul>
 
+<br>
+Subscribe to our <a href='https://mailchi.mp/431d1fc48f4b/africa-geo-convo-mailing-list' target='_blank' style='color:blue'> newsletter</a> to receive exciting updates on scholarships and other opportunities</li>
+<br>
+<a href='https://www.twitter.com/jeafreezy' target='_blank' style='color:blue'> Emmanuel Jolaiya</a> and <a href='https://twitter.com/Svelte_mo' target='_blank' style='color:blue'> Omowonuola Akintola</a> are more than happy to hear from you.</li>
+
+<br>
 Remember to Subscribe :) and share this podcast with a friend! <br><br>
 
 Happy to connect with you!
