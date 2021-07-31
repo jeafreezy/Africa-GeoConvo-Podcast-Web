@@ -3,7 +3,7 @@ number: 8
 title: SpatioTemporal Asset Catalog(STAC)
 date: 'July 31, 2021'
 url: 'https://www.podbean.com/player-v2/?i=t3p5g-10a2596-pb&from=pb6admin'
-downloadUrl: 'https://mcdn.podbean.com/mf/web/hnudj9/episode_867af2.mp3'
+downloadUrl: 'https://mcdn.podbean.com/mf/web/dj8s3h/episode_8aza11.mp3'
 host: 'Emmanuel Jolaiya'
 image: '/static/assets/episode8.png'
 Guest: 'Chris Holmes'
@@ -63,7 +63,10 @@ In this episode, our guest <a target="_blank" href="https://www.linkedin.com/in/
 <li><a href='https://www.cogeo.org/' target='_blank' style='color:blue'>Cloud Optimized Geotiff(COG)
 </a></li>
 
-<li><a href='https://africageoconvo.com/shows/2' target='_blank' style='color:blue'>Episode with HOT
+<li><a href='https://github.com/radiantearth/stac-spec' target='_blank' style='color:blue'>Stac Spec Github repo
+</a></li>
+
+<li><a href='https://www.mulesoft.com/resources/api/what-is-an-api' target='_blank' style='color:blue'>Application Programming Interface
 </a></li>
 
 </ul>
