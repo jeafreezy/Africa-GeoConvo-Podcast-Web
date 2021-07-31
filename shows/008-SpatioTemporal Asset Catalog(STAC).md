@@ -3,7 +3,7 @@ number: 8
 title: SpatioTemporal Asset Catalog(STAC)
 date: 'July 31, 2021'
 url: 'https://www.podbean.com/player-v2/?i=t3p5g-10a2596-pb&from=pb6admin'
-downloadUrl: 'https://mcdn.podbean.com/mf/web/vbwh6u/episode8.mp3'
+downloadUrl: 'https://mcdn.podbean.com/mf/web/hnudj9/episode_867af2.mp3'
 host: 'Emmanuel Jolaiya'
 image: '/static/assets/episode8.png'
 Guest: 'Chris Holmes'
