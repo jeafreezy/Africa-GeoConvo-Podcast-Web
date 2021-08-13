@@ -16,7 +16,7 @@
     "emailjs-com": "^2.6.4",
     "framer-motion": "^2.9.5",
     "meta-marked": "^0.4.4",
-    "next": "^10.0.4",
+    "next": "^11.1.0",
     "react": "^17.0.1",
     "react-detect-offline": "^2.4.0",
     "react-dom": "^17.0.1",
