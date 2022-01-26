@@ -34,8 +34,7 @@ function Footer(props){
                                     
                                 
                             </div>
-                            
-                            <p id = 'copyright'>| © Copyrights 2021. Developed by <a href='https://twitter.com/jeafreezy'>Emmanuel Jolaiya |</a></p>
+                        
                     
                     </div>
 
