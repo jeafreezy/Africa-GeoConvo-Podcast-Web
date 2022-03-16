@@ -4,9 +4,9 @@ title: Data Science & Geospatial
 date: 'January 26, 2022'
 url: "https://www.podbean.com/player-v2/?i=jicd2-118c954-pb&from=pb6admin"
 downloadUrl: 'https://mcdn.podbean.com/mf/web/b8ajr3/Episode_13_2022ahwi0.mp3'
-host: 'Abba Barde'
-image: '/static/assets/episode12.jpg'
-Guest: 'Omowonuola Akintola'
+host: 'Omowonuola Akintola'
+image: '/static/assets/episode13.jpg'
+Guest: 'Abba Barde'
 shortInfo: With data science, deeper insights can be extracted ...
 ---
 
