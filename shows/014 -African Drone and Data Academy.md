@@ -25,7 +25,6 @@ and improve your skills.
 
 <strong>Links in this episode </strong>
 
-<br><br>
 
 <ul>
     <li>Download free drone imagery: <a target="_blank" href="https://openaerialmap.org/" style='color:blue;'>https://openaerialmap.org/</a></li>
