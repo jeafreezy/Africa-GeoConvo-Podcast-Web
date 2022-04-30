@@ -3,7 +3,7 @@ number: 14
 title: African Drone and Data Academy
 date: 'March 8th, 2022'
 url: "https://www.podbean.com/player-v2/?i=mqify-11c75d2-pb&from=pb6admin"
-downloadUrl: 'https://mcdn.podbean.com/mf/web/gznwsq/africageo030422-intro_final.mp33'
+downloadUrl: 'https://mcdn.podbean.com/mf/web/gznwsq/africageo030422-intro_final.mp3'
 host: 'Omowonuola Akintola & Emmanuel Jolaiya'
 image: '/static/assets/episode14.jpg'
 Guest: 'Ndapile Mkuwu and Alexander Mtambo'
