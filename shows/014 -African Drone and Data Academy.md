@@ -7,7 +7,7 @@ downloadUrl: 'https://mcdn.podbean.com/mf/web/gznwsq/africageo030422-intro_final
 host: 'Omowonuola Akintola & Emmanuel Jolaiya'
 image: '/static/assets/episode14.jpg'
 Guest: 'Ndapile Mkuwu and Alexander Mtambo'
-shortInfo: With data science, deeper insights can be extracted ...
+shortInfo: The African Drone and Data Academy ...
 ---
 
 Subscribe to our Podcast here: <a target="_blank" href="https://podcasts.apple.com/ng/podcast/africa-geoconvo-podcast/id1549049632" style='color:blue;'>Apple</a>,<a target="_blank" href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9mZWVkLnBvZGJlYW4uY29tL2FmcmljYWdlb2NvbnZvL2ZlZWQueG1s" style='color:blue;'>Google</a>,<a target="_blank" href="https://africageoconvo.podbean.com/" style='color:blue;'>Spotify</a>,<a target="_blank" href="https://africageoconvo.podbean.com/" style='color:blue;'>Podbean</a><br>
