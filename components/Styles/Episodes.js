@@ -3,14 +3,10 @@ import styled from 'styled-components';
 
 export const CardStyle=styled.div`
 
-        box-sizing:border-box;
-
         .container{
 
             height: 300px;
-            margin-left:2.5%;
-            margin-right:2.5%;
-            width:95%;                                                      
+            width:auto;                                                      
             display:flex;
             margin-bottom:10px;
             background-color:#fff;

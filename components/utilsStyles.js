@@ -49,6 +49,7 @@ export const Button=styled.h3`
     width:40%;
     margin-left:30%;
     margin-right:30%;
+    
     }
 
     button{
@@ -58,6 +59,7 @@ export const Button=styled.h3`
         color:white;
         cursor:pointer;
         text-align:center;
+        border-radius:15px;
         text-transform:uppercase;
         text-decoration:none;
         border:none;
@@ -70,7 +72,7 @@ export const Button=styled.h3`
     }
 
     button:hover{
-        background-color: rgba(9, 18, 109, 0.54);
+        background-color: rgba(9, 18, 109, 0.9);
     }
 
     @media only screen and (max-width:600px){

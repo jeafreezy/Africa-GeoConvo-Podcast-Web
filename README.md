@@ -58,3 +58,15 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+TODO
+- Restyle card
+- Restyle Home page
+- Add Sponsors section
+- Add Blogs section and link blogs on GIS Lounge
+- Add Social media posts - Twitter embed and LinkedIn
+- Optimize performance
+- Improve shows markdown
+- upgrade dependencies
+- Oliva: Olive is a land surveyor and an “everything geospatial” enthusiast. She is keen on experiencing how GIS applications can impact infrastructure development. She loves to interact with her peers, dance or watch self-help videos on YouTube in her free time.

@@ -83,7 +83,7 @@ export default function Shows({shows,showNumber}){
                 <Navigation />
                 <div style={{height:'80px'}}></div>
                 <TitleStyles>All Episodes</TitleStyles>
-                <Episodes episodeInfo={shows}/>
+                <Episodes shows={shows} allShows={shows}/>
                 <SupportSubscribe />
                 <Footer/>  
             </>
