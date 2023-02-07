@@ -1,16 +1,15 @@
 import styled from 'styled-components';
 
-
-export const BehindTheMicStyle=styled.div`
+export const BehindTheMicStyle = styled.div`
 
         .container{
             font-family:Roboto;
             display:flex;
-            flex-wrap:wrap;
             width:90%;
             margin-left:5%;
             margin-right:5%;
             margin-bottom:5px;
+            gap:10px;
         }   
        
         .head{
@@ -43,10 +42,7 @@ export const BehindTheMicStyle=styled.div`
             line-height: 20px;
             color: #09126D;
         }
-        .host2 figcaption{
-            
-            color: #09126D;
-        }
+        
         
         .body{
             display:flex;
@@ -79,22 +75,13 @@ export const BehindTheMicStyle=styled.div`
         .socials img:hover{
             cursor:pointer;
         }
-        .host1 {
+        .host-card {
             width:50%;
             box-shadow: 0 2px 2px 0 rgba(0,0,0,0.24), 0 2px 2px 0 rgba(0,0,0,0.19);
 
         }
 
-        .host2{
-            width:50%;
-            box-shadow: 0 2px 2px 0 rgba(0,0,0,0.24), 0 2px 2px 0 rgba(0,0,0,0.19);
-
-        }
-
-        .host1:hover{
-            box-shadow: 0 0px 0px 0 rgba(0,0,0,0.24), 0 5px 5px 0 rgba(0,0,0,0.19);
-        }
-        .host2:hover{
+        .host-card:hover{
             box-shadow: 0 0px 0px 0 rgba(0,0,0,0.24), 0 5px 5px 0 rgba(0,0,0,0.19);
         }
         @media only screen and (max-width:640px){
@@ -152,201 +139,156 @@ export const BehindTheMicStyle=styled.div`
                 line-height: 20px;
                 
             }
-            .host1 {
+            .host-card {
 
                 width:100%;
                 margin-top:10px;
 
             }
-
-            .host2{
-
-                width:100%;
-                margin-top:10px;
-                
-            }
-            .host1 figure img{
+            .host-card figure img{
 
                 margin-left:8px;
             }
 
-            .host2 figure img{
-
-                margin-left:20px;
-            }
-
           
-`
+`;
 
-export const SupportTheShowStyle =styled.div`
+export const SupportTheShowStyle = styled.div`
+	.container {
+		font-family: Roboto;
+		display: flex;
+		width: 90%;
+		margin-left: 5%;
+		margin-right: 5%;
+	}
 
-        .container{
+	.support-info {
+		display: flex;
+		width: 100%;
+	}
 
-            font-family:Roboto;
-            display:flex;
-            width:90%;
-            margin-left:5%;
-            margin-right:5%;
-            
-        } 
+	.support-info button {
+		width: 100%;
+	}
+	.support-info p {
+		text-align: justify;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		width: 100%;
+		font-size: 17px;
+		line-height: 20px;
+		color: rgba(9, 18, 109, 0.54);
+	}
 
-        .support-info{
-            display:flex;
-            width:100%;
-        }
-        
-       
-       .support-info button{
-    
-            width:100%;
-       }
-        .support-info p{
+	.support-button {
+		margin-top: 50px;
+		width: 50%;
+		padding: 10px;
+		color: white;
+		cursor: pointer;
+		text-align: center;
+		text-transform: uppercase;
+		text-decoration: none;
+		border: none;
+		font-weight: bold;
+		background-color: #09126d;
+		box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+			0 17px 50px 0 rgba(0, 0, 0, 0.19);
+		outline: none;
+	}
 
-            text-align:justify;
-            font-family: Roboto;
-            font-style: normal;
-            font-weight: normal;
-            width:100%;
-            font-size: 17px;
-            line-height: 20px;
-            color: rgba(9, 18, 109, 0.54);
-        }
+	button:hover {
+		background-color: rgba(9, 18, 109, 0.54);
+	}
+	@media only screen and (max-width: 640px) {
+		.container {
+			display: flex;
+			flex-flow: wrap;
+			width: 90%;
+			margin-left: 5%;
+			margin-right: 5%;
+		}
+		.support-info button {
+			width: 100%;
+		}
+		.support-info p {
+			font-size: 15px;
+			line-height: 14px;
+			width: 100%;
+		}
 
-        .support-button{
-           
-            margin-top:50px;
-            width:50%;
-            padding:10px;
-            color:white;
-            cursor:pointer;
-            text-align:center;
-            text-transform:uppercase;
-            text-decoration:none;
-            border:none;
-            font-weight:bold;
-            background-color: #09126D;
-            box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-            outline:none;
-        }
+		.support-button {
+			margin-top: 10px;
+			width: 100%;
+		}
+	}
+`;
 
-    button:hover{
+export const WhoWeAreStyle = styled.div`
+	.container {
+		font-family: Roboto;
+		display: flex;
+		width: 90%;
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+	.about-image {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+	}
 
-        background-color: rgba(9, 18, 109, 0.54);
-    }
-    @media only screen and (max-width:640px){
+	.about-info {
+		width: 100%;
+	}
 
-        .container{
+	.about-info p {
+		text-align: justify;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		line-height: 22px;
+		color: rgba(9, 18, 109, 0.54);
+	}
+	.about-image img {
+		width: 64%;
+		height: 100%;
+	}
 
-            display:flex;
-            flex-flow:wrap;
-            width:90%;
-            margin-left:5%;
-            margin-right:5%;
-        }
-       .support-info button{
-            width:100%;
-       }
-        .support-info p{
+	@media only screen and (min-width: 640px) and (max-width: 1024px) {
+		.about-image img {
+			width: 45%;
+			height: 40%;
+		}
+	}
+	@media only screen and (max-width: 640px) {
+		.container {
+			font-family: Roboto;
+			display: flex;
+			flex-flow: wrap;
+			width: 90%;
+			margin-left: 5%;
+			margin-right: 5%;
+		}
 
-            font-size: 15px;
-            line-height: 14px;
-            width:100%;
-            
-        }
+		.about-image {
+			display: flex;
+		}
 
-        .support-button{
-           
-            margin-top:10px;
-            width:100%;
+		.about-info {
+			width: 100%;
+		}
 
-        }
-}
-`
-
-export const WhoWeAreStyle= styled.div`
-
-       
-        .container{
-
-            font-family:Roboto;
-            display:flex;
-            width:90%;
-            margin-left:5%;
-            margin-right:5%;
-            
-        } 
-        .about-image{
-           
-            display:flex;
-            justify-content:center;
-            align-items:center;
-            width:100%;
-        }
-
-        .about-info{
-            
-            width:100%;
-        }
-
-        .about-info p{
-            text-align:justify;
-            font-family: Roboto;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 20px;
-            line-height: 22px;
-            color: rgba(9, 18, 109, 0.54);
-        }
-        .about-image img{
-        
-            width: 64%;
-            height:100%;
-
-        }
-
-        @media only screen and (min-width:640px) and (max-width:1024px){
-
-            .about-image img{
-        
-                width: 45%;
-                height:40%;
-
-            }
-        }
-        @media only screen and (max-width:640px){
-
-            .container{
-
-                font-family:Roboto;
-                display:flex;
-                flex-flow:wrap;
-                width:90%;
-                margin-left:5%;
-                margin-right:5%;
-
-            }
-
-            .about-image{
-                display:flex;
-            }
-
-            .about-info{
-
-                width:100%;
-            }
-
-            .about-info p{
-                font-size: 15px;
-                line-height: 20px;
-                
-            }
-            .about-image img{
-                width: 50%;
-                height:90%;
-
-        }
-
-    }
-
-
-`
+		.about-info p {
+			font-size: 15px;
+			line-height: 20px;
+		}
+		.about-image img {
+			width: 50%;
+			height: 90%;
+		}
+	}
+`;
