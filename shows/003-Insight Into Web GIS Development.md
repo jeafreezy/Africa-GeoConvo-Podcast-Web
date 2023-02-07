@@ -5,17 +5,17 @@ date: 'Feb. 28, 2021'
 url: https://www.podbean.com/player-v2/?i=nzkpz-fc1fce-pb
 downloadUrl: 'https://mcdn.podbean.com/mf/web/mpaehw/Podcast_3_-_final_render_V2_8drn3.mp3'
 host: 'Emmanuel Jolaiya'
-image: '/static/assets/episode3.png'
+image: '/static/assets/episodes/episode3.png'
 Guest: 'Wanjohi Kibui'
 shortInfo: There is no silver bullet to Web GIS Development. Just start somewhere and be consistent, it brings about improvement...
 ---
+
 Subscribe to our Podcast here: <a target="_blank" href="https://podcasts.apple.com/ng/podcast/africa-geoconvo-podcast/id1549049632" style='color:blue;'>Apple</a>,<a target="_blank" href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9mZWVkLnBvZGJlYW4uY29tL2FmcmljYWdlb2NvbnZvL2ZlZWQueG1s" style='color:blue;'>Google</a>,<a target="_blank" href="https://africageoconvo.podbean.com/" style='color:blue;'>Spotify</a>,<a target="_blank" href="https://africageoconvo.podbean.com/" style='color:blue;'>Podbean</a><br>
 Subscribe to our newsletter: <a target="_blank" href="https://mailchi.mp/431d1fc48f4b/africa-geo-convo-mailing-list" style='color:blue;'>Here</a>
+
 <hr>
 
-
- <a href="https://twitter.com/wanjohikibui" target="_blank"  style='color:blue;'>Wanjohi Kibui</a> is a seasoned GIS Consultant & Developer based in Nairobi Kenya. He’s a blogger at <a href="https://lifeingis.com" target="_blank"  style='color:blue;'>LifeInGIS</a> and a Youtuber that likes to share knowledge. He’s the creator of the best Geodjango series on <a href="https://youtube.com/watch?v=QiLO3MQxvds&list=PL7amXK4vKqATa_KrfQ3_tEF_ywAgAqWeJ" target="_blank"  style='color:blue;'>Youtube.</a>
-
+<a href="https://twitter.com/wanjohikibui" target="_blank"  style='color:blue;'>Wanjohi Kibui</a> is a seasoned GIS Consultant & Developer based in Nairobi Kenya. He’s a blogger at <a href="https://lifeingis.com" target="_blank"  style='color:blue;'>LifeInGIS</a> and a Youtuber that likes to share knowledge. He’s the creator of the best Geodjango series on <a href="https://youtube.com/watch?v=QiLO3MQxvds&list=PL7amXK4vKqATa_KrfQ3_tEF_ywAgAqWeJ" target="_blank"  style='color:blue;'>Youtube.</a>
 
 <h2>Where do I Start From?</h2>
  
@@ -51,4 +51,3 @@ You can join a group with like minds. For example, there is a telegram group for
 Stay curious,share knowledge,stay motivated and stay mappy! Remember to Subscribe and share this podcast with a friend :)!
 
 <hr>
-

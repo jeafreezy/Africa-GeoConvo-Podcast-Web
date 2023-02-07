@@ -1,13 +1,13 @@
 ---
-number: 17
-title: HOTOSM Data Quality Internship
-date: 'July 31st, 2022'
-url: 'https://www.podbean.com/player-v2/?i=qd68r-1287fba-pb&from=pb6admin'
-downloadUrl: 'https://mcdn.podbean.com/mf/web/upk9np/HOTOSM_DATA_QUALITY_INTERNSHIP8rd0k.mp3'
-host: 'Omowonuola Akintola'
-image: '/static/assets/episodes/episode17.jpg'
-Guest: 'Yves Emmanuel'
-shortInfo: In this episode, Yves Emmanuel from OSM Cameroon shares his experience from HOT Data Quality Internship ...
+number: 18
+title: Milsat Technologies -- Revolutionalizing Africa Data Ecosystem
+date: 'Febrary 31st, 2023'
+url: 'https://www.podbean.com/player-v2/?i=rtcn2-1384540-pb&from=pb6admin'
+downloadUrl: 'https://mcdn.podbean.com/mf/web/hytqax/Episode_18_-_Taslim_-_Milsat_Edited7s0p9.mp3'
+host: 'Omowonuola Akintola & Emmanuel Jolaiya'
+image: '/static/assets/episode18.jpg'
+Guest: 'Taslim Salaudeen'
+shortInfo: Data, they say is the new oil. In this episode, Taslim Salaudeen, the lead innovator at Milsat shares his experience ...
 ---
 
 Subscribe to our Podcast here: <a target="_blank" href="https://podcasts.apple.com/ng/podcast/africa-geoconvo-podcast/id1549049632" style='color:blue;'>Apple</a>,<a target="_blank" href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9mZWVkLnBvZGJlYW4uY29tL2FmcmljYWdlb2NvbnZvL2ZlZWQueG1s" style='color:blue;'>Google</a>,<a target="_blank" href="https://africageoconvo.podbean.com/" style='color:blue;'>Spotify</a>,<a target="_blank" href="https://africageoconvo.podbean.com/" style='color:blue;'>Podbean</a><br>

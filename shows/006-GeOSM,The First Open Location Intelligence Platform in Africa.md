@@ -5,13 +5,14 @@ date: 'May 31, 2021'
 url: https://www.podbean.com/player-v2/?i=hdwye-104f99a-pb&from=pb6admin
 downloadUrl: 'https://mcdn.podbean.com/mf/web/6kqe5n/Episode6.mp3'
 host: 'Emmanuel Jolaiya'
-image: '/static/assets/episode6.png'
+image: '/static/assets/episodes/episode6.png'
 Guest: 'Willy Franck'
 shortInfo: GeOSM is the first open location intelligence platform in Africa...
 ---
 
 Subscribe to our Podcast here: <a target="_blank" href="https://podcasts.apple.com/ng/podcast/africa-geoconvo-podcast/id1549049632" style='color:blue;'>Apple</a>,<a target="_blank" href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9mZWVkLnBvZGJlYW4uY29tL2FmcmljYWdlb2NvbnZvL2ZlZWQueG1s" style='color:blue;'>Google</a>,<a target="_blank" href="https://africageoconvo.podbean.com/" style='color:blue;'>Spotify</a>,<a target="_blank" href="https://africageoconvo.podbean.com/" style='color:blue;'>Podbean</a><br>
 Subscribe to our newsletter: <a target="_blank" href="https://mailchi.mp/431d1fc48f4b/africa-geo-convo-mailing-list" style='color:blue;'>Here</a>
+
 <hr>
 
 In this episode,our guest <a href='https://www.linkedin.com/in/willy-franck-sob-b400bb85/' target='_blank' style='color:blue'>Willy Franck </a>shared with us the GeOSM platform,the first open location intelligence platform in Africa.He walked us through the inspiration behind the project,the technical backbone,why it is developed,for who it is developed,how you can use the platform and the plans for the future.<br><br>

@@ -2,16 +2,17 @@
 number: 14
 title: African Drone and Data Academy
 date: 'March 8th, 2022'
-url: "https://www.podbean.com/player-v2/?i=mqify-11c75d2-pb&from=pb6admin"
+url: 'https://www.podbean.com/player-v2/?i=mqify-11c75d2-pb&from=pb6admin'
 downloadUrl: 'https://mcdn.podbean.com/mf/web/gznwsq/africageo030422-intro_final.mp3'
 host: 'Omowonuola Akintola & Emmanuel Jolaiya'
-image: '/static/assets/episode14.jpg'
+image: '/static/assets/episodes/episode14.jpg'
 Guest: 'Ndapile Mkuwu and Alexander Mtambo'
 shortInfo: The African Drone and Data Academy ...
 ---
 
 Subscribe to our Podcast here: <a target="_blank" href="https://podcasts.apple.com/ng/podcast/africa-geoconvo-podcast/id1549049632" style='color:blue;'>Apple</a>,<a target="_blank" href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9mZWVkLnBvZGJlYW4uY29tL2FmcmljYWdlb2NvbnZvL2ZlZWQueG1s" style='color:blue;'>Google</a>,<a target="_blank" href="https://africageoconvo.podbean.com/" style='color:blue;'>Spotify</a>,<a target="_blank" href="https://africageoconvo.podbean.com/" style='color:blue;'>Podbean</a><br>
 Subscribe to our newsletter: <a target="_blank" href="https://mailchi.mp/431d1fc48f4b/africa-geo-convo-mailing-list" style='color:blue;'>Here</a>
+
 <hr>
 <br><br>
 
@@ -25,14 +26,12 @@ and improve your skills.
 
 <strong>Links in this episode </strong>
 
-
 <ul>
     <li>Download free drone imagery: <a target="_blank" href="https://openaerialmap.org/" style='color:blue;'>https://openaerialmap.org/</a></li>
     <li>Learn about Pix4D for processing drone imagery: <a target="_blank" href="https://www.pix4d.com/" style='color:blue;'>https://www.pix4d.com/</a></li>
     <li>Reach out to the academy via email : <a target="_blank" href="mailto:adda@vt.edu" style='color:blue;'>adda@vt.edu</a></li>
     <li>Connect with Ndapile on twitter: <a target="_blank" href="https://twitter.com/Ndapile_M" style='color:blue;'>https://twitter.com/Ndapile_M</a></li>
 </ul>
-
 
 <br>
 Subscribe to our <a href='https://mailchi.mp/431d1fc48f4b/africa-geo-convo-mailing-list' target='_blank' style='color:blue'> newsletter</a> to receive exciting updates on scholarships and other opportunities</li>

@@ -2,22 +2,22 @@
 number: 13
 title: Data Science & Geospatial
 date: 'January 26, 2022'
-url: "https://www.podbean.com/player-v2/?i=jicd2-118c954-pb&from=pb6admin"
+url: 'https://www.podbean.com/player-v2/?i=jicd2-118c954-pb&from=pb6admin'
 downloadUrl: 'https://mcdn.podbean.com/mf/web/b8ajr3/Episode_13_2022ahwi0.mp3'
 host: 'Omowonuola Akintola'
-image: '/static/assets/episode13.jpg'
+image: '/static/assets/episodes/episode13.jpg'
 Guest: 'Abba Barde'
 shortInfo: With data science, deeper insights can be extracted ...
 ---
 
 Subscribe to our Podcast here: <a target="_blank" href="https://podcasts.apple.com/ng/podcast/africa-geoconvo-podcast/id1549049632" style='color:blue;'>Apple</a>,<a target="_blank" href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9mZWVkLnBvZGJlYW4uY29tL2FmcmljYWdlb2NvbnZvL2ZlZWQueG1s" style='color:blue;'>Google</a>,<a target="_blank" href="https://africageoconvo.podbean.com/" style='color:blue;'>Spotify</a>,<a target="_blank" href="https://africageoconvo.podbean.com/" style='color:blue;'>Podbean</a><br>
 Subscribe to our newsletter: <a target="_blank" href="https://mailchi.mp/431d1fc48f4b/africa-geo-convo-mailing-list" style='color:blue;'>Here</a>
+
 <hr>
 <br><br>
 
 This episode is sponsored by <a href='https://www.hotosm.org/' target='_blank' style='color:blue'>HOT.</a>
 <br><br>
-
 
 With data science, deeper insights can be extracted from data using comprehensive algorithms and analytical methods. In this Episode, we sit down with <a href='https://twitter.com/abbabarde' target='_blank' style='color:blue'>Abba Barde</a> , a data scientist who has worked in a wide range of sectors and now in the geospatial field. This episode will expose you to the world of data science, what to learn to get started, where to find resources, how to participate in competitions to build a strong portfolio, and all you need to know to explore a data science career. Abba Barde is currently with <a href='https://www.radiant.earth/' target='_blank' style='color:blue'>Radiant Earth Foundation</a>
 <br><br>
@@ -34,7 +34,6 @@ With data science, deeper insights can be extracted from data using comprehensiv
     <li>Check out the Radiant Earth ML HUB, a cloud-based open library dedicated to Earth Observation training data for Machine <a target="_blank" href="https://www.radiant.earth/mlhub/" style='color:blue;'>Learning </a></li>
     <li>Tutorials to get started with the <a target="_blank" href="https://medium.com/radiant-earth-insights/accessing-and-downloading-training-data-on-the-radiant-mlhub-api-f04dc635592f" style='color:blue;'>ML Hub</a> </li>
 </ul>
-
 
 <br>
 Subscribe to our <a href='https://mailchi.mp/431d1fc48f4b/africa-geo-convo-mailing-list' target='_blank' style='color:blue'> newsletter</a> to receive exciting updates on scholarships and other opportunities</li>

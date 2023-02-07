@@ -5,13 +5,14 @@ date: 'March. 28, 2021'
 url: https://www.podbean.com/player-v2/?i=ej6wf-feff07-pb&from=pb6admin
 downloadUrl: 'https://mcdn.podbean.com/mf/web/vwx6va/e4.mp3'
 host: 'Omowonuola Akintola'
-image: '/static/assets/episode4.png'
+image: '/static/assets/episodes/episode4.png'
 Guest: 'Lenah Kitenge'
 shortInfo: International women's day is special day to celebrate women...
 ---
 
 Subscribe to our Podcast here: <a target="_blank" href="https://podcasts.apple.com/ng/podcast/africa-geoconvo-podcast/id1549049632" style='color:blue;'>Apple</a>,<a target="_blank" href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9mZWVkLnBvZGJlYW4uY29tL2FmcmljYWdlb2NvbnZvL2ZlZWQueG1s" style='color:blue;'>Google</a>,<a target="_blank" href="https://africageoconvo.podbean.com/" style='color:blue;'>Spotify</a>,<a target="_blank" href="https://africageoconvo.podbean.com/" style='color:blue;'>Podbean</a><br>
 Subscribe to our newsletter: <a target="_blank" href="https://mailchi.mp/431d1fc48f4b/africa-geo-convo-mailing-list" style='color:blue;'>Here</a>
+
 <hr>
 
 Lenah Kitenge started The Girls Who Map project to engage more women in mapping. In 2020, the project welcomed women participants from 13 countries spread across Africa. Amazing!!!

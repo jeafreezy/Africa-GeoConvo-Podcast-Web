@@ -5,19 +5,19 @@ date: 'July 31, 2021'
 url: 'https://www.podbean.com/player-v2/?i=t3p5g-10a2596-pb&from=pb6admin'
 downloadUrl: 'https://mcdn.podbean.com/mf/web/dj8s3h/episode_8aza11.mp3'
 host: 'Emmanuel Jolaiya'
-image: '/static/assets/episode8.png'
+image: '/static/assets/episodes/episode8.png'
 Guest: 'Chris Holmes'
 shortInfo: STAC is making geospatial data findable...
 ---
 
 Subscribe to our Podcast here: <a target="_blank" href="https://podcasts.apple.com/ng/podcast/africa-geoconvo-podcast/id1549049632" style='color:blue;'>Apple</a>,<a target="_blank" href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9mZWVkLnBvZGJlYW4uY29tL2FmcmljYWdlb2NvbnZvL2ZlZWQueG1s" style='color:blue;'>Google</a>,<a target="_blank" href="https://africageoconvo.podbean.com/" style='color:blue;'>Spotify</a>,<a target="_blank" href="https://africageoconvo.podbean.com/" style='color:blue;'>Podbean</a><br>
 Subscribe to our newsletter: <a target="_blank" href="https://mailchi.mp/431d1fc48f4b/africa-geo-convo-mailing-list" style='color:blue;'>Here</a>
+
 <hr>
 <br><br>
 
 This episode is sponsored by <a href='https://www.hotosm.org/' target='_blank' style='color:blue'>HOT.</a>
 <br><br>
-
 
 In this episode, our guest <a target="_blank" href="https://www.linkedin.com/in/opencholmes/" style='color:blue;'>Chris Holmes </a> enlightens us about the Spatio Temporal Asset Catalog(STAC) specification. STAC specification provides a common language to describe a range of geospatial information, so it can more easily be indexed and discovered. A 'spatiotemporal asset' is any file that represents information about the earth captured in a certain space and time. Chris shared with us the inspiration behind STAC, the problem it's solving,how you can use it,where you can find it, and why it's important for us to have a unified specification for geospatial data access and discovery in the geospatial community.
 
@@ -53,7 +53,6 @@ In this episode, our guest <a target="_blank" href="https://www.linkedin.com/in/
 
 <li><a href='https://www.geonode.org/' target='_blank' style='color:blue'>Geonode</a></li>
 
-
 <li><a href='https://ogcapi.ogc.org/features/' target='_blank' style='color:blue'>OGC Features API
 </a></li>
 
@@ -70,7 +69,6 @@ In this episode, our guest <a target="_blank" href="https://www.linkedin.com/in/
 </a></li>
 
 </ul>
-
 
 <br>
 Subscribe to our <a href='https://mailchi.mp/431d1fc48f4b/africa-geo-convo-mailing-list' target='_blank' style='color:blue'> newsletter</a> to receive exciting updates on scholarships and other opportunities</li>
