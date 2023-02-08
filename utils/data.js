@@ -8,11 +8,10 @@ export const PodcastHosts = [
 		socialTwitter: 'https://twitter.com/jeafreezy',
 	},
 	{
-		name: 'Omowonuola Akintola',
-		profileImageFileName: 'omowonuola.jpg',
-		designation: 'Host',
-		bio: `Omowonuola is  passionate about business, technology and mapping and their power to transform lives across the world. She has a knack for community development and enjoys volunteering. When she is not working, she loves to watch reality shows and read.`,
-		socialLinkedIn: 'https://www.linkedin.com/in/omowonuolaakintola/',
-		socialTwitter: 'https://twitter.com/Svelte_mo',
+		name: 'Olivetta Mandalasi',
+		profileImageFileName: 'olivetta.jpg',
+		designation: 'Social Media Volunteer',
+		bio: `Olive is a land surveyor and an 'everything geospatial' enthusiast. She is keen on experiencing how GIS application can impact infrastructure development. She loves to interact with her peers, dance or watch self-help videos on YouTube in her free time.`,
+		socialLinkedIn: 'linkedin.com/in/olive-caroline-mandalasi-365785162',
 	},
 ];

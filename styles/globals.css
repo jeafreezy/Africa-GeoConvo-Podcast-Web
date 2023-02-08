@@ -2,234 +2,68 @@
 
 html,
 body {
-  padding: 0;
-  margin: 0;
-  font-family: Roboto,Arial,-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+	padding: 0;
+	margin: 0;
+	font-family: Roboto, Arial, -apple-system, BlinkMacSystemFont, Segoe UI,
+		Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
+		sans-serif;
 }
 
 a {
-  color: inherit;
-  text-decoration: none;
+	color: inherit;
+	text-decoration: none;
 }
 
 * {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
 
-h3, h5 , p {
-
-    margin: 0;
-    padding: 0;
-    
+h3,
+h5,
+p {
+	margin: 0;
+	padding: 0;
 }
-
-
- /* Dark Mode Styles Begins */
-
-
- /* The toggle button style begins */
-.dark-mode-toggle > button {
-
-  color: #999;
-  
-}
-.dark-mode-toggle > button :last-child{
-    color: lightblue;
-}
-
-.dark-mode-toggle {
-  display: flex;
-  margin: 0 auto;
-}
-.dark-mode-toggle > button {
-    font-size: 1.2em;
-    background: none;
-    border: none;
-    color: #ffe600;
-    cursor: pointer;
-    transition: color 0.3s ease;
-  }
-.dark-mode-toggle :last-child {
-      color: #666;
-}
-
-.dark-mode-toggle:focus {
-
-      outline: none;
-    
-}
-
 
 .toggle-control {
-  position: relative;
-  padding: 0 4px;
-  display: flex;
-  align-items: center;
+	position: relative;
+	padding: 0 4px;
+	display: flex;
+	align-items: center;
 }
 
 input[type='checkbox'].dmcheck {
-  width: 30px;
-  height: 10px;
-  background: #555;
-  position: relative;
-  border-radius: 5px;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  cursor: pointer;
-  vertical-align: 2px;
-  outline: none;
+	width: 30px;
+	height: 10px;
+	background: #555;
+	position: relative;
+	border-radius: 5px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	cursor: pointer;
+	vertical-align: 2px;
+	outline: none;
 }
 
 input[type='checkbox'].dmcheck:checked + label {
-    left: 25px;
+	left: 25px;
 }
 
 input[type='checkbox'].dmcheck:focus-visible {
-  outline: solid 2px white;
+	outline: solid 2px white;
 }
 
 input[type='checkbox'].dmcheck + label {
-  display: inline-block;
-  width: 17px;
-  height: 17px;
-  border-radius: 50%;
-  transition: all 0.3s ease;
-  cursor: pointer;
-  position: absolute;
-  left: 2px;
-  background: #fff;
-  opacity: 0.9;
-  background-color: grey;
+	display: inline-block;
+	width: 17px;
+	height: 17px;
+	border-radius: 50%;
+	transition: all 0.3s ease;
+	cursor: pointer;
+	position: absolute;
+	left: 2px;
+	background: #fff;
+	opacity: 0.9;
+	background-color: grey;
 }
-
-body.dark-mode .dark-mode-toggle > button {
-  color: #999;
-}
-
-/* Toggle button styles end */
-
-/* Background style in dark and light mode begins */
-body.dark-mode {
-  background-color: #1a1919;
-  color: #999;
-}
-body.light-mode{
-  transition: background-color 0.3s ease;
-}
-
-/* Background styles end */
-
-/* Nav bar styling begins */
-
-body.dark-mode nav{
-  background-color:#1b2938;
-}
-
-
-/* Navbar style ends */
-
-/* Global color scheme for some elements in dark mode */
-body.dark-mode  a{
-
-  color: white;
-}
-
-body.dark-mode h3{
-
-  color:white
-
-}
-
-body.dark-mode h3::after{
- 
-  background-color: white;
-}
-
-/* Global color scheme ends  */
-
-/* EPisode cards style begins  */
-body.dark-mode #episodes > div > div > div.episode{
-
-  background-color:#1b2938;
-
-}
-
-body.dark-mode #episodes > div > div > div.episode p {
-  color:white;
-}
-
-/* Episode styles end  */
-
-/* Newsletter,contact and subscribe component styles begins  */
-
-
-
-body.dark-mode #subscribe p{
-  color:white;
- 
-}
-
-body.dark-mode #contact p {
-  color:white;
-}
-
-/* Newsletter,contact styles ends */
-
-/* Styles for nav bar in mobile screens  */
-
-@media only screen and (max-width:897px){
-
-  body.dark-mode .styledburger {
-
-  background-color: white;
-    
-  }
-  body.dark-mode .navlinks a{
-    color:white;;
-  }
-  body.dark-mode .navlinks a:hover{
-    color:white;
-  }
-  
-  body.dark-mode #rightnav{
-
-    background-color:black;
-  
-  }
-  
-}
-
-/* Mobile screen styles end  */
-
-
-/* About us page dark mode styles begins  */
-
-body.dark-mode .about-info p{
-  color:white;
-}
-
-body.dark-mode .host1 figcaption, .host2 figcaption{
-
-  color:white;
-
-}
-
-body.dark-mode .host1 p {
-  color:grey;
-}
-
-body.dark-mode .host2 p{
-  color:grey;
-}
-
-body.dark-mode .support-info > .body > p {
-  color:white;
-}
-
-body.dark-mode .host2 figcaption{
-  color:white;
-}
-
-/* about us pae dark mode style ends */

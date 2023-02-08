@@ -47,16 +47,18 @@ function BehindTheMic() {
 											alt="LinkedIn icon"
 										></img>
 									</a>
-									<a
-										href={socialTwitter}
-										target="_blank"
-										rel="noopener noreferer"
-									>
-										<img
-											src="/static/assets/twitter.png"
-											alt="Twitter icon"
-										></img>
-									</a>
+									{socialTwitter && (
+										<a
+											href={socialTwitter}
+											target="_blank"
+											rel="noopener noreferer"
+										>
+											<img
+												src="/static/assets/twitter.png"
+												alt="Twitter icon"
+											></img>
+										</a>
+									)}
 								</div>
 							</div>
 						)
