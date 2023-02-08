@@ -1,13 +1,13 @@
 ---
 number: 18
-title: Milsat Technologies -- Revolutionalizing Africa Data Ecosystem
-date: 'Febrary 31st, 2023'
+title: Milsat Technologies-Revolutionalizing Africa's Data Ecosystem
+date: 'Febrary 8th, 2023'
 url: 'https://www.podbean.com/player-v2/?i=rtcn2-1384540-pb&from=pb6admin'
 downloadUrl: 'https://mcdn.podbean.com/mf/web/hytqax/Episode_18_-_Taslim_-_Milsat_Edited7s0p9.mp3'
 host: 'Omowonuola Akintola & Emmanuel Jolaiya'
-image: '/static/assets/episode18.jpg'
+image: '/static/assets/episodes/episode18.jpg'
 Guest: 'Taslim Salaudeen'
-shortInfo: Data, they say is the new oil. In this episode, Taslim Salaudeen, the lead innovator at Milsat shares his experience ...
+shortInfo: Milsat is a "Data Acquisition as a service (DaaS) company focused on building location data collection tools, ...
 ---
 
 Subscribe to our Podcast here: <a target="_blank" href="https://podcasts.apple.com/ng/podcast/africa-geoconvo-podcast/id1549049632" style='color:blue;'>Apple</a>,<a target="_blank" href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9mZWVkLnBvZGJlYW4uY29tL2FmcmljYWdlb2NvbnZvL2ZlZWQueG1s" style='color:blue;'>Google</a>,<a target="_blank" href="https://africageoconvo.podbean.com/" style='color:blue;'>Spotify</a>,<a target="_blank" href="https://africageoconvo.podbean.com/" style='color:blue;'>Podbean</a><br>
@@ -18,26 +18,11 @@ Subscribe to our Podcast here: <a target="_blank" href="https://podcasts.apple.c
 This episode is sponsored by <a href='https://www.hotosm.org/' target='_blank' style='color:blue'>HOT.</a>
 <br><br>
 
-Data quality is fundamental for end-users benefiting from open mapping data including communities, organizations, and governments.
+Milsat is a "Data Acquisition as a service (DaaS) company focused on building location data collection tools, methodologies, and native analytical concepts specifically for the African ecosystem".
 <br>
-In this episode, <a target="_blank" href="https://www.linkedin.com/in/yves-emmanuel-nikoyo-emougou-a92615102/" style='color:blue;'>Yves Emmanuel</a> from OSM Cameroon shares his experience from HOT Data Quality Internship. He shares his perspective about data quality, the approaches to creating data quality, and how to prepare for the next round of application opening soon. This is a paid internship with an opportunity to gain hands-on experience in remote mapping and validation using tools such as JOSM, OSMCha, MapRoulette.
+In this episode of our startup series, you will hear from the founder who is on a mission to make data acquisition in Africa valid and native. <a target="_blank" href="https://www.linkedin.com/in/taslimsalaudeen/" style='color:blue;'>Taslim</a> shares his love for geography and gives a deep dive into his geospatial career journey and why this innovative project is important for the African Ecosystem.
 
-<br>
-
-<strong>Links in this episode</strong>
-
-<ul>
-    <li>Learn more about the internship by checking out the application for 2020: <a target="_blank" href=" https://www.hotosm.org/jobs/data-quality-internship/" style='color:blue;'>here</a></li>
-    <li>To get an update on the next round of application, follow HOT on <a target="_blank" href="https://www.linkedin.com/company/humanitarian-openstreetmap-team/" style='color:blue;'>LinkedIn</a> and <a target="_blank" href="https://twitter.com/hotosm" style='color:blue;'>Twitter</a></li>
-    <li>Sign up on OpenStreetMap: <a target="_blank" href="https://www.openstreetmap.org/user/new" style='color:blue;'>here
-    </a></li>
-    <li>Episode 2 with HOT:  <a target="_blank" href="https://africageoconvo.com/shows/2
-" style='color:blue;'>https://africageoconvo.com/shows/2
-</a></li>
-<li>To learn more about YouthMappers: <a target="_blank" href="https://africageoconvo.podbean.com/e/the-youthmappers-network/
-" style='color:blue;'>here
-</a></li>
-</ul>
+Learn more about <a target="_blank" href="https://milsat.africa" style='color:blue;'>Milsat Technologies</a>
 
 <br><br>
 
