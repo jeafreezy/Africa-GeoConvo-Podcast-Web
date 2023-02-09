@@ -13,5 +13,6 @@ export const PodcastHosts = [
 		designation: 'Social Media Volunteer',
 		bio: `Olive is a land surveyor and an 'everything geospatial' enthusiast. She is keen on experiencing how GIS application can impact infrastructure development. She loves to interact with her peers, dance or watch self-help videos on YouTube in her free time.`,
 		socialLinkedIn: 'linkedin.com/in/olive-caroline-mandalasi-365785162',
+		socialTwitter: 'https://twitter.com/olivettaolie1',
 	},
 ];
